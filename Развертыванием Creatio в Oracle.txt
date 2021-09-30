@@ -1,0 +1,18 @@
+sqlplus.exe "SYS/1234@localhost:1521/XEPDB1 AS SYSDBA" @CreateUser.sql
+
+impdp "CREATIO/1234@//localhost:1521/XEPDB1" REMAP_SCHEMA=SE_M_SE7170ENU:CREATIO DIRECTORY=BACKUPDIR DUMPFILE=SALESENTERPRISE_MARKETING_SERVICEENTERPRISEENU.DMP NOLOGFILE=YES
+
+sqlplus.exe "CREATIO/1234@localhost:1521/XEPDB1" @tspkg_UtilitiesGlobalTypes.sql
+
+sqlplus.exe "CREATIO/1234@localhost:1521/XEPDB1" @RecompileSchema.sql
+
+
+
+-----------------------------------------------------------------------
+sqlplus.exe "SYS/1234@localhost:1521/XEPDB1 AS SYSDBA" @CreateUser.sql
+
+impdp "CREATIOTEST/1234@//localhost:1521/XEPDB1" REMAP_SCHEMA=SE_M_SE7164ENU:CREATIOTEST DIRECTORY=BACKUPDIR DUMPFILE=SALESENTERPRISE_MARKETING_SERVICEENTERPRISEENU.DMP NOLOGFILE=YES
+
+sqlplus.exe "CREATIOTEST/1234@localhost:1521/XEPDB1" @tspkg_UtilitiesGlobalTypes.sql
+
+sqlplus.exe "CREATIOTEST/1234@localhost:1521/XEPDB1" @RecompileSchema.sql

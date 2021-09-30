@@ -1,0 +1,1706 @@
+https://academy.terrasoft.ua/jscoresdk/
+------------------------------------------------------------------------------------------------------
+Для разработки в файловой системе нужно в файле Web.config установить значение для флагов:
+
+<fileDesignMode enabled="true" />
+...
+<add key="UseStaticFileContent" value="false" />
+----------------------------------------------------
+Debag через Fidller:
+
+В Fidller: Tools > Options > Allow remote computers to connect
+
+В web.config внутри Configuration:
+
+  <system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+      <proxy autoDetect="false" bypassonlocal="false" proxyaddress="http://127.0.0.1:8888" usesystemdefault="false" />
+    </defaultProxy>
+  </system.net>
+------------------------------------------------------------------------------------------------------------------
+"Перевод строк в клиенской схеме"
+this.get("Resources.Strings.KtDataRequestError") -- KtDataRequestError - это "Название" в LacolizableStrings
+----------------------------------------------------------------------------------------------------------------
+"Использование констант Id в клиентской схеме для обращения в базу данных разных СУБД"
+define("OpportunityPageV2", ["KtConfigurationConstantsKarTel"], function(KtConfigurationConstantsKarTel) - указываем зависимости
+в секции "methods" вместо значения использовать пересменную KtConfigurationConstantsKarTel.SalesCaseType.ExpertSales -- где "KtConfigurationConstantsKarTel" - название метода где граним константы, SalesCaseType название переменной, ExpertSales - поле в переменной содержащая константу
+
+define("KtConfigurationConstantsKarTel", ["KtConfigurationConstantsKarTelResources"], function(resources) {
+	var sysAdminUnit = {
+		SalesSupport: "c7c2a8e0-c54a-485b-a7a7-6fe3590e769b",
+		SalesManager: "159302b6-cbaf-4879-8551-0d9d5cbbd92a"
+	};
+	var salesCaseType = {
+		ExpertSales: "588475c2-3cf1-4b4d-8db1-649ddd79b896",
+		DirectSales: "1e7fa5e4-86b2-470b-b68a-fa3716283ae9"
+	};
+
+	return {
+		SysAdminUnit: sysAdminUnit,
+		SalesCaseType: salesCaseType
+	};
+});
+----------------------------------------------------------------------------------------------------------------
+"Добавление правила в доступы по операциям и примениние в клиентской схеме"
+Что бы использовать доступы по операциям в клиентсвой схеме, в секцию "methods" в init помещаем 
+define("ContactPageV2", ["RightUtilities", "ConfigurationConstants"], function(RightUtilities, ConfigurationConstants) -- обьявляем зависимости "RightUtilities"
+RightUtilities.checkCanExecuteOperations(operationNames, function(result) -- RightUtilities - метод для доступа по опурациям, checkCanExecuteOperations - проверяем соответствие поля "IsEmployeeRights" в примере входит ли в список result.CanChooseEmployeeType указанны в настройке прав и возвращает значение из списка прав (true или false)
+init: function() {
+	const operationNames = [
+		"CanChooseEmployeeType"
+	];
+	RightUtilities.checkCanExecuteOperations(operationNames, function(result) {
+		this.set("IsEmployeeRights", result.CanChooseEmployeeType);
+	}, this);
+	this.callParent(arguments);
+}
+-----------------------------------------------------------------------------------------------------------------------
+Запуск при загрузке страницы, после загрузки данных из базы:
+
+onEntityInitialized: function() {
+	this.callParent(arguments);
+}
+------------------------------------------------------------------------------------------------------------
+Для создания конфигурационного сервиса нужно создать класс с атрибутими 
+
+[ServiceContract]
+[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]
+
+в нем метод с атрибутими
+
+[OperationContract]
+[WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped,
+ResponseFormat = WebMessageFormat.Json)]
+
+и если получаем сложный объект, тогда его указываем в классе (такой публичный клас можно использовать в нескольких сервисах если они входят в один namespace)
+
+[DataContract]
+public class ImportColumnContact
+{
+	[DataMember(Name = "contactDecisionRole")]
+	public string ContactDecisionRoleName { get; set; }
+	[DataMember(Name = "accountIdNumber")]
+	public int AccountIdNumber { get; set; }
+	[DataMember(Name = "country")]
+	public string CountryName { get; set; }
+	[DataMember(Name = "region")]
+	public string RegionName { get; set; }
+}
+
+использовать так
+
+public ResponceApplyChanges ImportContactFromCCRM(ImportColumnContact request) 
+{
+	request.ContactDecisionRoleName
+}
+-------------------------------------------------------------------------------------------------------------------------------
+Удаление детали с редактируемым реестром через базу данных
+
+DELETE FROM "SysModuleEdit" WHERE "SysModuleEntityId" =
+(select "Id" from "SysModuleEntity" where "SysEntitySchemaUId"  = 
+(select "UId" from "SysSchema" where "Name" = 'KtJasperDedicatedPoolNumbers'));
+
+DELETE FROM "SysModuleEntity" where "SysEntitySchemaUId"  = 
+(select "UId" from "SysSchema" where "Name" = 'KtJasperDedicatedPoolNumbers');
+
+DELETE FROM "SysDetail" where "EntitySchemaUId" = 
+(select "UId" from "SysSchema" where "Name" = 'KtJasperDedicatedPoolNumbers');
+
+-------------------------------------------------------------------------------------------------------------------------------
+Для переноса шаблонов писем через пакет нужно забиндить 
+
+"Таблица локализации для шаблонов" (EmailTemplateLang) - локализированные шаблоны
+"Шаблон email сообщения" (EmailTemplate) - шаблоны основного языка
+
+Нужно привязать обе таблицы и тип установки "Установка"
+
+------------------------------------------------------------------------------------------------------------------
+В API текущего приложения, не входит каких либо инструментов для упрощенной работы с элементами организационной структуры:
+"Функциональные роли", "Организационные юниты", "Пользователи" (само по себе)
+Уже обсуждалось вот в этой теме
+Там же я выложил первые наработки, миксин-модуля с некоторыми методами решающими классические "юзкейсы".
+С тех пор его пришлось существенно доработать и расширить функционал, по этому выложу его в этой отдельной теме для тех кому может понадобиться.
+Во вложении (ZIP-архив) вы найдете исчерпывающую документацию в виде HTML-страницы.
+Модуль реализован в виде "миксина", т.е. без каких либо трудностей подключайте в любой схеме и пользуйтесь на здоровье :) так же в конце темы есть исходный код, а так-же Уже готовая к импорту схема в виде MD-файла.
+Краткое описание:
+getRelAU ([id], callback, [contactModeFlag], [scope]);
+Получить информацию об административных юнитах связанных с пользователем, по его идентификатору Id или Id связанного с ним контакта, или для текущего пользователя если опустить первый аргумент.
+(элементы "Организационной структуры", "Функциональные роли", "Организации", "Роли руководителей" (если он в них входит)) в виде структурированного объекта с дополнительной информацией (н/п о родительских OU/FU) будут переданы в callback вызов.
+checkUserInAU (AUname, [AUtype], [UserId], callback, [scope])
+Проверить принадлежит ли текущий пользователь (или произвольный по его Id) к конкретному административному юниту по его имени (элементу "Организационной структуры", "Функциональные роли", "Организации").
+В целях оптимизации предусмотрен поиск только по конкретным типам Орг.юнитов. Результат передается в виде булева примитива в callback-функцию
+getUsersFromRole (RoleId, [getManagerFlag], callback, [scope])
+Получить всех пользователей непосредственно входящих в целевые орг.юнит или функциональную роль, в том числе руководителей (пользователей из специалищированного связанного орг.юнита).
+Коллекция пользователей будет передана в callback-функцию
+
+Исходный код:
+define("UserUtilsMixin", ["UserUtilsMixinResources"],
+	function(resources) {
+			Ext.define("Terrasoft.configuration.mixins.UserUtilsMixin", {
+					"alternateClassName": "Terrasoft.UserUtilsMixin",
+					"getRelAU": function(UserId, callback, UseContactIdFlag, scope) {
+							var serviceScope;
+							if (callback === undefined) {
+									callback = UserId;
+									UserId = Terrasoft.core.enums.SysValue.CURRENT_USER.value;
+							}
+							if (typeof callback === "object") {
+									scope = callback;
+									callback = UserId;
+									UserId = Terrasoft.core.enums.SysValue.CURRENT_USER.value;
+							}
+							if (typeof UseContactIdFlag === "object") {
+									scope = UseContactIdFlag;
+									UseContactIdFlag = false;
+							}
+							if (typeof scope !== "object") {
+									scope = this;
+							} else if (scope.scope) {
+									serviceScope = scope;
+									scope = scope.scope;
+							}
+							function mainLogick(UserId, callback) {
+									var esq = Ext.create("Terrasoft.EntitySchemaQuery", {
+											rootSchemaName: "SysUserInRole"
+									});
+									var filter = this.scope.Terrasoft.createColumnFilterWithParameter(
+											this.scope.Terrasoft.ComparisonType.EQUAL,
+											"SysUser",
+											UserId
+									);
+									esq.filters.addItem(filter);
+									esq.addColumn("SysRole");
+									esq.addColumn("[SysAdminUnit:Id:SysRole].Name", "AuName");
+									esq.addColumn("[SysAdminUnit:Id:SysRole].ParentRole", "Parent");
+									esq.addColumn("[SysAdminUnit:Id:SysRole].[SysAdminUnitType:Value:SysAdminUnitTypeValue].Name", "AuType");
+									esq.getEntityCollection(
+											function(response) {
+													if (response && response.success) {
+															var resultObject = {
+																	FuncRoles: [],
+																	OrgUnits: [],
+																	Organizations: [],
+																	Managers: [],
+																	Teams: []
+															};
+															response.collection.each(function(item) {
+																	var wrapObj = {
+																			name: item.values.AuName,
+																			id: item.values.SysRole.value,
+																			parentAU: item.values.Parent
+																	};
+																	var type = item.values.AuType;
+																	if (type === "Division") {
+																			resultObject.OrgUnits.push(wrapObj);
+																	} else if (type === "Функциональная роль") {
+																			resultObject.FuncRoles.push(wrapObj);
+																	} else if (type === "Organization") {
+																			resultObject.Organizations.push(wrapObj);
+																	} else if (type ===  "Manager") {
+																			resultObject.Managers.push(wrapObj);
+																	} else if (type ===  "Team") {
+																			resultObject.Teams.push(wrapObj);
+																	}
+															});
+															if (serviceScope) {
+																	this.callback.call(serviceScope, resultObject);
+															} else {
+																	this.callback.call(scope, resultObject);
+															}
+													}
+											},
+											{callback: callback, scope: this.scope}
+									);
+							}
+							var wrapOfMainLogick = mainLogick.bind({scope: scope, callback: callback});
+							if (UseContactIdFlag) {
+									var esq = Ext.create("Terrasoft.EntitySchemaQuery", {
+											rootSchemaName: "SysAdminUnit"
+									});
+									var filter = this.Terrasoft.createColumnFilterWithParameter(
+											this.Terrasoft.ComparisonType.EQUAL,
+											"Contact.Id",
+											UserId
+									);
+									esq.filters.addItem(filter);
+									esq.getEntityCollection(
+											function(response) {
+													if (response.collection.getCount() !== 1) {
+															this.scope.log("(getRelAU) Target Contact is not associated with User", Terrasoft.LogMessageType.ERROR);
+													} else {
+															this.mainLogick(response.collection.getByIndex(0).values.Id, this.callback);
+													}
+											},
+											{
+													scope: scope,
+													mainLogick: wrapOfMainLogick,
+													callback: callback
+											}
+									);
+							} else {
+									wrapOfMainLogick(UserId, callback);
+							}
+					},
+					"checkUserInAU": function(AUname, AUtype, UserId, callback, scope) {
+							if (typeof AUtype === "function" && UserId === undefined) {
+									callback = AUtype;
+									AUtype = "ALL";
+									if (typeof UserId === "object") {
+											scope = UserId;
+									}
+									UserId = Terrasoft.core.enums.SysValue.CURRENT_USER.value;
+							}
+							if (typeof UserId === "function") {
+									if (typeof callback === "object") {
+											scope = callback;
+									}
+									callback = UserId;
+									UserId = Terrasoft.core.enums.SysValue.CURRENT_USER.value;
+							}
+							if (typeof UserId !== "object") {
+									scope = this;
+							}
+							this.getRelAU(UserId, function(result) {
+									var CompareResult = false;
+									switch (this.AUtype) {
+											case "OU":
+													for (var OU in result.OrgUnits) {
+															if (this.AUname === result.OrgUnits[OU].name) {
+																	CompareResult = true;
+															}
+													}
+													break;
+											case "FR":
+													for (var FU in result.FuncRoles) {
+															if (this.AUname === result.FuncRoles[FU].name) {
+																	CompareResult = true;
+															}
+													}
+													break;
+											case "ORG":
+													for (var orgIndex in result.Organizations) {
+															if (this.AUname === result.Organizations[orgIndex].name) {
+																	CompareResult = true;
+															}
+													}
+													break;
+											default:
+													for (var each in result) {
+															for (var subarray in result[each]) {
+																	if (this.AUname === result[each][subarray].name) {
+																			CompareResult = true;
+																	}
+															}
+													}
+													break;
+									}
+									this.callback.call(this.scope, CompareResult);
+							}, {
+									scope: scope,
+									AUtype: AUtype,
+									AUname: AUname,
+									callback: callback
+							});
+					},
+					"getUsersFromRole": function(RoleId, getManager, callback, scope) {
+							var getManagerFlag = false, filter = Terrasoft.createFilterGroup(), esq;
+							if (typeof getManager === "function") {
+									callback = getManager;
+									if (typeof callback === "object") {
+											scope = callback;
+									}
+							} else {
+									getManagerFlag = getManager;
+							}
+							if (typeof scope !== "object") {
+									scope = this;
+							}
+							if (getManagerFlag) {
+									filter.logicalOperation = Terrasoft.LogicalOperatorType.AND;
+									esq = Ext.create("Terrasoft.EntitySchemaQuery", {
+											rootSchemaName: "SysAdminUnit"
+									});
+									filter.addItem(
+											this.Terrasoft.createColumnFilterWithParameter(
+													this.Terrasoft.ComparisonType.EQUAL,
+													"ParentRole",
+													RoleId
+											)
+									);
+									filter.addItem(
+											this.Terrasoft.createColumnFilterWithParameter(
+													this.Terrasoft.ComparisonType.EQUAL,
+													"SysAdminUnitTypeValue",
+													2
+											)
+									);
+									esq.addColumn("Name");
+							} else {
+									esq = Ext.create("Terrasoft.EntitySchemaQuery", {
+											rootSchemaName: "SysUserInRole"
+									});
+									filter.addItem(
+											this.Terrasoft.createColumnFilterWithParameter(
+													this.Terrasoft.ComparisonType.EQUAL,
+													"SysRole",
+													RoleId
+											)
+									);
+									esq.addColumn("[SysAdminUnit:Id:SysUser].Name", "UserName");
+									esq.addColumn("[SysAdminUnit:Id:SysUser].Id", "UserId");
+									esq.addColumn("[SysAdminUnit:Id:SysUser].Contact", "Contact");
+							}
+							esq.filters.addItem(filter);
+							esq.getEntityCollection(
+									function(response) {
+											var cleanArray = [];
+											if (this.getManagerFlag) {
+													this.scope.getUsersFromRole(
+															response.collection.getByIndex(0).values.Id,
+															this.callback,
+															this.scope
+													);
+											} else {
+													response.collection.each(function(elem) {
+															elem.values.Id = elem.values.UserId;
+															delete elem.values.UserId;
+															cleanArray.push(elem.values);
+													});
+													this.callback.call(this.scope, cleanArray);
+											}
+									}, {
+											scope: scope,
+											callback: callback,
+											getManagerFlag: getManagerFlag
+									}
+							);
+					}
+			});
+	});
+	
+-----------------------------------------------------------------------------------------------------------
+Чтобы обновиться на бандл, необходимо и достаточно только установить в конфиге утилиты обновления (Updater.exe.config) значение Feature-SkipProductValidation  в true
+----------------------------------------------------------------------------------------
+Иногда требуется отловить плавающий кейс в работе процесса или "отладить" процесс без использования VisualStudio. Большинство проблем можно решить с помощью трассировки процесса. Но если проблема в коде написанном в скриптаске или методах процесса, то самый простой способ - это добавить логирование.
+
+Для этого необходимо:
+1) в Using добавить
+
+global::Common.Logging
+2) в коде использовать
+
+var _log = LogManager.GetLogger("BusinessProcess");
+var processName = "MyProcess"; //Название процесса для простого поиска логов
+_log.DebugFormat(@"{0}: Process was started", processName); //Уровень логирования Debug
+_log.InfoFormat(@"{0}: Process was started", processName); //Уровень логирования Info
+_log.WarnFormat(@"{0}: Process was started", processName); //Уровень логирования Warn
+_log.ErrorFormat(@"{0}: Process was started", processName); //Уровень логирования Error
+Если сайт развернут в облаке (cloud), то логи можно получить обратившись в техническую поддержку.
+Если же сайт размещен на своих серверах (on-site), то логи необходимо искать по пути C:\Windows\TEMP\Creatio\SiteName\0\Log (этот путь может быть изменен в файле nlog.targets.config, параметр LogDir).
+
+Для уровня логирования Debug и Info логи запишутся в файл Common.log, а для уровня Error - в файл Error.log
+По умолчанию минимальный уровень логирования в on-site для логера "Common" указан Info. Изменить его можно в файле ..\Terrasoft.WebApp\nlog.config
+
+<logger name="*" writeTo="commonAppender" minlevel="Info" maxlevel="Warn" />
+--------------------------------------------------------------------------------------------
+Что бы узнать Id текущего пользователя:
+Js - Terrasoft.SysValue.CURRENT_USER.value
+C# - userId = UserConnection.CurrentUser.Id;
+------------------------------------------------------------------------------------------
+Удаление раздела
+
+Общие сведения
+
+К СВЕДЕНИЮ
+
+Если на основании объекта, который требуется удалить, создан раздел, то этот раздел удаляется в первую очередь.
+
+Чтобы удалить пользовательский раздел Creatio, необходимо иметь доступ к конфигурации системы и базе данных.
+
+ВАЖНО
+
+Прежде чем удалить пользовательский раздел, необходимо снять блокировку с соответствующего этому разделу файла в хранилище версий SVN.
+
+В первую очередь потребуется удалить записи из базы данных. Для удаления раздела воспользуйтесь скриптом:
+
+{MSSQL}:
+
+DECLARE @UId UNIQUEIDENTIFIER
+DECLARE @ModuleEntityUID UNIQUEIDENTIFIER;
+DECLARE @ModuleID UNIQUEIDENTIFIER;
+DECLARE @Name NVARCHAR(max) = 'ToDelete';
+select @UId = UId from SysSchema where Name Like @Name
+select @ModuleEntityUID = Id from SysModuleEntity where SysEntitySchemaUId = @UId
+select @ModuleID = Id from SysModule where SysModuleEntityId = @ModuleEntityUID;
+delete from SysModuleInWorkplace where SysModuleId = @ModuleID;
+delete from SysModule where Id = @ModuleID;
+delete from SysModuleEdit where SysModuleEntityId = @ModuleEntityUID;
+delete from SysModuleEntity where Id = @ModuleEntityUID;
+delete from SysDetail where EntitySchemaUId = @UId;
+delete from SysLookup where SysEntitySchemaUId = @UId;
+delete from [Lookup] where SysEntitySchemaUId = @UId;
+
+{PostgreSQL}:
+
+DO $$
+DECLARE v_UId CHAR(36);
+ v_ModuleEntityUID CHAR(36);
+ v_ModuleID CHAR(36);
+ v_Name TEXT = 'ToDelete';
+BEGIN
+select "UId" into v_UId from "SysSchema" where "Name" Like v_Name;
+select "Id" into v_ModuleEntityUID from "SysModuleEntity" where "SysEntitySchemaUId" = v_UId;
+select "Id" into v_ModuleID from "SysModule" where "SysModuleEntityId" = v_ModuleEntityUID;
+delete from "SysModuleInWorkplace" where "SysModuleId" = v_ModuleID;
+delete from "SysModule" where "Id" = v_ModuleID;
+delete from "SysModuleEdit" where "SysModuleEntityId" = v_ModuleEntityUID;
+delete from "SysModuleEntity" where "Id" = v_ModuleEntityUID;
+delete from "SysDetail" where "EntitySchemaUId" = v_UId;
+delete from "SysLookup" where "SysEntitySchemaUId" = v_UId;
+delete from "Lookup" where "SysEntitySchemaUId" = v_UId;
+END $$;
+
+Обратите внимание, если при удалении ругается на "ОШИБКА: UPDATE или DELETE в таблице "SysImage" нарушает ограничение внешнего ключа "FKlKA3KkwWCOpLEnKWs8gvBUcpW4" таблицы "SysModule"", удалите запись в табилце "SysImage" с "Id" из поля "Image32Id" в "SysModule", если иконка раздела заменялась на стандартную, или есть иконка не изменялась тогда очистите поле на null.
+select "Id" from "SysModule" where "Id" = (select "Id" from "SysModule" where "SysModuleEntityId" = (select "Id" from "SysModuleEntity" where "SysEntitySchemaUId" = (select "UId" from "SysSchema" where "Name" Like 'ToDelete')))
+
+Обратите внимание, что значение “ToDelete” нужно заменить на название схемы пользовательского раздела. После очистки базы данных необходимо удалить пользовательские схемы в разделе [Управление конфигурацией] ([Advanced settings]) в следующем порядке:
+
+    ToDeleteFile
+    ToDeleteInFolder
+    ToDeleteInTag
+    ToDeleteTag
+    ToDeleteFolder
+    ToDelete
+----------------------------------------------------------------------------------------------
+Для того чтобы добавлять произвольные "Связи" в штатную механику, Вам необходимо добавить ее описание в таблицу EntityConnection и потом привязав данные в пакете ("Связь объекта системы") что бы не выполнять SQL скрипт на других средах при переносе
+
+SysEntitySchemaUId (это реплика к значению колонки UId из таблицы SysSchema запись в которой описывает схему объекта для которого устанавливается связь
+ColumUId (это реплика к одноименному полю в таблице SysEntitySchemaReference запись в которой отражает связь объекта с субъектом и его полем, фактически является описанием соотношения справочных полей в объектах)
+изучите на примере уже существующих связей.
+
+INSERT INTO "EntityConnection" ("SysEntitySchemaUId", "ColumnUId") VALUES (
+	(select "UId" from "SysSchema" where "Name" = 'Activity' and "SysPackageId" = (SELECT "Id" FROM "SysPackage" WHERE "Name" = 'Base')),
+	(select "ColumnUId" from "SysEntitySchemaReference" where "SysSchemaId" = (select "Id" from "SysSchema" where "Name" = 'Activity' and "SysPackageId" = (SELECT "Id" FROM "SysPackage" WHERE "Name" = 'KtRequest')) and "ReferenceSchemaId" = (select "Id" from "SysSchema" where "Name" = 'KtRequest' and "SysPackageId" = (SELECT "Id" FROM "SysPackage" WHERE "Name" = 'KtRequest')))
+)
+
+Где:
+"SysPackage" WHERE "Name" = 'KtRequest' -- название пакета в котором находится замещенный объект Activity с добавленной колонкой нужной нам схемы которую добавляем в связи и схема которую хотим добавить
+"SysSchema" where "Name" = 'KtRequest' -- Схема которую хотим добавить в связи (например раздел которого нет в связях)
+
+
+
+Удалить не нужную связь можно соответственно выполнив:
+
+DELETE FROM "EntityConnection"
+where "SysEntitySchemaUId" =
+	(select "UId" from "SysSchema" where "Name" = 'Activity' and "SysPackageId" = (SELECT "Id" FROM "SysPackage" WHERE "Name" = 'Base')) and "ColumnUId" =
+	(select "ColumnUId" from "SysEntitySchemaReference" where "SysSchemaId" = (select "Id" from "SysSchema" where "Name" = 'Activity' and "SysPackageId" = (SELECT "Id" FROM "SysPackage" WHERE "Name" = 'KtRequest')) and "ReferenceSchemaId" = (select "Id" from "SysSchema" where "Name" = 'KtRequest' and "SysPackageId" = (SELECT "Id" FROM "SysPackage" WHERE "Name" = 'KtRequest')))
+-----------------------------------------------------------------------------------------------------
+////////////
+//Получение системной настройки описано в топике:
+//
+//необходимо использовать асинхронную функцию querySysSettingsItem. Пример:
+///////////
+this.Terrasoft.SysSettings.querySysSettingsItem("DefaultDaysForMailChimpStatisticGathering",
+        function(value) {
+//это callback-функция, которая выполняется после получения значения системной настройки с сервера
+                this.set("StatisticGatheringEndDate", Ext.Date.add(new Date(), "d", value));
+        }, this);
+/////////////
+//А для записи системных настроек необходимо использовать postSysSettingsValues. Пример:
+//////////////
+var postData = {
+       sysSettingsValues: {
+             someItem1: "value1", // someItem1 – название, value1 - значение
+             someItem2: "value2"
+       }
+};
+var callback = function (result) {
+       if (result.success) {
+             // todo
+       } else {
+             //
+       }
+};
+Terrasoft.SysSettings.postSysSettingsValues(postData, callback, this);
+------------------------------------------------------------------------------------------
+Замещение модулей запрещено с вистеме, но если очень нужно изменить поведение моделя существующего то вот как:
+Создаем модуль без наследования "UsrSummaryModuleV2"
+
+define("UsrSummaryModuleV2", ["SummaryModuleV2"], // подключем зависимость от моделя который замещаем
+    function() {
+        Ext.define("Terrasoft.SummaryModuleOverrided", { // путь нашему подулю (его название)
+            override: "Terrasoft.SummaryModule", // имя моделя которого замещаем
+ 
+           /*
+            * @override
+            */
+            getESQ: function() {
+                var esq = this.callParent(arguments);
+                esq.queryKind = Terrasoft.QueryKind.LIMITED;
+                return esq;
+            }
+        });
+    }
+);
+
+В замещаем страницу класа где хотим новый функционал и ставим зависимоть наш новый класс
+On the page, which use base class you need to add dependency to overridden class:
+
+BaseSectionV2
+
+define("BaseSectionV2", ["UsrSummaryModuleV2"], function() {
+    return {
+        methods: {},
+        details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+        diff: /**SCHEMA_DIFF*/[]/**SCHEMA_DIFF*/
+    };
+});
+-----------------------------------------------------------------------------------------------------
+Режим использования "Никогда" - колонка будет видна в конфигурации как системная и будет недоступна для использования в системе.
+Режим использования "Расширенный" колонка будет видна как системная.
+Режим использования "Обычный" - стандартный для колонок в системе.
+
+Разница между "Расширенный" и "Обычный" на уровне раздела ничем не отличается. Поле будет доступно в фильтре, а также при настройке реестра/страницы редактирования.
+Отличие есть только на уровне объекта - поле со свойством "Расширенный" не будет отображаться при открытии объекта. Для его отображения необходимо будет включить в настройках "Показывать системные колонки".
+------------------------------------------------------------------------------------------------------
+При создании процесса в разделе он прописывается в настройках и переносится, но если вдруг нужно удалить процессы в разделе (сделать через пакет можно, но вот удалить их через него нельзя):
+
+Delete from ProcessInModules
+where SysModuleId ='' //указываем название модуля в котором нужно удалить
+-------------------------------------------------------------------------------------
+Для операций с базой данных при разрабртке на серверной части:
+
+{Получение одной записи}
+var statusSchema = UserConnection.EntitySchemaManager.GetInstanceByName("OrderStatus");
+var newStatus = statusSchema.CreateEntity(UserConnection);
+newStatus.FetchFromDB("Name", "4. Completed");
+var item = newStatus.GetTypedColumnValue<Guid>("Id");
+
+{Изменение}
+var schema = UserConnection.EntitySchemaManager.GetInstanceByName("OrderStatus");
+var communication = schema.CreateEntity(UserConnection);
+communication.FetchFromDB("Name", city);
+communication.SetColumnValue("CommunicationTypeId", Guid.Parse(typeId));
+communication.SetColumnValue("AccountId", primaryEntityId);
+communication.SetColumnValue("Number", number);
+communication.Save();
+
+{Изменение с поиском по нескольким полям}
+EntitySchema entitySchema = UserConnection.EntitySchemaManager.GetInstanceByName("ContactCommunication");
+Entity contactCommunication = entitySchema.CreateEntity(UserConnection);
+if (contactCommunication.FetchFromDB(new Dictionary<string, object> {
+		{ "Number", userLogin },
+		{ "CommunicationType", CommunicationTypeConsts.EmailId},
+		{ "Contact", UserConnection.CurrentUser.ContactId}})) {
+	return;
+}
+contactCommunication.SetDefColumnValues();
+contactCommunication.SetColumnValue("CommunicationTypeId", CommunicationTypeConsts.EmailId);
+contactCommunication.SetColumnValue("ContactId", UserConnection.CurrentUser.ContactId);
+contactCommunication.SetColumnValue("Number", userLogin);
+contactCommunication.Save();
+
+{Добавление}
+var schema = UserConnection.EntitySchemaManager.GetInstanceByName("OrderStatus");
+var communication = schema.CreateEntity(UserConnection);
+communication.SetDefColumnValues();
+communication.SetColumnValue("CommunicationTypeId", Guid.Parse(typeId));
+communication.SetColumnValue("AccountId", primaryEntityId);
+communication.SetColumnValue("Number", number);
+communication.Save();
+
+{Удаление}
+EntitySchema accountSchema = UserConnection.EntitySchemaManager.GetInstanceByName("Account");
+Entity accountEntity = accountSchema.CreateEntity(UserConnection);
+if (accountEntity.FetchFromDB("Name", accountName)) {
+	accountEntity.Delete();
+}
+
+{Удаление с применением группировки фильров без учета доступов пользователя}
+var esq = new EntitySchemaQuery(UserConnection.EntitySchemaManager, "SysKtRequestRight") {
+	UseAdminRights = false,
+	IgnoreDisplayValues = true
+};
+esq.AddAllSchemaColumns();
+esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, "RecordId", recordId));
+var dateFilterGroup = new EntitySchemaQueryFilterCollection(esq, LogicalOperationStrict.Or);
+dateFilterGroup.Add(new EntitySchemaQueryFilterCollection(esq, LogicalOperationStrict.And) {
+	esq.CreateFilter(FilterComparisonType.Equal, "Operation", 1),
+	esq.CreateFilter(FilterComparisonType.Equal, "Operation", 2)
+});
+esq.Filters.Add(dateFilterGroup);
+var requestRights = esq.GetEntityCollection(UserConnection).ToArray();
+foreach (var requestRight in requestRights) {
+	requestRight.Delete();
+}
+
+
+{{Получение колекции c применением фильтра}}
+var result = 0.0;
+var esq = new EntitySchemaQuery(UserConnection.EntitySchemaManager, "OpportunityProductInterest");
+string quantity = esq.AddColumn("Quantity").Name;
+IEntitySchemaQueryFilterItem opportunityIdFilter = esq.CreateFilterWithParameters(FilterComparisonType.Equal, "Opportunity.Account", accountId);
+IEntitySchemaQueryFilterItem typesTariffServiceIdFilter = esq.CreateFilterWithParameters(FilterComparisonType.Equal, "Product.PsTypesTariffServices", typesTariffServiceId);
+esq.Filters.Add(opportunityIdFilter);
+esq.Filters.Add(typesTariffServiceIdFilter);
+var entities = esq.GetEntityCollection(UserConnection);
+if (entities.Count > 0)
+{
+	result = entities[0].GetTypedColumnValue<int>(quantity);
+}
+return result;
+
+{{Изменение колейции c применением фильтра}}
+var result = "blabla";
+var esq = new EntitySchemaQuery(UserConnection.EntitySchemaManager, "OpportunityProductInterest");
+esq.AddAllSchemaColumns();
+string quantity = esq.AddColumn("Quantity").Name;
+IEntitySchemaQueryFilterItem opportunityIdFilter = esq.CreateFilterWithParameters(FilterComparisonType.Equal, "Opportunity.Account", accountId);
+IEntitySchemaQueryFilterItem typesTariffServiceIdFilter = esq.CreateFilterWithParameters(FilterComparisonType.Equal, "Product.PsTypesTariffServices", typesTariffServiceId);
+esq.Filters.Add(opportunityIdFilter);
+esq.Filters.Add(typesTariffServiceIdFilter);
+var entities = esq.GetEntityCollection(UserConnection);
+if (entities.Count > 0)
+{
+	foreach(var item in entities)
+	{
+		item.SetColumnValue("KtRequestId", result);
+	}
+}
+entities.Save();
+
+{Сбор данных и добавление записи (нескольких) одним запросом (исли есть "Join" тогда в колонках где есть "Column.Parameter" обязательно добавлять алиасы, пример ".As("RequestCol")")}
+Query selectQuery = new Select(UserConnection)
+	.Top(numberCountForNumberPool)
+	.Column(Column.Parameter(request)).As("RequestCol")
+	.Column(Column.Parameter(currentUserContactId)).As("ModifiedByCol")
+	.Column(Column.Parameter(currentUserContactId)).As("CreatedByCol")
+	.Column("KtSimManagementInitialPoolNumbers", "KtIccid")
+	.Column("KtSimManagementInitialPoolNumbers", "KtImsi")
+	.Column("KtSimManagementInitialPoolNumbers", "KtMsisdn")
+	.Column("KtSimManagementInitialPoolNumbers", "KtName")
+	.Column(Column.Parameter(cityAndCountNumbersEntity.GetTypedColumnValue<Guid>(city.Name))).As("CityCol")
+	.Column(Column.Parameter(cityAndCountNumbersEntity.GetTypedColumnValue<string>(note.Name))).As("NoteCol")
+	.Column(Column.Parameter(DateTime.UtcNow.Date)).As("DateNowCol")
+	.Column(Column.Parameter(DateTime.UtcNow.Date
+		.AddDays((int)Core.Configuration.SysSettings.GetValue(UserConnection,
+			"DayCountForDedicatedPoolNumbers") + 1).AddSeconds(-1))).As("DayCountForDedicatedCol")
+	.From("KtSimManagementInitialPoolNumbers")
+	.OrderByAsc("KtSimManagementInitialPoolNumbers", "KtName")
+	.Join(JoinType.LeftOuter, "KtJasperFullNumberPool").On("KtJasperFullNumberPool", "KtName")
+	.IsEqual("KtSimManagementInitialPoolNumbers", "KtName")
+	.Where("KtJasperFullNumberPool", "KtName").IsNull()
+	.And("KtSimManagementInitialPoolNumbers", "KtMarketCodeId")
+	.IsEqual(Column.Parameter(cityForMarketCode));
+InsertSelect insertSelectQuery = new InsertSelect(UserConnection)
+	.Into("KtJasperFullNumberPool")
+	.Set("KtRequestId", "ModifiedById", "CreatedById", "KtIccid", "KtImsi", "KtMsisdn", "KtName", "KtCityId", "KtNote", "KtReserveDate", "KtReserveToDate")
+	.FromSelect(selectQuery);
+int numberCountInserted = insertSelectQuery.Execute();
+
+isDistinct // Признак, убирать ли дубли в результатирующем наборе данных
+rowCount // Количество строк, возвращаемых запросом
+------------------------------------------------------
+// Получаем [Id] объекта карточки.
+var recordId = this.get("Id");
+// Создаем экземпляр класса Terrasoft.EntitySchemaQuery с корневой схемой [Contact].
+var esq = this.Ext.create("Terrasoft.EntitySchemaQuery", {
+    rootSchemaName: "Contact"
+});
+// Добавляем колонку с именем основного контакта контрагента, который относится к данному контакту.
+esq.addColumn("Account.PrimaryContact.Name", "PrimaryContactName");
+// Получаем одну запись из выборки по [Id] объекта карточки и отображаем ее
+// в информационном окне.
+esq.getEntity(recordId, function(result) {
+    if (!result.success) {
+        // обработка/логирование ошибки, например
+        this.showInformationDialog("Ошибка запроса данных");
+        return;
+    }
+    this.showInformationDialog(result.entity.get("PrimaryContactName"));
+}, this);
+----------------------------------------------------
+			init: function() {
+				this.callParent(arguments);
+				var ctx = this;
+				var esq = Ext.create("Terrasoft.EntitySchemaQuery", {
+					rootSchemaName: "SysUserInRole"
+				});
+				esq.addColumn("SysRole");
+				esq.addColumn("[SysAdminUnit:Id:SysRole].[SysFuncRoleInOrgRole:OrgRole:Id].FuncRole", "FuncRoleInOrgRole");
+				var esqFilter = esq.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "SysUser", this.Terrasoft.SysValue.CURRENT_USER.value);
+				esq.filters.add("esqFilter", esqFilter);
+				esq.getEntityCollection(function (result) {
+					if (result.success) {
+						result.collection.each(function(item) {
+							if (item.values.FuncRoleInOrgRole.value === "b99d7a68-3576-4885-aa9c-858508484231") {
+								ctx.set("IsReturnChangesAvailable", true);
+							}
+							if (item.values.SysRole.value === "b99d7a68-3576-4885-aa9c-858508484231") {
+								ctx.set("IsReturnChangesAvailable", true);
+							}
+						}, this);
+					}
+				}, this);
+			},
+------------------------------------------------------------------
+Для обновления ищите по конфигурации слова "Terrasoft.UpdateQuery"
+примеров множество, вот из OpportunityManagementEndOfStagePreconfiguredPage:
+
+var updateQuery = Ext.create("Terrasoft.UpdateQuery", {
+        rootSchemaName: "Activity"
+});
+updateQuery.filters.addItem(this.Terrasoft.createColumnFilterWithParameter(
+                Terrasoft.ComparisonType.EQUAL, "Id", activityId));
+updateQuery.setParameterValue("Status",
+                ConfigurationConstants.Activity.Status.Cancel,
+                this.Terrasoft.DataValueType.LOOKUP);
+updateQuery.execute(function() {
+        this.loadActivities();
+}, this);
+
+Удаление по словам "Terrasoft.DeleteQuery", примеров так же очень много, вот из DocumentRelationshipDetailV2:
+
+var deleteQuery = this.Ext.create("Terrasoft.DeleteQuery", {
+        rootSchemaName: "DocumentRelationship"
+});
+var masterRecordId = this.get("MasterRecordId");
+var filters = this.getDeleteRelationFilters(masterRecordId, selectedRows);
+deleteQuery.filters.add("DocumentsFilter", filters);
+deleteQuery.execute(function() {
+        this.hideBodyMask();
+        this.deselectRows();
+        this.reloadGridData();
+}, this);
+
+------------------------------------------------------------------------------------------------
+Из кода изменить настройку можно так, если дело касается общих настроек или значений по умолчанию:
+
+Terrasoft.Core.Configuration.SysSettings.SetDefValue(userConnection, "SettingName", value);
+
+Для текущего пользователя устанавливается так:
+
+Terrasoft.Core.Configuration.SysSettings.SetValue(userConnection, "SettingName", value);
+
+Для конкретного пользователя или группы:
+
+Terrasoft.Core.Configuration.SysSettings.SetDefValue(userConnection, sysAdminUnitId, "SettingName", value);
+
+Для получения значения системной настройки (так же с зашифрованной строкой):
+
+Terrasoft.Core.Configuration.SysSettings.GetValue(userConnection, "SettingName");
+-------------------------------------------------------------------------------------------------
+Удаление базы данных PostgreSQL:
+
+Предотвращаем возможность новых подключений
+UPDATE pg_database SET datallowconn = 'false' WHERE datname = 'database_name';
+
+Закрываем текущие сессии
+SELECT pg_terminate_backend(pg_stat_activity.pid)
+FROM pg_stat_activity
+WHERE pg_stat_activity.datname = 'database_name' AND pid <> pg_backend_pid();
+
+Удаляем базу
+DROP DATABASE database_name;
+-------------------------------------------
+Информационное всплывающее окно:
+this.showInformationDialog(this.get("Resources.Strings.KtDataRequestError"));
+
+Конфигурируемое всплывающее окно:
+showConfirmationDialog
+---------------------------------------------
+Снятие ограничения на выгрузку и загрузку, в web.config:
+maxEntityRowCount 
+---------------------------------------------
+Запуск процесса через API.Cтоит воспользоваться методом /RunProcess и не забыть в начале авторизироваться:
+
+Пример POST-запроса: 
+
+https://[site name]/0/ServiceModel/ProcessEngineService.svc/RunProcess
+
+пример Header:
+
+Content-Type: application/json
+BPMCSRF: BgsjByc16fsEZfuAr/CxDO
+Cookie: BPMLOADER=vuhtzmo2wh2mxgb1amggorf2; .ASPXAUTH=FFF4F....; BPMCSRF=BgsjByc16fsEZfuAr/CxDO;
+
+пример Body:
+
+{
+   "schemaName":"Process3",
+   "parameterValues"[
+      {
+         "name":"UsrParam",
+         "value":"TestValue"
+      }
+   ]
+}
+
+------------------------------------------------------------------------
+Фильтр по региону контакта текущего пользовтаеля:
+
+esq.filters.add("RegionFilter", this.Terrasoft.createColumnFilterWithParameter(
+       this.Terrasoft.ComparisonType.EQUAL, "Region.[Contact:Region].Id",
+        Terrasoft.core.enums.SysValue.CURRENT_USER_CONTACT.value));
+		
+-------------------------------------------------------------------------
+/**
+ * Обновляет поля карточки для сущности страницы.
+ * @param {Array} fields Список обновляемых полей.
+ * @param {Function} callback Функция обратного вызова.
+ * @param {Object} scope Контекст функции обратного вызова.
+ */
+var reloadCardFromPage = function (fields, callback, scope) {
+	var showSaveButton = scope.get("ShowSaveButton");
+	var showDiscardButton = scope.get("ShowDiscardButton");
+	var showCloseButton = scope.get("ShowCloseButton");
+	if (!scope.Ext.isArray(fields) || fields.length === 0) {
+		return ;
+	}
+	var fieldsQuantity = fields.length;
+	var selectNewValues = scope.Ext.create("Terrasoft.EntitySchemaQuery", {
+		rootSchemaName: scope.entitySchemaName
+	});
+	for (var i = 0; i < fieldsQuantity; i++) {
+		selectNewValues.addColumn(fields[i]);
+	}
+	var id = scope.get("Id");
+	selectNewValues.getEntity(id, function(result) {
+		var entity = result.entity;
+		if (entity ) {
+			fields.forEach(function(element) {
+				var newValue = entity.get(element);
+				scope.set(element, newValue);
+			}, scope);
+			scope.set("ShowSaveButton", showSaveButton);
+			scope.set("ShowDiscardButton", showDiscardButton);
+			scope.set("ShowCloseButton", showCloseButton);
+			callback.call(scope);
+		}
+	}, scope );
+};
+---------------------------------------------------------------------
+//Удаление\отключение бизнес правил:
+"#название правила#": {
+    "ruleType": 999
+}
+//Пример:
+"Opportunity":{
+   "FiltrationOpportunityByContact": {
+       "ruleType": 999
+   }
+}
+
+"removed": true
+---------------------------------------------------------------------
+Доверять сертификатам которыые не являются доверенными сторонними центрами сертификации (самоподписанные), в бизнес процессе:
+
+-в методы-
+
+using System.Net
+using System.Net.Security
+using System.Security.Cryptography.X509Certificates
+
+static void NEVER_EAT_POISON_Disable_CertificateValidation()
+{
+    ServicePointManager.ServerCertificateValidationCallback =
+        delegate (
+            object s,
+            X509Certificate certificate,
+            X509Chain chain,
+            SslPolicyErrors sslPolicyErrors
+        ) {
+            return true;
+        };
+}
+
+- в задании-сценарий-
+NEVER_EAT_POISON_Disable_CertificateValidation();
+return true;
+------------------------------------------------------------------------------------------
+Пагинация при использовании ENTITYSCHEMAQUERY (Свойство SkipRowCount):
+
+EntitySchemaQuery esq = new EntitySchemaQuery(schema);
+esq.UseOffsetFetchPaging = true;
+esq.RowCount = 10; // Количество записей в запросе
+esq.SkipRowCount = 10; // Количество записей которое нужно пропустить
+--------------------------------------------------------------------------------------
+var esq = Ext.create("Terrasoft.EntitySchemaQuery", {
+        rootSchemaName: "Inspectors"
+});
+var createdOnColumn = esq.addColumn("CreatedOn");
+createdOnColumn.orderDirection = Terrasoft.OrderDirection.DESC; // Сортировка по убыванию
+createdOnColumn.orderPosition = 0; // Запись по счету в запросе 
+esq.rowCount = 1; // Количество записей в запросе
+----------------------------------------------------------------------------------
+Логирование на стороне сервера (C#):
+
+ILog logger = LogManager.GetLogger("KarTelDebag"); // От кого сообщение
+logger.Info("cityAndCountNumbersEntities > 0"); // Текст ошибки
+-------------------------------------------------------------
+Регестрация элемента процеса в панели элементов:
+
+insert into "SysProcessUserTask"("SysUserTaskSchemaUId", "Caption")
+select s."UId", s."Caption" from "SysSchema" s
+where s."Name" = 'KtRefreshPageProcessUserTask' // KtRefreshPageProcessUserTask - название действия процесса
+----------------------------------------------------------------
+C# код макроса для почты:
+
+namespace Terrasoft.Configuration
+{
+    using System;
+    using Terrasoft.Core;
+    // Класс обработчика макроса шаблона Email-сообщения.
+    public class KtMacrosOurSiteUrl : IMacrosInvokable
+    {
+        // Пользовательское соединение.
+        public UserConnection UserConnection {
+            get;
+            set;
+        }
+        // Метод, возвращающий подставляемое значение.
+        public string GetMacrosValue(object arguments) {
+            return (string)Terrasoft.Core.Configuration.SysSettings.GetValue(UserConnection, "MacrosOurSiteUrl");
+        }
+    }
+}
+
+Регестрация макроса для почты:
+
+INSERT INTO "EmailTemplateMacros"("Name", "ParentId", "ColumnPath")
+VALUES (
+    'KtMacrosOurSiteUrl',
+    (SELECT "Id"
+    FROM "EmailTemplateMacros"
+    WHERE "Name" = '@Invoke' limit 1),
+    'Terrasoft.Configuration.KtMacrosOurSiteUrl'
+)
+----------------------------------------------------------
+Для перебора колекции в JS использовать 
+
+var temp = "";
+Terrasoft.each(response.collection.getItems(), function(item){  // response.collection.getItems() - колекция записей
+		temp += item.values.Address + ', '; // item.values - получаем значение из колекции
+})
+----------------------------------------------------------------------------
+Пример добавления AccountProfile на страницу ContactPageV2:
+
+define("ContactPageV2", ["BaseFiltersGenerateModule", "BusinessRuleModule", "ContactPageV2Resources",           
+"ConfigurationConstants", "ContactCareer", "DuplicatesSearchUtilitiesV2"], 
+function (BaseFiltersGenerateModule, BusinessRuleModule, resources, ConfigurationConstants, ContactCareer) {    
+	return {        
+		entitySchemaName: "Contact",        
+		// Используемые модули.          
+		modules: /**SCHEMA_MODULES*/{            
+			// Модуль профиля контрагента.            
+			"AccountProfile": {                
+				// Конфигурация профиля.                
+				"config": {                    
+					// Название схемы.                    
+					"schemaName": "AccountProfileSchema",                    
+					// Признак, сообщающий о том, что конфигурация схемы проинициализирована.                    
+					"isSchemaConfigInitialized": true,                   
+					// Признак, сообщающий о том, что не используется HistoryState.                    
+					"useHistoryState": false,                    
+					// Параметры профиля.                    
+					"parameters": {                       
+						// Конфигурация модели представления.                        
+						"viewModelConfig": {                            
+							// Название колонки связанной сущности.                            
+							masterColumnName: "Account"                        
+ 
+						}                    
+ 
+					}                
+ 
+				}            
+ 
+			}        
+ 
+		}/**SCHEMA_MODULES*/,
+		// Массив модификаций.        
+		diff: /**SCHEMA_DIFF*/[            
+			{                
+				"operation": "insert",                
+				"parentName": "LeftModulesContainer",                
+				"propertyName": "items",               
+				// Название профиля.                
+				"name": "AccountProfile",                
+				// Значения.                
+				"values": {                  
+					// Тип элемента — модуль.                    
+					"itemType": Terrasoft.ViewItemType.MODULE              
+				}           
+			}    
+		]/**SCHEMA_DIFF*/    
+ 
+	}; 
+ 
+});
+-------------------------------------------------------------------------------------------------------------------
+1) {Для создания истории переходов между этапами необходимо в таблицу SysModuleStageHistory новую запись, указав в колонках}:
+
+INSERT INTO "SysModuleStageHistory"
+("EntitySchemaUId",
+	"StageSchemaUId",
+	"StageHistorySchemaUId",
+	"StageColUId",
+	"OwnerColUId",
+	"StageIsFinalColUId",
+	"StageIsSuccessfulColUId",
+	"StageOrderColUId",
+	"StageHistoryStartDateColUId",
+	"StageHistoryDueDateColUId",
+	"StageHistoryOwnerColUId",
+	"StageHistoryHistoricalColUId",
+	"StageHistoryMainEntityColUId",
+	"StageHistoryStageColUId",
+	"Active") 
+VALUES ('00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	'00000000-0000-0000-0000-000000000000',
+	true);
+
+Id // Уникальный идентификатор
+CreatedOn // Дата создания записи
+CreatedById // Идентификатор автора
+ModifiedOn // Дата изменения записи
+ModifiedById // Идентификатор того что вносил последние изменения
+ProcessListeners // 
+EntitySchemaUId // UId таблицы раздела из таблицы SysSchema 
+StageSchemaUId // UId таблицы со стадиями из тыблицы SysSchema ( наследник "Базовый справочник стадий")
+StageHistorySchemaUId // UId таблицы в которой хранится история переходов из таблицы SysSchema ( наследник "Базовый объект перехода по стадиям")
+StageColUId // UId колонки стадий в метаданных таблицы раздела
+OwnerColUId // UId колонки ответственного в метаданных таблицы раздела
+StageIsFinalColUId // UId колонки финальной стадии в метаданных таблицы писка стадий
+StageIsSuccessfulColUId // UId колонки "Успешная" (в родителе нет, нужно создать колонку типа "Логическое") в метаданных таблицы писка стадий
+StageOrderColUId // UId колонки "Порядковый номер стадии" в метаданных таблицы писка стадий
+StageHistoryStartDateColUId // UId колонки "Дата начала" ("StartDate") в таблице в которой хранится история переходов
+StageHistoryDueDateColUId // UId колонки "Дата завершения" ("DueDate") в таблице в которой хранится история переходов
+StageHistoryOwnerColUId // UId колонки "Ответственный" ("Owner") в таблице в которой хранится история переходов
+StageHistoryHistoricalColUId // UId колонки "Историческая" ("Historical") в таблице в которой хранится история переходов
+StageHistoryMainEntityColUId // UId колонки в таблице в которой хранится история переходов, в которую записывается "Id" записи в разделе (в родителе нет, нужно создать колонку типа "Справочник" и выбрать раздел для которой создаем историю)
+StageHistoryStageColUId // UId колонки в таблице в которой хранится история переходов, в которую записывается "Id" стадии при переходе (в родителе нет, нужно создать колонку типа "Справочник" и таблицу со списком стадий)
+Active // Запись активна и используется
+
+2) {В мастере создать деталь на основании таблицы в которой хранится история переходов}
+
+3) {Можно с помощу мастера раздела добавить колонку и созданую деталь, или в коде добавить как описано ниже}
+{В Page, в секции "details", добавить деталь стадий}:
+
+"KtRequestInStageDetail": { // Название детали
+	"schemaName": "KtRequestInStageDetail", // Название детали стадий в разделе
+	"entitySchemaName": "KtRequestInStage", // Название объекта стадий в разделе
+	"filter": {
+		"detailColumn": "KtRequest", // Колонка стадий в объекте раздела
+		"masterColumn": "Id"
+	}
+}
+
+{В Page, в секции "diff", добавить деталь стадий}:
+
+{
+	"operation": "insert",
+	"name": "HistoryTab",
+	"values": {
+		"caption": {
+			"bindTo": "Resources.Strings.HistoryTabCaption" // Локализированая строка названия вкладки
+		},
+		"items": [],
+		"order": 3
+	},
+	"parentName": "Tabs",
+	"propertyName": "tabs",
+	"index": 4
+},
+{
+	"operation": "insert",
+	"name": "KtRequestInStageDetail",
+	"values": {
+		"itemType": 2,
+		"markerValue": "added-detail"
+	},
+	"parentName": "HistoryTab",
+	"propertyName": "items",
+	"index": 0
+}
+--------------------------------------------------------------------------------------
+Пример замещения модуля на клиентской части:
+
+define("KtLeftPanelTopMenuModule", ["LeftPanelTopMenuModule"],
+	function() {
+		Ext.define("Terrasoft.configuration.KtLeftPanelTopMenuModuleViewModel", {
+			alternateClassName: "Terrasoft.KtLeftPanelTopMenuModuleViewModel",
+			override: "Terrasoft.LeftPanelTopMenuModuleViewModel",
+
+			getTopMenuConfig: function() {
+				var esq = this.callParent(arguments);
+				var index = esq.map(function(e) { return e.id; }).indexOf("menu-startprocess-button");
+				if (index > -1) {
+					esq.splice(index, 1);
+				}
+				return esq;
+			}
+		});
+	}
+);
+-----------------------------------------------------------------------------------------
+Мониторинг в Oracle выполняемых запросов ():
+
+SELECT * FROM
+v$sql 
+where
+--sql_text like '%INSERT%"Opportunity"%' -- на вставку в таблицу Opportunity
+sql_text like '%UPDATE%"Opportunity"%' -- на изменение в таблице Opportunity
+AND
+sql_text NOT LIKE '%select%'; -- не показывать этот запрос в списке ответа
+------------------------------------------------------------------------------------------
+SysAdminUnit — хранятся и пользователи, и роли всех видов. Тип записи задаётся числом в поле SysAdminUnitTypeValue. Расшифровку чисел можно посмотреть в таблице SysAdminUnitType. 4 — пользователь, 5 — портальный, 6 — функциональная, 0, 1, 2, 3 — разные организационные.
+SysAdminUnitInRole — вхождение пользователей в роли. В записи две ссылки на SysAdminUnit, в полях SysAdminUnitId и SysAdminUnitRoleId указаны, соответственно, пользователь и роль.
+-----------------------------------------------------------------------------------------
+Проверка на пустой ответ поля в JS, возвращет bool значение:
+this.Ext.isEmpty(account)
+--------------------------------------------------------------------------------------
+Для определения изменеия значения (старое и новое значение) в серверном коде, нужно запустить в процессе объекта событие "Перед сохранинем записи" и считать:
+
+string ownerColumnName = Entity.Schema.Columns.GetByName("Owner").ColumnValueName;
+if (Entity.GetColumnOldValue(ownerColumnName) != null) {
+	oldOwnerId = new Guid(Entity.GetColumnOldValue(ownerColumnName).ToString()); // Значение старое, которое должно замениться, так же для вычитывание можно использовать Entity.GetTypedOldColumnValue<Guid>(ownerColumnName)
+}
+if (Entity.GetColumnValue(ownerColumnName) != null) {
+	newOwnerId = new Guid(Entity.GetColumnValue(ownerColumnName).ToString()); // Значение новое, которое заменит старое, так же для вычитывание можно использовать Entity.GetTypedColumnValue<Guid>(ownerColumnName)
+}
+---------------------------------------------------------------------------------------------------------
+Получение названия для колонки справочника:
+
+var accountName = Entity.GetTypedColumnValue<string>(Entity.Schema.FindPrimaryDisplayColumnName());
+-------------------------------------------------------------------------------------------------
+BulkEmailSplitTarget: {
+	schemaName: "BulkEmailSplitTargetDetailV2",
+	entitySchemaName: "VwMandrillRecipient",
+	"filter": {
+		"masterColumn": "Id",
+		"detailColumn": "[BulkEmail:Id:BulkEmail].SplitTest" // фильтр через Join
+	},
+	"subscriber": {
+		"methodName": "sameFun" // подписаться на изменения в детали
+	}
+},
+sameFun: function(){
+	this.refreshColumns(["RecipientCount", "SegmentsStatus"], function() { // ???
+		this.updateIsRecipientPercentEnabled();
+		this.findPassedStep();
+		this.setBulkEmailDetailEditable();
+	});
+},
+BulkEmailInBulkEmailSplit: {
+	schemaName: "BulkEmailInBulkEmailSplitDetailV2",
+	entitySchemaName: "BulkEmail",
+	"filter": {
+		"masterColumn": "Id",
+		"detailColumn": "SplitTest"
+	},
+	"subscriber": {
+		"methodName": "numberCounts" // подписаться на изменения в детали
+	}
+},
+isUpdateDetailFun: function(){
+	this.updateDetail({detail: "BulkEmail"}); // Обновление делати "BulkEmail"
+},
+BulkEmail: {
+	schemaName: "BulkEmailDetailV2",
+	entitySchemaName: "BulkEmail",
+	"filter": {
+		"masterColumn": "Id",
+		"detailColumn": "SplitTest"
+	},
+	captionName: "BulkEmailDetailCaption" // Название детали
+}
+-----------------------------------------------------------------------------------------------------
+Виртуальное поле:
+attributes: {
+	"ContactGivenName": {
+		dataValueType: Terrasoft.DataValueType.TEXT, // Тип данных текстовый
+		type: Terrasoft.ViewModelColumnType.VIRTUAL_COLUMN // Тип колонки виртуальный
+	},
+	"CurrentAccount": {
+		dataValueType: Terrasoft.DataValueType.LOOKUP, // Тип данных справочник
+		type: Terrasoft.ViewModelColumnType.VIRTUAL_COLUMN,
+		referenceSchemaName: "Account" // Таблица связанная с полем (данные из этого справочника отображаются в поле)
+	},
+	"Owner": {
+		"dataValueType": Terrasoft.DataValueType.LOOKUP,
+		"lookupListConfig": {"filter": BaseFiltersGenerateModule.OwnerFilter} // Фильтр для справочника
+	},
+},
+diff: /**SCHEMA_DIFF*/[
+	{
+		"operation": "insert",
+		"name": "ContactGivenName",
+		"values": {
+			"layout": {
+				"colSpan": 12,
+				"rowSpan": 1,
+				"column": 0,
+				"row": 5,
+				"layoutName": "ContactDataTabGridLayout"
+			},
+			"bindTo": "ContactGivenName",
+			"caption": {
+				"bindTo": "Resources.Strings.ContactGivenNameCaption"
+			},
+			"enabled": false
+		},
+		"parentName": "ContactDataTabGridLayout",
+		"propertyName": "items",
+		"index": 10
+	},
+	{
+		"operation": "insert",
+		"name": "CurrentAccount",
+		"values": {
+			"layout": {
+				"colSpan": 12,
+				"rowSpan": 1,
+				"column": 0,
+				"row": 5,
+				"layoutName": "ContactDataTabGridLayout"
+			},
+			"bindTo": "CurrentAccount",
+			"caption": {
+				"bindTo": "Resources.Strings.ContactRegionCaption"
+			},
+			"enabled": false
+		},
+		"parentName": "ContactDataTabGridLayout",
+		"propertyName": "items",
+		"index": 10
+	},
+	{
+		"operation": "insert",
+		"parentName": "Header",
+		"propertyName": "items",
+		"name": "Owner",
+		"values": {
+			"bindTo": "Owner",
+			"layout": {
+				"column": 12, 
+				"row": 1, 
+				"colSpan": 12
+			},
+			"tip": {
+				"content": {"bindTo": "Resources.Strings.OwnerTip"}
+			}
+		},
+		"filter": BaseFiltersGenerateModule.OwnerFilter
+	}
+]/**SCHEMA_DIFF*/
+----------------------------------------------------------------------------------
+Вставка в тест JS переменной:
+var hallo = "Привет";
+var name = "Саша";
+Ext.String.format("{0} {1}", hallo, name);
+-------------------------------------------------------------------------------------
+			{
+				"operation": "merge",
+				"name": "PsReason1",
+				"values": {
+					"contentType": 3,
+					"wrapClass": [
+						"container-mini-wrap"
+					],
+					"controlConfig": {
+						"placeholder": {
+							"bindTo": "Resources.Strings.PsReason1ControlPlaceholder"
+						}
+					},
+					"controlWrapConfig": {
+						"classes": {
+							"wrapClassName": [
+								"control-mini-wrap"
+							]
+						}
+					},
+					"labelConfig": {
+						"visible": false,
+						"markerValue": ""
+					},
+					"visible": {
+						"bindTo": "visibleReason1"
+					},
+					"isRequired": { // Обязательность поля
+						"bindTo": "visibleReason1"
+					}
+				},
+				"parentName": "ResultsContainer",
+				"propertyName": "items",
+				"index": 3
+			}
+-------------------------------------------------------------------------------------------------
+Деталь "Связи"
+
+Например, необходимо добавить записи в таблицу EntityConnection.
+В эту таблицу нужно добавить следующее:
+1) ColumnUId - UId поля с метаданных объекта раздела, в который добавляется деталь связи
+2) SysEntitySchemaUId - UId объекта раздела из таблицы SysSchema.
+-------------------------------------------------------------------------------------------------
+Диалоговое окно с ответом "Да" и "Нет":
+
+this.showConfirmationDialog(confirmationMessage.message, function(result) {
+    if (result === Terrasoft.MessageBoxButtons.YES.returnCode) {
+        this.save(scopeArguments); // Сохранить страницу
+     } else {
+        this.onDiscardChangesClick(); // Отмена сохранения страницы и возврат измененного (удаление не сохраненного)
+    }
+}, ["Yes", "No"]); // Кнопки в диалоговом окне
+--------------------------------------------------------------------------------------------------
+Как включить генерацию js кода в Autogenerated\Src (Обходное решение):
+
+    Создается новый временный пакет
+    В нем создается новая временная js схема
+    Нажать на кнопку "Выгрузить в файловую систему" и в папке Autogenerated\Src появятся js файлы.
+    Затем временный пакет со схемой можно удалить
+----------------------------------------------------------------------------------------------------
+Отслеживание изменения поля(ей), и запуск функции при изменении:
+
+"KtTotalRevenueFix": {
+	dependencies: [
+		{
+			columns: ["KtCompRevenueFix"],
+			methodName: "updateTotalRevenueFixValue"
+		}
+	]
+},
+----------------------------------------------------------------------------------------------------
+Сделать деталь не редактируемой
+
+diff: /**SCHEMA_DIFF*/[
+	{
+		"operation": "remove",
+		"name": "CardDetail"
+	},
+	{
+		"operation": "remove",
+		"name": "AddRecordButton"
+	},
+	{
+		"operation": "remove",
+		"name": "ViewButton"
+	}
+]/**SCHEMA_DIFF*/,
+methods: {
+	getAddRecordButtonVisible: function() {
+		return false;
+	},
+	getAddTypedRecordButtonVisible: function() {
+		return false;
+	},
+	addRecordOperationsMenuItems: Terrasoft.emptyFn
+}
+
+-----------------------------------------------------------------------------------------------------------
+SysAdminUnit — хранятся и пользователи, и роли всех видов. Тип записи задаётся числом в поле SysAdminUnitTypeValue. Расшифровку чисел можно посмотреть в таблице SysAdminUnitType. 4 — пользователь, 5 — портальный, 6 — функциональная, 0, 1, 2, 3 — разные организационные.
+
+SysAdminUnitInRole — вхождение пользователей в роли. В записи две ссылки на SysAdminUnit, в полях SysAdminUnitId и SysAdminUnitRoleId указаны, соответственно, пользователь и роль.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Пописка на изменение записей в колонке на фронте:
+
+init: function () {
+  this.callParent(arguments);
+  this.on("change:IsStartCallingMode", this.onStatusCallingChange, this); // подписка на изменение колонки (или атрибута)
+  this.onStatusCallingChange();
+},
+onStatusCallingChange: function() {
+  this.sandbox.publish("GetStatusCallingChange", {
+	enabled: this.get("IsStartCallingMode")
+  }, ["MsgGetStatusCallingChange"]);
+},
+-----------------------------------------------------------------------------------------------------------------------
+Подстановка переменных в локализированные строки в js:
+this.Ext.String.format(this.get("Resources.Strings.ContactAccountRequire"), accountColumnCaption, contactColumnCaption); // в коде js, второй элемент заменяет {0}, третий соответственно {1}
+
+Заполнение одного из полей "{0}" или "{1}" является обязательным // в строке переменной для локализации
+
+---------------------------------------------------------------------------------------------
+ClientMessageBridge
+----------------------------------------------------------------------------------
+Добавление кнопки в действие в разделе:
+
+getSectionActions: function() {
+	var actionMenuItems = this.callParent(arguments);
+	actionMenuItems.addItem(this.getButtonMenuItem({
+		Type: "Terrasoft.MenuSeparator", // Добавление разделителя
+		Caption: ""
+	}));
+	actionMenuItems.addItem(this.getButtonMenuItem({
+		"Click": {"bindTo": "Функция что выполняется при нажатии на кнопку"},
+		"Caption": {"bindTo": "Видимое название кнопки. Рекомендовано локализированная строка"},
+		"Enabled": {"bindTo": "Активность кнопки: значение true или false"},
+		"Visible": {"bindTo": "Видимость кнопки: значение true или false"},
+		"ImageConfig": this.get("Иконка кнопки. Не обязательно"),
+		"IsEnabledForSelectedAll": true // Видна ли кнопка при выборе нескольких записей
+	}));
+	actionMenuItems.addItem(this.getButtonMenuItem({
+		Type: "Terrasoft.MenuSeparator", // Добавление разделителя
+		Caption: ""
+	}));
+	return actionMenuItems;
+}
+--------------------------------------------------------------------------------------------------------------
+select table_name from all_constraints where constraint_name = 'FKxLbw957waHhgItDgCsX3oYCAFMs' -- получить все таблицы в которых есть указанный foreign key в Oracle
+------------------------------------------------------------------------------------------------------------------
+Проверка на Empty Guid в клиентском коде:
+
+Terrasoft.isEmptyGUID(callActivityId) // callActivityId - проверяемое значение
+-----------------------------------------------------------------------------------------------------------
+Использование Select:
+
+var contactIds = new List<Guid>();
+var select = new Select(_userConnection).Distinct()
+	.Column("SysAdminUnit", "ContactId")
+	.From("SysAdminUnit").WithHints(Hints.NoLock)
+	.Join(JoinType.Inner, "SysUserInRole").WithHints(Hints.NoLock)
+		.On("SysAdminUnit", "Id").IsEqual("SysUserInRole", "SysUserId")
+	.Where("SysUserInRole", "SysRoleId").IsEqual(Column.Parameter(roleId))
+	.And("SysAdminUnit", "Active").IsEqual(Column.Parameter(true)) as Select;
+ 
+select.ExecuteReader(dataReader =>
+{
+	contactIds.Add(dataReader.GetColumnValue<Guid>("ContactId"));
+});
+
+или так
+
+select.ExecuteReader( reader => contactIds.AddRange( reader.GetAllColumnValues<Guid>( "ContactId" ) ) );
+
+или так
+
+var contactIds = select.ExecuteEnumerable(dataReader => dataReader.GetColumnValue<Guid>("ContactId")).ToList();
+-----------------------------------------------------------------------------------------------------------------
+ВАЖНО
+
+Запрещено обращаться к полям ViewModel  напрямую по названию. Необходимо использовать методы get() и set(), так как в данных методах реализована генерация событий изменения свойств модели и, соответственно, задействован механизм связывания.
+-----------------------------------------------------------------------------------------------------------------
+Модули, определенные в схемах модели представления, всегда возвращают конфигурационный объект определенной структуры:
+
+define("ExampleSchema", [], function() {
+    return {
+        entitySchemaName: "ExampleEntity",
+        mixins: {},
+        attributes: {},
+        messages: {},
+        methods: {},
+        properties{},
+        rules: {},
+        businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
+        modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
+        details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+        diff: /**SCHEMA_DIFF*/[]/**SCHEMA_DIFF*/
+    };
+});
+----------------------------------------------------------------------------------------------------------------------
+Публикуется сообщение о пополнении истории навигации по страницам и осуществляется переход на страницу редактирования основного контакта:
+
+var primaryContactId = primaryContactObject.value;
+var requestUrl = "CardModuleV2/ContactPageV2/edit/" + primaryContactId;
+this.sandbox.publish("PushHistoryState", {
+	hash: requestUrl
+});
+--------------------------------------------------------------------------------------------------------------------
+Базовые параметры поля на странице:
+
+define("ActivityPageV2", [], function() {
+    return {
+        entitySchemaName: "Activity",
+        diff: /**SCHEMA_DIFF*/[
+            {
+                "operation": "insert",
+                "parentName": "Header",
+                "propertyName": "items",
+                "name": "UsrMeetingPlace",
+                "values": {
+                    "caption": {"bindTo": "Resources.Strings.MeetingPlaceCaption"},
+                    "layout": {
+                        "column": 0,
+                        "row": 5,
+                        "colSpan": 12,
+                        "rowSpan": 1
+                    }
+                }
+            }
+        ]/**SCHEMA_DIFF*/
+    };
+});
+-------------------------------------------------------------------------------------------------------------------------
+Сохранение без закрытия страницы, замещаение функции "save":
+
+save: function(config) {
+	config = config || {};
+	config.isSilent = true;
+	this.callParent([config]);
+}
+---------------------------------------------------------------------------------------------------------------------
+Карточку можно сохранит в "тихом" режиме, тогда она закрываться не будет и не будет публиковаться сообщение "UpdateDetail", вызвав из клиентского кода функцию save с параметром:
+
+this.save({isSilent:true});
+------------------------------------------------------------------------------------------------------------------
+Проверить открыта ли карточка в режиме редактирования:
+
+var newmode = this.isNewMode();
+if(newmode){
+	var newDate = new Date(this.get("StartDate"));
+	newDate.setDate(newDate.getDate() + 10);
+	this.set("Deadline", newDate);
+}
+---------------------------------------------------------------------------------------------------------------
+Добавления валидации поля, в клиетской схеме:
+
+define("OpportunityPageV2", [], function() {
+    return {
+        entitySchemaName: "Opportunity",
+        methods: {
+            dueDateValidator: function() {
+                var invalidMessage = "";
+                if (this.get("DueDate") < this.get("CreatedOn")) {
+                    invalidMessage = this.get("Resources.Strings.CreatedOnLessDueDate");
+                }
+                return {
+                    invalidMessage: invalidMessage
+                };
+            },
+            setValidationConfig: function() {
+                this.callParent(arguments);
+                this.addColumnValidator("DueDate", this.dueDateValidator);
+                this.addColumnValidator("CreatedOn", this.dueDateValidator);
+            }
+        }
+    };
+});
+-------------------------------------------------------------------------
+Проверка активности фичи через атрибут:
+
+attributes: {
+	"UseRelationshipDesigner": {
+		"dataValueType": Terrasoft.DataValueType.BOOLEAN,
+		"value": Terrasoft.Features.getIsEnabled("UseRelationshipDesigner")
+	}
+},
+--------------------------------------------------------------------------
+Подписка и отписка от сообщений из сервера на клиентской части:
+
+init: function(){
+  this.callParent(arguments);
+  Terrasoft.ServerChannel.on(Terrasoft.EventName.ON_MESSAGE, this.bpMessageListener, this);
+},
+// При подписке на сообщение из сервера, обязательно отписываемся в onDestroy
+onDestroy: function() {
+	Terrasoft.ServerChannel.un(Terrasoft.EventName.ON_MESSAGE, this.bpMessageListener, this);
+	this.callParent(arguments);
+},
+---------------------------------------------------------------------------
+Скрытие кнопок Копировать, Изменить, Удалить, (три точки), + 
+Список элементов:
+getCopyRecordMenuItem - Копироать
+getEditRecordMenuItem - Изменить
+getDeleteRecordMenuItem - Удалить
+getGridSortMenuItem - сортировка
+getShowQuickFilterButton - показать фильтр
+getHideQuickFilterButton - скрыть фильтр
+getGridSettingsMenuItem - настройка колонок
+
+define("UsrSchema1Detail", [], function() {
+    return {
+        entitySchemaName: "UsrStageInProject",
+        details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+        diff: /**SCHEMA_DIFF*/[
+            {
+                    "operation": "remove",//Удалить кнопку "+"
+                    "name": "AddRecordButton"
+            },
+            {
+                    "operation": "remove",//Удалить кнопку " триточки "
+                    "name": "ToolsButton"
+            }]/**SCHEMA_DIFF*/,
+        methods: {
+                    getCopyRecordMenuItem: function() Terrasoft.emptyFn,//скрыть кнопку "Копировать"
+                    getDeleteRecordMenuItem: Terrasoft.emptyFn//скрыть кнопку "Удалить"
+            }
+    };
+});
+----------------------------------------------------------------------------
+Получение значение из атрибута там где нельзя использовать bindTo и this :
+
+"ContactProfile": {
+	"config": {
+		"schemaName": "ContactProfileSchema",
+		"isSchemaConfigInitialized": true,
+		"useHistoryState": false,
+		"parameters": {
+			"viewModelConfig": {
+				"masterColumnName": "KtContact",
+				"isVisibleClearButton": {"attributeValue": "VisibleClearButtonContactProfile"} // Получения значения атрибута "VisibleClearButtonContactProfile" через "attributeValue"
+			}
+		}
+	}
+}
+--------------------------------------------------------------------------
+Для того что бы убрать открытие страницы редактирования по двойному слику, на детали необходимо заместить функцию:
+
+editCurrentRecord: function() {
+	return Terrasoft.emptyFn;
+}
+
+или
+
+onGridDoubleClick: Terrasoft.emptyFn
+---------------------------------------------------------------------------
+Для отправки сообщения о том что добавили запись в детали с выбором из справочника в Sandbox для 
+"subscriber": {
+	"methodName": "sameFun" // подписаться на изменения в детали
+}
+в детали после заполнения записями в детали (this.getGridData().loadAll(responseCollection);) надо добавить:
+
+onOpportunityInsert: function(response) {
+	this.hideBodyMask.call(this);
+	this.beforeLoadGridData();
+	var filterCollection = [];
+	response.queryResults.forEach(function(item) {
+		filterCollection.push(item.id);
+	});
+	var esq = Ext.create("Terrasoft.EntitySchemaQuery", {
+		rootSchemaName: this.entitySchemaName
+	});
+	this.initQueryColumns(esq);
+	esq.filters.add("recordId", Terrasoft.createColumnInFilterWithParameters("Id", filterCollection));
+	esq.on("createviewmodel", this.createViewModel, this);
+	esq.getEntityCollection(function(response) {
+		this.afterLoadGridData();
+		if (response.success) {
+			var responseCollection = response.collection;
+			this.prepareResponseCollection(responseCollection);
+			this.getGridData().loadAll(responseCollection);
+			this.sandbox.publish("DetailChanged", null, [this.sandbox.id]); // Опубликовать sandbox "DetailChanged" с параметром null. В "subscriber" параметры не прелетят но он хатя бы запуститься и запустил уфазанную в нем функцию
+		}
+	}, this);
+}
+--------------------------------------------------------------------------------
+Получение имени схемы по его UId: 
+var entitySchemaName = NetworkUtilities.getEntitySchemaName(config.entitySchemaUId);
+
+--------------------------------------------------------------------------------
+Колонка ключ в объекте через JS (можно в запросе использовать вместо Id):
+
+this.entitySchema.primaryColumnName

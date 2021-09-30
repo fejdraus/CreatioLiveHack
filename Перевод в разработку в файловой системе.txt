@@ -1,0 +1,32 @@
+---------------------
+"внешний" Web.config
+---------------------
+<fileDesignMode enabled="true" />
+...
+<add key="UseStaticFileContent" value="false" />
+
+-------------------------
+"внутреннем" Web.Config
+------------------------
+<appSettings>
+    ...
+    <add key="CompileByManagerDependencies" value="true" />
+    ...
+ </appSettings>
+ 
+ -------------------------------------------
+ Terrasoft.Tools.WorkspaceConsole.exe.config
+ -------------------------------------------
+ <fileDesignMode enabled="true" />
+ ...
+ <appSettings>
+    ...
+    <add key="CompileByManagerDependencies" value="true" />
+    ...
+ </appSettings>
+ 
+--------------------------------------------------------------------------------------- 
+https://academy.terrasoft.ua/documents/technic-sdk/7-15/obshchie-svedeniya-6
+https://academy.terrasoft.ua/documents/technic-sdk/7-15/nastroyka-ide-dlya-razrabotki
+https://academy.terrasoft.ua/documents/technic-sdk/7-15/nastroyka-utility
+----------------------------------------------------------------------------------------
