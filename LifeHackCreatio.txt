@@ -1454,3 +1454,19 @@ Console.WriteLine(sqlQuery);
 
 Ссылка на документацию:
 https://academy.terrasoft.ru/documents/technic-sdk/7-13/deaktivaciya-zapisey-obektov
+---------------------------------------------------------------------------------
+Блокировка колонок в детали с редактируемым реестром:
+
+getDefaultCellControlsConfig: function (columnName, params) {
+	var config = {
+		itemType: Terrasoft.ViewItemType.MODEL_ITEM,
+		name: columnName,
+		labelConfig: {
+			visible: false
+		}
+	};
+	if(columnName === "TsiAccount"){
+		params.enabled = false;
+	}
+	return this.Ext.apply(config, params);
+},
