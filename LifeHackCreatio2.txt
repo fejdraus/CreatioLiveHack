@@ -1704,3 +1704,18 @@ var entitySchemaName = NetworkUtilities.getEntitySchemaName(config.entitySchemaU
 Колонка ключ в объекте через JS (можно в запросе использовать вместо Id):
 
 this.entitySchema.primaryColumnName
+---------------------------------------------------------------------------------------
+define("BaseModulePageV2", [],
+	   function() {
+	return {
+		entitySchemaName: "KtJiraTasks",
+		attributes: {},
+		messages: {},
+		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
+		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
+		methods: {},
+		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
+		diff: /**SCHEMA_DIFF*/[]/**SCHEMA_DIFF*/
+	};
+});
