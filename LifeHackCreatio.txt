@@ -1470,3 +1470,33 @@ getDefaultCellControlsConfig: function (columnName, params) {
 	}
 	return this.Ext.apply(config, params);
 },
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - -
+или более сложнее:
+
+getCellControlsConfig: function(entitySchemaColumn) {
+	if (!entitySchemaColumn) {
+		return;
+	}
+	var columnName = entitySchemaColumn.name;
+	var enabled = (entitySchemaColumn.usageType !== this.Terrasoft.EntitySchemaColumnUsageType.None) &&
+			!this.Ext.Array.contains(this.systemColumns, columnName);
+	var config = {
+		itemType: this.Terrasoft.ViewItemType.MODEL_ITEM,
+		name: columnName,
+		labelConfig: {visible: false},
+		caption: entitySchemaColumn.caption,
+		enabled: enabled
+	};
+	if (columnName === "MyColumn") {
+		config.enabled = false;
+	}
+	if (entitySchemaColumn.dataValueType === this.Terrasoft.DataValueType.LOOKUP{
+		config.showValueAsLink = false;
+	}
+	if (entitySchemaColumn.dataValueType !== this.Terrasoft.DataValueType.DATE_TIME &&
+			entitySchemaColumn.dataValueType !== this.Terrasoft.DataValueType.BOOLEAN) {
+		config.focused = {"bindTo": "Is" + columnName + "Focused"};
+	}
+	return config;
+},
