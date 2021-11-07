@@ -1500,3 +1500,19 @@ getCellControlsConfig: function(entitySchemaColumn) {
 	}
 	return config;
 },
+-------------------------------------------------------------------------------------------------
+Следующие методы API по работе с данными устарели и будут удалены в версии 7.17.3:
+
+QueryColumnExpression.SqlText;
+
+Column.SqlText;
+
+DBExecutor.ExecuteReader;
+
+DBExecutor.ExecuteScalar;
+
+DBExecutor.Execute;
+
+DBExecutor.ExecuteBatches.
+
+Вместо перечисленных методов рекомендуем использовать СУБД-независимое API, представленное серверными классами Select, Delete, Insert, InsertSelect, Update, UpdateSelect. Больше информации о серверных классах доступно в статье “Описание классов”. Начиная с версии Creatio 7.16.4 при выполнении компиляции конфигурации будут отображаться предупреждения об использовании устаревших методов. Для продуктов на базе Oracle перед компиляцией необходимо также перегенерировать исходный код.
