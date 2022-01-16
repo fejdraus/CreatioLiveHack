@@ -1416,7 +1416,7 @@ SysAdminUnit — хранятся и пользователи, и роли вс�
 SysAdminUnitInRole — вхождение пользователей в роли. В записи две ссылки на SysAdminUnit, в полях SysAdminUnitId и SysAdminUnitRoleId указаны, соответственно, пользователь и роль.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Пописка на изменение записей в колонке на фронте:
+Подписка на изменение записей в колонке на фронте:
 
 init: function () {
   this.callParent(arguments);
@@ -1718,4 +1718,31 @@ define("BaseModulePageV2", [],
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[]/**SCHEMA_DIFF*/
 	};
+});
+------------------------------------------------------------------------------------
+Убрать кнопки "Запоуск процесса" и "Быстрого создания" из левой верхней панели. Создать модуль клиентский и в нем сделать замещение модуляLeftPanelTopMenuModuleViewModel, и добовить LESS:
+//Добавлем в LESS
+@left-panel-collapsed-header-height: 105px;
+.left-panel-collapsed .left-panel .content {
+	top: @left-panel-collapsed-header-height;
+}
+
+//Добавляем в код
+define("TsiLeftPanelTopMenuModule", ["LeftPanelTopMenuModuleResources", "RightUtilities", "LookupUtilities",
+	"ConfigurationConstants", "LeftPanelUtilitiesV2", "HoverMenuButton",
+	"CheckModuleDestroyMixin", "ProcessEntryPointUtilities", "MaskHelper", "ProcessModuleUtilities", "ServiceHelper", 
+	"MainMenuUtilities", "LeftPanelTopMenuModule", "css!TsiLeftPanelTopMenuModule"
+],
+function(resources, RightUtilities, LookupUtilities, ConfigurationConstants, LeftPanelUtilities) {
+	Ext.define("Terrasoft.TsiLeftPanelTopMenuModuleViewModel", {
+	override: "Terrasoft.LeftPanelTopMenuModuleViewModel",
+	Ext: null,
+	Terrasoft: null,
+	sandbox: null,
+		/** @override */
+		init: function() {
+			this.callParent(arguments);
+			this.set("IsSSP", true);
+		}
+	});
 });
