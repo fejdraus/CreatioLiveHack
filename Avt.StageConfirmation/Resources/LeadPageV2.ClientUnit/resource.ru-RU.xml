@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.5ecb8f90-14aa-4ece-8743-ced9ec7baa2d.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABgAAAAwCAYAAAALiLqjAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALsSURBVFhHtZZNb1JBFIabkODvqy3d4NJEE7vUmKh/oGzbaOJeNvQH+LWodqGJH42bEgKBW6GAYLvgAikXL+P7EobMwOEylMtJnmTmzDnvYZivu6WU2iiiM05Ep2Y0GiV9399rNBrZCqxYLA5KpZLveV6ePoylGCPlakQnQfI2Nev1uup0OioIAgUxFYahGgwGYx/HGIPYu5IGkZyJdrt9wORer4dutDGGscxBNwEsPatDGNhqtca/1NUYy5xJEUvP6mCqu/w1q4hrYw5zqYHufAEuVrlcrkb9Lfl8fswiYy40aubCTwtg0dLYGWgutmUFaNSA1j007QKYXg7TQ3M9owa0jtG0C2Bq3nA4RHOxucyAGtRC0y6AQ3TDfR5lLgWowQOJpl0AJ7SzbPesVQDHv8ATGmUuBRb+RS6L7FJg4SJvfJvqg9bv99GVbVkB5k4O2h107QIE00vxuK95VaTQnWpaBQgurAwvrlVtctll0LT0rM6EBIIP+WtWua6Rc4Tu8utag6nu8DHhonFn6AeHsE0fxyYPjnWDmohODReeu4vbDkJ8MgPCNn0cY4yUqxGdcSI640R0xonojBPRqRmGo+S3Rnfv9a9W9umnauXhe2/w6MOF/+K0lqcPYynGSLka0Ul+Nnvbzz7XivffVlQUjPnR7Ll/F4UjlTguXB9IYlEwh7mzelaH3EZcw9xZPavzvdndlRJXgRqm5rTBxXpyUq1KSRpt0pjm8cnvmrnw0wJf6920lGCiTRoz+XLpzz84r85aOSn4Nrw8+zP/ZGKfe1KwiTZpzIRaCLML4BDdSMEm2qQxEx5IhNkF9j9edKRgE23SmIlY4PlprSAFm2iTxkzEv8hlkbVJYybiIm98m8Z80OTvIl6/UtIqUMPUtAqQXOE6IyW6wNxZPatDeOVmz68OJYEo3pz/PXK6rjV4RHZcH5zZG9Rk2sD3zRzBvzCJHZHmtuOT+eCdFxC26eMYY6TcuQKbQnTGh9r6D1TXmK8rZk5CAAAAAElFTkSuQmCC" />
+			<Item Name="Images.68c32668-1541-4418-b259-72c217121f41.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9SURBVDhPpZNhDcMgEIUroRImYVImYRImYRIqZz8rYRImYQ7o+wiPHA3JWCD5Wu7d43JQuqSUpuiJq9jER7zFXt7E6OSrPy6Em8D4FI2xxOjk8WU9Grz4GrQe5GsRi1QfWWxcZLXA3mgvmiK15QD+zUGuVuY9GHcRtdy1A07Zcyqf8XgJ+/I6HhfBp7L4a8ROdk+mOoCRM3iIqDVnMP0Vpu8B/HMTv6K5icZFaO98JsTo5OuWosFgHPwb03IAjg48EFuJWbEAAAAASUVORK5CYII=" />
+			<Item Name="Images.704490f4-6b1c-42af-ad1e-d09516048d65.Caption" Value="Image 2SimilarAccountsButtonImage" />
+			<Item Name="Images.704490f4-6b1c-42af-ad1e-d09516048d65.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAACUSURBVDhPvZDbCYAwFEMdwREcxREcwaX89tMxOoIj6T3lSrXE+kAMhOS+QrUaprBcsSrhauG/ALTkczKLOBQCai4D0JLPe2jEoRBQcxmAnvgW3cN6wW0KOIPNaw7Yc+JrH6eAbUF4DmZj58Q/egFhnZfUhKSbtwHGZmvE5yr6XH3CHI/vwJbzn0gA2vvKc3D8UUgYV+nlHRPMQrTgAAAAAElFTkSuQmCC" />
+			<Item Name="Images.ac59959c-5ce3-4de6-ac2b-e34847f49a9b.Caption" Value="SearchInternetButtonImage" />
+			<Item Name="Images.ac59959c-5ce3-4de6-ac2b-e34847f49a9b.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvAAADrwBlbxySQAAAT5JREFUSEvVk9GNAjEMRNMTPdETLVDL/lJP8LMzGxN5WdDdDyNFTuxkZmyW1gtsj96vrPtmq/eb7cl9gxdiJzQyiEQaMXIXi58K7MQiAxLgpHxUYk/uDE7MIx7gkD3OPP+YJBJVF2fOnXgnsiUBCG+QQG6ROxIGenOEhjIPBXdj0ccxSNlLVED4nevG4wxcCS6a6pl4FVrRKEqdGOeYoWqq57vMP5tYYcThSu4031fiiFlI5yM0n+E4gHyZxwgIVGTAXUe6RAv1eUXtzQ6iljuYNS+V8M9tJ/P95p+St295/toQVZ+XxCrEH2Socykue224my4rvCUGuTU5IWpUx8Rjs2AnBjyOMQRxrMhDXuHUcYaPxsmHc8upgwxymKhQEh9BQorqrPL8FXEFjW/t5s/EIH7gcRj4F+IKv0bc+xMd3AOvVe2pwgAAAABJRU5ErkJggg==" />
+			<Item Name="Images.dfc52eca-5c10-47a7-8264-89905a1f5b14.Caption" Value="SimilarContactsButtonImage" />
+			<Item Name="Images.dfc52eca-5c10-47a7-8264-89905a1f5b14.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADmSURBVDhPpZPREYIwEEQtgRJSgiVQAiVYgiXQAV9+8+mnJaQES7AES9B9zCYiEciMO7NDdrlc7i5wWOJyjUcxii/zIXZ+vQ0FNuJT7G3hdfZaW+tQ0Fm8WWas+QUU1EPLDHmtGC3X4QSDZYY82qhKEEQGl/u1xyBPtrZBoMjQuAnIuqhqE9rAbdA3DLb3oWBOv4vpGyDBMNNUU7YikxPZCEnS2GfNRq6RZKP1d1Uy6HW0zPjlSzPQz1VLkBlzOnUOeVUJKAszTT2R8vdbkODn4eWSU5CeyyFyWNFuNbQ5DfzvJGozhjd/TxH73I1AhQAAAABJRU5ErkJggg==" />
+			<Item Name="LocalizableStrings.AccountCategoryCaption.Value" Value="Категория" />
+			<Item Name="LocalizableStrings.AccountNameCaption.Value" Value="Название" />
+			<Item Name="LocalizableStrings.AccountOwnershipCaption.Value" Value="Форма собственности" />
+			<Item Name="LocalizableStrings.AddressCaption.Value" Value="Адрес" />
+			<Item Name="LocalizableStrings.AddressTypeCaption.Value" Value="Тип адреса" />
+			<Item Name="LocalizableStrings.AnnualRevenueCaption.Value" Value="Годовой оборот" />
+			<Item Name="LocalizableStrings.BusinesPhoneCaption.Value" Value="Рабочий телефон" />
+			<Item Name="LocalizableStrings.CityCaption.Value" Value="Город" />
+			<Item Name="LocalizableStrings.CityStrCaption.Value" Value="Город" />
+			<Item Name="LocalizableStrings.ContactCaption.Value" Value="ФИО контакта" />
+			<Item Name="LocalizableStrings.CountryCaption.Value" Value="Страна" />
+			<Item Name="LocalizableStrings.CountryStrCaption.Value" Value="Страна" />
+			<Item Name="LocalizableStrings.DearCaption.Value" Value="Приветствие" />
+			<Item Name="LocalizableStrings.DecisionRoleCaption.Value" Value="Роль" />
+			<Item Name="LocalizableStrings.DepartmentCaption.Value" Value="Департамент" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Caption" Value="DisqualificationButtonCaption" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Value" Value="Дисквалифицировать" />
+			<Item Name="LocalizableStrings.EmailCaption.Value" Value="Email" />
+			<Item Name="LocalizableStrings.EmployeesNumberCaption.Value" Value="Количество сотрудников" />
+			<Item Name="LocalizableStrings.FaxCaption.Value" Value="Факс" />
+			<Item Name="LocalizableStrings.FullJobTitleCaption.Value" Value="Полное название должности" />
+			<Item Name="LocalizableStrings.GenderCaption.Value" Value="Пол" />
+			<Item Name="LocalizableStrings.IndustryCaption.Value" Value="Отрасль" />
+			<Item Name="LocalizableStrings.JobCaption.Value" Value="Должность" />
+			<Item Name="LocalizableStrings.LeadPageAccountInfoCaption.Value" Value="Данные контрагента" />
+			<Item Name="LocalizableStrings.LeadPageContactInfoCaption.Value" Value="Данные контакта" />
+			<Item Name="LocalizableStrings.LeadPageDistributionInfoCaption.Value" Value="Распределение лида" />
+			<Item Name="LocalizableStrings.LeadPageGeneralTabContainerCaption.Value" Value="Исходные данные" />
+			<Item Name="LocalizableStrings.LeadPageNeedValidationBlockCaption.Value" Value="Требует проверки" />
+			<Item Name="LocalizableStrings.LeadPageNeedValidationInfo.Value" Value="Похоже, в Лендинге некоторые поля были заполнены некорректно.Необходимо вручную исправить ошибки ввода адреса Лида или добавить новые значения в справочник." />
+			<Item Name="LocalizableStrings.LeadPageTransferToSaleInfoCaption.Value" Value="Перевод в продажу" />
+			<Item Name="LocalizableStrings.MobilePhoneCaption.Value" Value="Мобильный телефон" />
+			<Item Name="LocalizableStrings.NeedInfoTabCaption.Value" Value="Данные о потребности" />
+			<Item Name="LocalizableStrings.PredictiveScoreNotEvaluatedCaption.Value" Value="не определен" />
+			<Item Name="LocalizableStrings.PredictiveScoreTip.Value" Value="Вероятность конвертации лида, полученная на основе исторических закономерностей и данных в реальном времени. &lt;a href=&quot;#&quot; data-context-help-id=&quot;1863&quot; &gt;Подробнее...&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.QualifiedAccountCaption.Value" Value="Контрагент" />
+			<Item Name="LocalizableStrings.QualifiedContactCaption.Value" Value="Контакт" />
+			<Item Name="LocalizableStrings.QualifyStatusDistributionCaption.Value" Value="Распределить" />
+			<Item Name="LocalizableStrings.QualifyStatusQualificationCaption.Value" Value="Квалифицировать" />
+			<Item Name="LocalizableStrings.QualifyStatusTranslationForSaleCaption.Value" Value="Перевести в продажу" />
+			<Item Name="LocalizableStrings.RegionCaption.Value" Value="Область/штат" />
+			<Item Name="LocalizableStrings.RegionStrCaption.Value" Value="Область/штат" />
+			<Item Name="LocalizableStrings.SearchAccountInGoogleNotEnoughInfoMessage.Value" Value="Для поиска данных в Google необходимо заполнить поле &quot;Название контрагента&quot;" />
+			<Item Name="LocalizableStrings.SearchAccountInLinkedInNotEnoughInfoMessage.Value" Value="Для поиска данных в LinkedIn необходимо заполнить поле &quot;Название контрагента&quot;" />
+			<Item Name="LocalizableStrings.SearchContactInFacebookNotEnoughInfoMessage.Value" Value="Для поиска данных в Facebook необходимо указать Email" />
+			<Item Name="LocalizableStrings.SearchContactInLinkedInNotEnoughInfoMessage.Value" Value="Для поиска данных в LinkedIn необходимо заполнить хотя бы одно из полей: &quot;ФИО контакта&quot;, &quot;Название контрагента&quot;" />
+			<Item Name="LocalizableStrings.SearchFacebook.Value" Value="Поиск в Facebook" />
+			<Item Name="LocalizableStrings.SearchGoogle.Value" Value="Поиск в Google" />
+			<Item Name="LocalizableStrings.SearchLinkedIn.Value" Value="Поиск в LinkedIn" />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonFoundHintText.Caption" Value="SimilarAccountsButtonFoundHintText" />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonFoundHintText.Value" Value="Мы нашли контрагентов, к которым можно отнести этот лид. Нажав на эту кнопку, выберите нужного контрагента в появившемся списке." />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonNotFoundHintText.Caption" Value="SimilarAccountsButtonNotFoundHintText" />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonNotFoundHintText.Value" Value="Мы не нашли контрагентов, к которым можно отнести этот лид." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonFoundHintText.Caption" Value="SimilarContactsButtonFoundHintText" />
+			<Item Name="LocalizableStrings.SimilarContactsButtonFoundHintText.Value" Value="Мы нашли контакты, к которым можно отнести этот лид. Нажав на эту кнопку, выберите нужный контакт в появившемся списке." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonNotFoundHintText.Caption" Value="SimilarContactsButtonNotFoundHintText" />
+			<Item Name="LocalizableStrings.SimilarContactsButtonNotFoundHintText.Value" Value="Мы не нашли контакты, к которым можно отнести этот лид." />
+			<Item Name="LocalizableStrings.SourceGroupCaption.Value" Value="Привлечение лида" />
+			<Item Name="LocalizableStrings.TitleCaption.Value" Value="Заголовок" />
+			<Item Name="LocalizableStrings.WebsiteCaption.Value" Value="Интернет" />
+			<Item Name="LocalizableStrings.ZipCaption.Value" Value="Индекс" />
+		</Items>
+	</Group>
+</Resources>

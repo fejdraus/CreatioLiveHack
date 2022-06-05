@@ -1423,6 +1423,10 @@ init: function () {
   this.on("change:IsStartCallingMode", this.onStatusCallingChange, this); // подписка на изменение колонки (или атрибута)
   this.onStatusCallingChange();
 },
+onDestroy: function() {
+	this.un("change:IsStartCallingMode", this.onStatusCallingChange, this);
+	this.callParent(arguments);
+},
 onStatusCallingChange: function() {
   this.sandbox.publish("GetStatusCallingChange", {
 	enabled: this.get("IsStartCallingMode")

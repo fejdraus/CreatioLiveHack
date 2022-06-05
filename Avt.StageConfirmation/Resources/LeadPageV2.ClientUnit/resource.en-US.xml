@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.5ecb8f90-14aa-4ece-8743-ced9ec7baa2d.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABgAAAAwCAYAAAALiLqjAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALsSURBVFhHtZZNb1JBFIabkODvqy3d4NJEE7vUmKh/oGzbaOJeNvQH+LWodqGJH42bEgKBW6GAYLvgAikXL+P7EobMwOEylMtJnmTmzDnvYZivu6WU2iiiM05Ep2Y0GiV9399rNBrZCqxYLA5KpZLveV6ePoylGCPlakQnQfI2Nev1uup0OioIAgUxFYahGgwGYx/HGIPYu5IGkZyJdrt9wORer4dutDGGscxBNwEsPatDGNhqtca/1NUYy5xJEUvP6mCqu/w1q4hrYw5zqYHufAEuVrlcrkb9Lfl8fswiYy40aubCTwtg0dLYGWgutmUFaNSA1j007QKYXg7TQ3M9owa0jtG0C2Bq3nA4RHOxucyAGtRC0y6AQ3TDfR5lLgWowQOJpl0AJ7SzbPesVQDHv8ATGmUuBRb+RS6L7FJg4SJvfJvqg9bv99GVbVkB5k4O2h107QIE00vxuK95VaTQnWpaBQgurAwvrlVtctll0LT0rM6EBIIP+WtWua6Rc4Tu8utag6nu8DHhonFn6AeHsE0fxyYPjnWDmohODReeu4vbDkJ8MgPCNn0cY4yUqxGdcSI640R0xonojBPRqRmGo+S3Rnfv9a9W9umnauXhe2/w6MOF/+K0lqcPYynGSLka0Ul+Nnvbzz7XivffVlQUjPnR7Ll/F4UjlTguXB9IYlEwh7mzelaH3EZcw9xZPavzvdndlRJXgRqm5rTBxXpyUq1KSRpt0pjm8cnvmrnw0wJf6920lGCiTRoz+XLpzz84r85aOSn4Nrw8+zP/ZGKfe1KwiTZpzIRaCLML4BDdSMEm2qQxEx5IhNkF9j9edKRgE23SmIlY4PlprSAFm2iTxkzEv8hlkbVJYybiIm98m8Z80OTvIl6/UtIqUMPUtAqQXOE6IyW6wNxZPatDeOVmz68OJYEo3pz/PXK6rjV4RHZcH5zZG9Rk2sD3zRzBvzCJHZHmtuOT+eCdFxC26eMYY6TcuQKbQnTGh9r6D1TXmK8rZk5CAAAAAElFTkSuQmCC" />
+			<Item Name="Images.68c32668-1541-4418-b259-72c217121f41.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9SURBVDhPpZNhDcMgEIUroRImYVImYRImYRIqZz8rYRImYQ7o+wiPHA3JWCD5Wu7d43JQuqSUpuiJq9jER7zFXt7E6OSrPy6Em8D4FI2xxOjk8WU9Grz4GrQe5GsRi1QfWWxcZLXA3mgvmiK15QD+zUGuVuY9GHcRtdy1A07Zcyqf8XgJ+/I6HhfBp7L4a8ROdk+mOoCRM3iIqDVnMP0Vpu8B/HMTv6K5icZFaO98JsTo5OuWosFgHPwb03IAjg48EFuJWbEAAAAASUVORK5CYII=" />
+			<Item Name="Images.704490f4-6b1c-42af-ad1e-d09516048d65.Caption" Value="Image 2SimilarAccountsButtonImage" />
+			<Item Name="Images.704490f4-6b1c-42af-ad1e-d09516048d65.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAACUSURBVDhPvZDbCYAwFEMdwREcxREcwaX89tMxOoIj6T3lSrXE+kAMhOS+QrUaprBcsSrhauG/ALTkczKLOBQCai4D0JLPe2jEoRBQcxmAnvgW3cN6wW0KOIPNaw7Yc+JrH6eAbUF4DmZj58Q/egFhnZfUhKSbtwHGZmvE5yr6XH3CHI/vwJbzn0gA2vvKc3D8UUgYV+nlHRPMQrTgAAAAAElFTkSuQmCC" />
+			<Item Name="Images.ac59959c-5ce3-4de6-ac2b-e34847f49a9b.Caption" Value="SearchInternetButtonImage" />
+			<Item Name="Images.ac59959c-5ce3-4de6-ac2b-e34847f49a9b.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvAAADrwBlbxySQAAAT5JREFUSEvVk9GNAjEMRNMTPdETLVDL/lJP8LMzGxN5WdDdDyNFTuxkZmyW1gtsj96vrPtmq/eb7cl9gxdiJzQyiEQaMXIXi58K7MQiAxLgpHxUYk/uDE7MIx7gkD3OPP+YJBJVF2fOnXgnsiUBCG+QQG6ROxIGenOEhjIPBXdj0ccxSNlLVED4nevG4wxcCS6a6pl4FVrRKEqdGOeYoWqq57vMP5tYYcThSu4031fiiFlI5yM0n+E4gHyZxwgIVGTAXUe6RAv1eUXtzQ6iljuYNS+V8M9tJ/P95p+St295/toQVZ+XxCrEH2Socykue224my4rvCUGuTU5IWpUx8Rjs2AnBjyOMQRxrMhDXuHUcYaPxsmHc8upgwxymKhQEh9BQorqrPL8FXEFjW/t5s/EIH7gcRj4F+IKv0bc+xMd3AOvVe2pwgAAAABJRU5ErkJggg==" />
+			<Item Name="Images.dfc52eca-5c10-47a7-8264-89905a1f5b14.Caption" Value="SimilarContactsButtonImage" />
+			<Item Name="Images.dfc52eca-5c10-47a7-8264-89905a1f5b14.Image" Type="Image" Value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADmSURBVDhPpZPREYIwEEQtgRJSgiVQAiVYgiXQAV9+8+mnJaQES7AES9B9zCYiEciMO7NDdrlc7i5wWOJyjUcxii/zIXZ+vQ0FNuJT7G3hdfZaW+tQ0Fm8WWas+QUU1EPLDHmtGC3X4QSDZYY82qhKEEQGl/u1xyBPtrZBoMjQuAnIuqhqE9rAbdA3DLb3oWBOv4vpGyDBMNNUU7YikxPZCEnS2GfNRq6RZKP1d1Uy6HW0zPjlSzPQz1VLkBlzOnUOeVUJKAszTT2R8vdbkODn4eWSU5CeyyFyWNFuNbQ5DfzvJGozhjd/TxH73I1AhQAAAABJRU5ErkJggg==" />
+			<Item Name="LocalizableStrings.AccountCategoryCaption.Value" Value="Category" />
+			<Item Name="LocalizableStrings.AccountNameCaption.Value" Value="Account name" />
+			<Item Name="LocalizableStrings.AccountOwnershipCaption.Value" Value="Business entity" />
+			<Item Name="LocalizableStrings.AddressCaption.Value" Value="Address" />
+			<Item Name="LocalizableStrings.AddressTypeCaption.Value" Value="Address type" />
+			<Item Name="LocalizableStrings.AnnualRevenueCaption.Value" Value="Annual revenue" />
+			<Item Name="LocalizableStrings.BusinesPhoneCaption.Value" Value="Business phone" />
+			<Item Name="LocalizableStrings.CityCaption.Value" Value="City" />
+			<Item Name="LocalizableStrings.CityStrCaption.Value" Value="City" />
+			<Item Name="LocalizableStrings.ContactCaption.Value" Value="Contact name" />
+			<Item Name="LocalizableStrings.CountryCaption.Value" Value="Country" />
+			<Item Name="LocalizableStrings.CountryStrCaption.Value" Value="Country" />
+			<Item Name="LocalizableStrings.DearCaption.Value" Value="Recipient's name" />
+			<Item Name="LocalizableStrings.DecisionRoleCaption.Value" Value="Role" />
+			<Item Name="LocalizableStrings.DepartmentCaption.Value" Value="Department" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Caption" Value="DisqualificationButtonCaption" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Value" Value="Disqualify" />
+			<Item Name="LocalizableStrings.EmailCaption.Value" Value="Email" />
+			<Item Name="LocalizableStrings.EmployeesNumberCaption.Value" Value="No. of employees" />
+			<Item Name="LocalizableStrings.FaxCaption.Value" Value="Fax" />
+			<Item Name="LocalizableStrings.FullJobTitleCaption.Value" Value="Full job title" />
+			<Item Name="LocalizableStrings.GenderCaption.Value" Value="Gender" />
+			<Item Name="LocalizableStrings.IndustryCaption.Value" Value="Industry" />
+			<Item Name="LocalizableStrings.JobCaption.Value" Value="Job title" />
+			<Item Name="LocalizableStrings.LeadPageAccountInfoCaption.Value" Value="Account info" />
+			<Item Name="LocalizableStrings.LeadPageContactInfoCaption.Value" Value="Contact info" />
+			<Item Name="LocalizableStrings.LeadPageDistributionInfoCaption.Value" Value="Lead distribution" />
+			<Item Name="LocalizableStrings.LeadPageGeneralTabContainerCaption.Value" Value="Lead info" />
+			<Item Name="LocalizableStrings.LeadPageNeedValidationBlockCaption.Value" Value="Verification required" />
+			<Item Name="LocalizableStrings.LeadPageNeedValidationInfo.Value" Value="Perhaps, some of the landing page fields were filled in incorrectly.Correct the lead address entry error or add new values to the lookup." />
+			<Item Name="LocalizableStrings.LeadPageTransferToSaleInfoCaption.Value" Value="Handoff to sales" />
+			<Item Name="LocalizableStrings.MobilePhoneCaption.Value" Value="Mobile phone" />
+			<Item Name="LocalizableStrings.NeedInfoTabCaption.Value" Value="Customer need details" />
+			<Item Name="LocalizableStrings.PredictiveScoreNotEvaluatedCaption.Value" Value="not evaluated" />
+			<Item Name="LocalizableStrings.PredictiveScoreTip.Value" Value="Lead conversion probability based on historical patterns and real-time data of the lead. &lt;a href=&quot;#&quot; data-context-help-id=&quot;1863&quot; &gt;Details...&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.QualifiedAccountCaption.Value" Value="Account" />
+			<Item Name="LocalizableStrings.QualifiedContactCaption.Value" Value="Contact" />
+			<Item Name="LocalizableStrings.QualifyStatusDistributionCaption.Value" Value="Distribute" />
+			<Item Name="LocalizableStrings.QualifyStatusQualificationCaption.Value" Value="Qualify" />
+			<Item Name="LocalizableStrings.QualifyStatusTranslationForSaleCaption.Value" Value="Proceed to handoff" />
+			<Item Name="LocalizableStrings.RegionCaption.Value" Value="State/province" />
+			<Item Name="LocalizableStrings.RegionStrCaption.Value" Value="State/province" />
+			<Item Name="LocalizableStrings.RequiredFieldsMessage.Value" Value="Please, fill in either the &quot;Contact&quot; or &quot;Account&quot; field" />
+			<Item Name="LocalizableStrings.SearchAccountInGoogleNotEnoughInfoMessage.Value" Value="To search on Google you should fill in the field &quot;Account name&quot;" />
+			<Item Name="LocalizableStrings.SearchAccountInLinkedInNotEnoughInfoMessage.Value" Value="To search on LinkedIn you should fill in the field &quot;Account name&quot;" />
+			<Item Name="LocalizableStrings.SearchContactInFacebookNotEnoughInfoMessage.Value" Value="To search on Facebook you should specify Email" />
+			<Item Name="LocalizableStrings.SearchContactInLinkedInNotEnoughInfoMessage.Value" Value="To search on LinkedIn you should fill in at least one of the fields &quot;Contact name&quot;, &quot;Account name&quot;" />
+			<Item Name="LocalizableStrings.SearchFacebook.Value" Value="Search in Facebook" />
+			<Item Name="LocalizableStrings.SearchGoogle.Value" Value="Search in Google" />
+			<Item Name="LocalizableStrings.SearchLinkedIn.Value" Value="Search in LinkedIn" />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonFoundHintText.Caption" Value="SimilarAccountsButtonFoundHintText" />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonFoundHintText.Value" Value="We have found several accounts that can be linked to this lead. Click here to choose one from the list." />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonNotFoundHintText.Caption" Value="SimilarAccountsButtonNotFoundHintText" />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonNotFoundHintText.Value" Value="We didn’t find any accounts that can be linked to this lead." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonFoundHintText.Caption" Value="SimilarContactsButtonFoundHintText" />
+			<Item Name="LocalizableStrings.SimilarContactsButtonFoundHintText.Value" Value="We have found several contacts that can be linked to this lead. Click here to choose one from the list." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonNotFoundHintText.Caption" Value="SimilarContactsButtonNotFoundHintText" />
+			<Item Name="LocalizableStrings.SimilarContactsButtonNotFoundHintText.Value" Value="We didn’t find any contacts that can be linked to this lead." />
+			<Item Name="LocalizableStrings.SourceGroupCaption.Value" Value="Lead engagement" />
+			<Item Name="LocalizableStrings.TitleCaption.Value" Value="Title" />
+			<Item Name="LocalizableStrings.WebsiteCaption.Value" Value="Web" />
+			<Item Name="LocalizableStrings.ZipCaption.Value" Value="ZIP/postal code" />
+		</Items>
+	</Group>
+</Resources>

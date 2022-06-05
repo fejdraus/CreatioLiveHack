@@ -1,0 +1,198 @@
+define("BnzVisaStatusInSysModuleVisaDetail", ["ConfigurationEnums", "ConfigurationGrid",
+	"ConfigurationGridGenerator", "ConfigurationGridUtilitiesV2"], function(configurationEnums) {
+	return {
+		entitySchemaName: "BnzVisaStatusInSysModuleVisa",
+		attributes: {
+			"IsEditable": {
+				dataValueType: Terrasoft.DataValueType.BOOLEAN,
+				type: Terrasoft.ViewModelColumnType.VIRTUAL_COLUMN,
+				value: true
+			}
+		},
+		mixins: {
+			ConfigurationGridUtilitiesV2: "Terrasoft.ConfigurationGridUtilitiesV2"
+		},
+		methods: {
+			onActiveRowAction: function(buttonTag, primaryColumnValue) {
+				this.mixins.ConfigurationGridUtilitiesV2.onActiveRowAction.call(this, buttonTag, primaryColumnValue);
+			},
+			generateActiveRowControlsConfig: function (id, columnsConfig, rowConfig) {
+				this.columnsConfig = columnsConfig;
+				var gridData = this.getGridData();
+				var activeRow = gridData.get(id);
+				var isEditableColumn = this.isEditableColumn;
+				var gridLayoutItems = [];
+				var currentColumnIndex = 0;
+				Terrasoft.each(columnsConfig, function (columnConfig) {
+					var cellConfig = this.getActiveRowCellConfig(columnConfig, currentColumnIndex);
+					cellConfig.enabled = isEditableColumn(cellConfig.name);
+					if (!cellConfig.hasOwnProperty("isNotFound")) {
+						gridLayoutItems.push(cellConfig);
+					}
+					currentColumnIndex += cellConfig.layout.colSpan;
+				}, this);
+				this.applyBusinessRulesForActiveRow(id, gridLayoutItems);
+				var viewGenerator = Ext.create(this.getRowViewGeneratorClassName());
+				viewGenerator.viewModelClass = this;
+				var gridLayoutConfig = viewGenerator.generateGridLayout({
+					name: this.name,
+					items: gridLayoutItems
+				});
+				rowConfig.push(gridLayoutConfig);
+			},
+			isEditableColumn: function (columnName) {
+				var columnNameArray = ["BnzSysModuleVisa", "BnzVisaStatus"];
+				return !columnNameArray.includes(columnName);
+			},
+			getGridDataColumns: function() {
+				return {
+					"Id": {path: "Id"},
+					"BnzVisaStatus": {path: "BnzVisaStatus"},
+					"BnzVisaStatus.Name": {path: "BnzVisaStatus.Name"}
+				};
+			},
+
+			openBnzVisaStatusLookup: function() {
+				var config = {
+					entitySchemaName: "VisaStatus",
+					multiSelect: true,
+					columns: ["Name", "TsiVwSysProcess"]
+				};
+				var BnzSysModuleVisaId = this.get("MasterRecordId");
+				if (this.Ext.isEmpty(BnzSysModuleVisaId)) {
+					return;
+				}
+				var esq = this.Ext.create("Terrasoft.EntitySchemaQuery", {
+					rootSchemaName: this.entitySchemaName
+				});
+				esq.addColumn("Id");
+				esq.addColumn("BnzVisaStatus.Id", "BnzVisaStatusId");
+				esq.filters.add("filterBnzSysModuleVisa", this.Terrasoft.createColumnFilterWithParameter(
+					this.Terrasoft.ComparisonType.EQUAL, "BnzSysModuleVisa", BnzSysModuleVisaId));
+				esq.getEntityCollection(function(result) {
+					var existsBnzVisaStatussCollection = [];
+					if (result.success) {
+						result.collection.each(function(item) {
+							existsBnzVisaStatussCollection.push(item.get("BnzVisaStatusId"));
+						});
+					}
+					if (existsBnzVisaStatussCollection.length > 0) {
+						var existsFilter = this.Terrasoft.createColumnInFilterWithParameters("Id",
+																							 existsBnzVisaStatussCollection);
+						existsFilter.comparisonType = this.Terrasoft.ComparisonType.NOT_EQUAL;
+						existsFilter.Name = "existsFilter";
+						config.filters = existsFilter;
+					}
+					this.openLookup(config, this.addCallBack, this);
+				}, this);
+			},
+
+			onCardSaved: function() {
+				this.openBnzVisaStatusLookup();
+			},
+
+			addRecord: function() {
+				var masterCardState = this.sandbox.publish("GetCardState", null, [this.sandbox.id]);
+				var isNewRecord = (masterCardState.state === configurationEnums.CardStateV2.ADD ||
+								   masterCardState.state === configurationEnums.CardStateV2.COPY);
+				if (isNewRecord === true) {
+					var args = {
+						isSilent: true,
+						messageTags: [this.sandbox.id]
+					};
+					this.sandbox.publish("SaveRecord", args, [this.sandbox.id]);
+					return;
+				}
+				this.openBnzVisaStatusLookup();
+			},
+			addCallBack: function(args) {
+				var bq = this.Ext.create("Terrasoft.BatchQuery");
+				var BnzSysModuleVisaId = this.get("MasterRecordId");
+				this.selectedRows = args.selectedRows.getItems();
+				this.selectedItems = [];
+				this.selectedRows.forEach(function(item) {
+					item.BnzSysModuleVisaId = BnzSysModuleVisaId;
+					item.BnzVisaStatusId = item.value;
+					bq.add(this.getBnzVisaStatusInsertQuery(item));
+					this.selectedItems.push(item.value);
+				}, this);
+				if (bq.queries.length) {
+					this.showBodyMask.call(this);
+					bq.execute(this.onBnzVisaStatusInsert, this);
+				}
+			},
+			getBnzVisaStatusInsertQuery: function(item) {
+				var insert = Ext.create("Terrasoft.InsertQuery", {
+					rootSchemaName: this.entitySchemaName
+				});
+				insert.setParameterValue("BnzSysModuleVisa", item.BnzSysModuleVisaId, this.Terrasoft.DataValueType.GUID);
+				insert.setParameterValue("BnzVisaStatus", item.BnzVisaStatusId, this.Terrasoft.DataValueType.GUID);
+				return insert;
+			},
+			onBnzVisaStatusInsert: function(response) {
+				this.hideBodyMask.call(this);
+				this.reloadGridData();
+			},
+			deleteRecords: function() {
+				var selectedRows = this.getSelectedItems();
+				if (selectedRows.length > 0) {
+					this.set("SelectedRows", selectedRows);
+					this.callParent(arguments);
+				}
+			},
+			getCopyRecordMenuItem: Terrasoft.emptyFn,
+			getEditRecordMenuItem: Terrasoft.emptyFn,
+			getFilterDefaultColumnName: function() {
+				return "BnzVisaStatus";
+			}
+		},
+		diff: /**SCHEMA_DIFF*/[
+			{
+				"operation": "merge",
+				"name": "DataGrid",
+				"values": {
+					"className": "Terrasoft.ConfigurationGrid",
+					"generator": "ConfigurationGridGenerator.generatePartial",
+					"generateControlsConfig": {"bindTo": "generateActiveRowControlsConfig"},
+					"changeRow": {"bindTo": "changeRow"},
+					"unSelectRow": {"bindTo": "unSelectRow"},
+					"onGridClick": {"bindTo": "onGridClick"},
+					"activeRowActions": [
+						{
+							"className": "Terrasoft.Button",
+							"style": this.Terrasoft.controls.ButtonEnums.style.TRANSPARENT,
+							"tag": "save",
+							"markerValue": "save",
+							"imageConfig": {"bindTo": "Resources.Images.SaveIcon"}
+						},
+						{
+							"className": "Terrasoft.Button",
+							"style": this.Terrasoft.controls.ButtonEnums.style.TRANSPARENT,
+							"tag": "cancel",
+							"markerValue": "cancel",
+							"imageConfig": {"bindTo": "Resources.Images.CancelIcon"}
+						},
+						{
+							"className": "Terrasoft.Button",
+							"style": this.Terrasoft.controls.ButtonEnums.style.TRANSPARENT,
+							"tag": "remove",
+							"markerValue": "remove",
+							"imageConfig": {"bindTo": "Resources.Images.RemoveIcon"}
+						}
+					],
+					"initActiveRowKeyMap": {"bindTo": "initActiveRowKeyMap"},
+					"activeRowAction": {"bindTo": "onActiveRowAction"},
+					"multiSelect": {"bindTo": "MultiSelect"},
+					"rowDataItemMarkerColumnName": "BnzVisaStatus"
+				}
+			},
+			{
+				"operation": "merge",
+				"name": "AddRecordButton",
+				"values": {
+					"visible": {"bindTo": "getToolsVisible"}
+				}
+			}
+		]/**SCHEMA_DIFF*/
+	};
+});

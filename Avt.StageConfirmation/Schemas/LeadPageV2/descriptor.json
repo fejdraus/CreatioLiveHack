@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "2ff2b7b9-1917-41cd-9dea-c0d24d54e843",
+    "Name": "LeadPageV2",
+    "ModifiedOnUtc": "\/Date(1636058196000)\/",
+    "Parent": {
+      "UId": "ddf8941f-92f3-4b10-9f59-faab18c12f46",
+      "Name": "LeadPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Lead edit page",
+    "DependsOn": []
+  }
+}

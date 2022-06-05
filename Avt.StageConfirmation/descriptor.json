@@ -1,0 +1,25 @@
+﻿{
+  "Descriptor": {
+    "UId": "d835d32d-69ff-d4da-50cf-d278af092972",
+    "Name": "Avt.StageConfirmation",
+    "ModifiedOnUtc": "\/Date(1624977441000)\/",
+    "Maintainer": "Customer",
+    "DependsOn": [
+      {
+        "UId": "5be3998b-c5c3-42bb-a01c-2e4149059a97",
+        "PackageVersion": "7.8.0",
+        "Name": "Base"
+      },
+      {
+        "UId": "613fd913-be03-46ce-909b-f44e4225469e",
+        "PackageVersion": "7.8.0",
+        "Name": "UIv2"
+      },
+      {
+        "UId": "72dfd004-1fad-41fa-ad05-3cbc97f2958e",
+        "PackageVersion": "7.8.0",
+        "Name": "CoreLeadOpportunity"
+      }
+    ]
+  }
+}

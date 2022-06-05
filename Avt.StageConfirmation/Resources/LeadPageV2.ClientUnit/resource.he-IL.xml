@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.704490f4-6b1c-42af-ad1e-d09516048d65.Caption" Value="Image 2SimilarAccountsButtonImage" />
+			<Item Name="Images.ac59959c-5ce3-4de6-ac2b-e34847f49a9b.Caption" Value="SearchInternetButtonImage" />
+			<Item Name="Images.dfc52eca-5c10-47a7-8264-89905a1f5b14.Caption" Value="SimilarContactsButtonImage" />
+			<Item Name="LocalizableStrings.AccountCategoryCaption.Value" Value="קטגוריה" />
+			<Item Name="LocalizableStrings.AccountNameCaption.Value" Value="שם החברה" />
+			<Item Name="LocalizableStrings.AccountOwnershipCaption.Value" Value="ישות עסקית" />
+			<Item Name="LocalizableStrings.AddressCaption.Value" Value="כתובת" />
+			<Item Name="LocalizableStrings.AddressTypeCaption.Value" Value="סוג כתובת" />
+			<Item Name="LocalizableStrings.AnnualRevenueCaption.Value" Value="הכנסה שנתית" />
+			<Item Name="LocalizableStrings.BusinesPhoneCaption.Value" Value="טלפון עסקי" />
+			<Item Name="LocalizableStrings.CityCaption.Value" Value="עיר" />
+			<Item Name="LocalizableStrings.ContactCaption.Value" Value="שם איש קשר" />
+			<Item Name="LocalizableStrings.CountryCaption.Value" Value="מדינה" />
+			<Item Name="LocalizableStrings.DearCaption.Value" Value="שם הנמען" />
+			<Item Name="LocalizableStrings.DecisionRoleCaption.Value" Value="תפקיד" />
+			<Item Name="LocalizableStrings.DepartmentCaption.Value" Value="מחלקה" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Value" Value="פסול" />
+			<Item Name="LocalizableStrings.EmailCaption.Value" Value="דוא&quot;ל" />
+			<Item Name="LocalizableStrings.EmployeesNumberCaption.Value" Value="מספר עובדים" />
+			<Item Name="LocalizableStrings.FaxCaption.Value" Value="פקס" />
+			<Item Name="LocalizableStrings.FullJobTitleCaption.Value" Value="הגדרה מלאה של תפקיד" />
+			<Item Name="LocalizableStrings.GenderCaption.Value" Value="מין" />
+			<Item Name="LocalizableStrings.IndustryCaption.Value" Value="תעשייה" />
+			<Item Name="LocalizableStrings.JobCaption.Value" Value="הגדרת משרה" />
+			<Item Name="LocalizableStrings.LeadPageAccountInfoCaption.Value" Value="מידע אודות החברה" />
+			<Item Name="LocalizableStrings.LeadPageContactInfoCaption.Value" Value="מידע אודות איש הקשר" />
+			<Item Name="LocalizableStrings.LeadPageDistributionInfoCaption.Value" Value="הפצת הפניות" />
+			<Item Name="LocalizableStrings.LeadPageGeneralTabContainerCaption.Value" Value="מידע על הפניה" />
+			<Item Name="LocalizableStrings.LeadPageTransferToSaleInfoCaption.Value" Value="מסירה למכירות" />
+			<Item Name="LocalizableStrings.MobilePhoneCaption.Value" Value="טלפון נייד" />
+			<Item Name="LocalizableStrings.NeedInfoTabCaption.Value" Value="פירוט צרכי לקוח" />
+			<Item Name="LocalizableStrings.PredictiveScoreNotEvaluatedCaption.Value" Value="לא מוערך" />
+			<Item Name="LocalizableStrings.PredictiveScoreTip.Value" Value="הסתברות המרת הפניה על בסיס תבניות היסטוריות ונתונים בזמן אמת של ההפניה. &lt;a href=&quot;#&quot; data-context-help-id=&quot;1863&quot;&gt; פרטים ... &lt;/a&gt;" />
+			<Item Name="LocalizableStrings.QualifiedAccountCaption.Value" Value="חברה" />
+			<Item Name="LocalizableStrings.QualifiedContactCaption.Value" Value="איש קשר" />
+			<Item Name="LocalizableStrings.QualifyStatusDistributionCaption.Value" Value="הפצה" />
+			<Item Name="LocalizableStrings.QualifyStatusQualificationCaption.Value" Value="הכשרה" />
+			<Item Name="LocalizableStrings.QualifyStatusTranslationForSaleCaption.Value" Value="המשך למסירה" />
+			<Item Name="LocalizableStrings.RegionCaption.Value" Value="מדינה/מחוז" />
+			<Item Name="LocalizableStrings.RequiredFieldsMessage.Value" Value="אנא מלא את השדה &quot;איש קשר&quot; או את השדה &quot;חברה&quot;" />
+			<Item Name="LocalizableStrings.SearchAccountInGoogleNotEnoughInfoMessage.Value" Value="כדי לחפש ב- Google עליך למלא את השדה &quot;שם חברה&quot;" />
+			<Item Name="LocalizableStrings.SearchAccountInLinkedInNotEnoughInfoMessage.Value" Value="כדי לחפש ב- LinkedIn עליך למלא את השדה &quot;שם חברה&quot;" />
+			<Item Name="LocalizableStrings.SearchContactInFacebookNotEnoughInfoMessage.Value" Value="כדי לחפש בפייסבוק עליך לציין דוא&quot;ל" />
+			<Item Name="LocalizableStrings.SearchContactInLinkedInNotEnoughInfoMessage.Value" Value="כדי לחפש ב- LinkedIn עליך למלא לפחות אחד מהשדות &quot;שם איש קשר&quot;, &quot;שם חברה&quot;" />
+			<Item Name="LocalizableStrings.SearchFacebook.Value" Value="חפש ב- Facebook" />
+			<Item Name="LocalizableStrings.SearchGoogle.Value" Value="חפש בגוגל" />
+			<Item Name="LocalizableStrings.SearchLinkedIn.Value" Value="חפש ב- LinkedIn" />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonFoundHintText.Value" Value="מצאנו מספר חברות שיכולות להיות מקושרות להפניה זו. לחץ כאן כדי לבחור אחת מהרשימה." />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonNotFoundHintText.Value" Value="לא מצאנו חברות שיכולות להיות קשורות להפניה זו." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonFoundHintText.Value" Value="מצאנו כמה אנשי קשר שיכולים להיות מקושרים להפניה זו. לחץ כאן כדי לבחור אחד מהרשימה." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonNotFoundHintText.Value" Value="לא מצאנו אנשי קשר שיכולים להיות קשורים להפניה זו." />
+			<Item Name="LocalizableStrings.TitleCaption.Value" Value="כותרת" />
+			<Item Name="LocalizableStrings.WebsiteCaption.Value" Value="אינטרנט" />
+			<Item Name="LocalizableStrings.ZipCaption.Value" Value="מיקןד" />
+		</Items>
+	</Group>
+</Resources>

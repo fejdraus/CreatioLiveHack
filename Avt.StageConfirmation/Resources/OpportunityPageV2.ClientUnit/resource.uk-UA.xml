@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.LeadTypeCaption.Value" Value="Тип потреби" />
+			<Item Name="LocalizableStrings.OpportunityPageV28TabCaption.Value" Value="Ліди" />
+		</Items>
+	</Group>
+</Resources>

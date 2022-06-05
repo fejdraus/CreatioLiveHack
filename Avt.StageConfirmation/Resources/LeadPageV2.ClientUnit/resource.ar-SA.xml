@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ar-SA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.704490f4-6b1c-42af-ad1e-d09516048d65.Caption" Value="Image 2SimilarAccountsButtonImage" />
+			<Item Name="Images.ac59959c-5ce3-4de6-ac2b-e34847f49a9b.Caption" Value="SearchInternetButtonImage" />
+			<Item Name="Images.dfc52eca-5c10-47a7-8264-89905a1f5b14.Caption" Value="SimilarContactsButtonImage" />
+			<Item Name="LocalizableStrings.AccountCategoryCaption.Value" Value="الفئة" />
+			<Item Name="LocalizableStrings.AccountNameCaption.Value" Value="اسم الحساب" />
+			<Item Name="LocalizableStrings.AccountOwnershipCaption.Value" Value="وحدة العمل" />
+			<Item Name="LocalizableStrings.AddressCaption.Value" Value="العنوان" />
+			<Item Name="LocalizableStrings.AddressTypeCaption.Value" Value="نوع العنوان" />
+			<Item Name="LocalizableStrings.AnnualRevenueCaption.Value" Value="العائد السنوي" />
+			<Item Name="LocalizableStrings.BusinesPhoneCaption.Value" Value="رقم هاتف العمل" />
+			<Item Name="LocalizableStrings.CityCaption.Value" Value="المدينة" />
+			<Item Name="LocalizableStrings.ContactCaption.Value" Value="اسم جهة الاتصال" />
+			<Item Name="LocalizableStrings.CountryCaption.Value" Value="المدينة" />
+			<Item Name="LocalizableStrings.DearCaption.Value" Value="اسم المستلم" />
+			<Item Name="LocalizableStrings.DecisionRoleCaption.Value" Value="دور" />
+			<Item Name="LocalizableStrings.DepartmentCaption.Value" Value="القسم" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Value" Value="غير مؤهل" />
+			<Item Name="LocalizableStrings.EmailCaption.Value" Value="البريد الإلكتروني" />
+			<Item Name="LocalizableStrings.EmployeesNumberCaption.Value" Value="عدد الموظفين" />
+			<Item Name="LocalizableStrings.FaxCaption.Value" Value="الفاكس" />
+			<Item Name="LocalizableStrings.FullJobTitleCaption.Value" Value="المسمى الوظيفي الكامل" />
+			<Item Name="LocalizableStrings.GenderCaption.Value" Value="نوع الجنس" />
+			<Item Name="LocalizableStrings.IndustryCaption.Value" Value="المصنع" />
+			<Item Name="LocalizableStrings.JobCaption.Value" Value="مسمى الوظيفة" />
+			<Item Name="LocalizableStrings.LeadPageAccountInfoCaption.Value" Value="معلومات عن الحساب" />
+			<Item Name="LocalizableStrings.LeadPageContactInfoCaption.Value" Value="معلومات الاتصال" />
+			<Item Name="LocalizableStrings.LeadPageDistributionInfoCaption.Value" Value="توزيع القيادة" />
+			<Item Name="LocalizableStrings.LeadPageGeneralTabContainerCaption.Value" Value="معلومات القيادة" />
+			<Item Name="LocalizableStrings.LeadPageTransferToSaleInfoCaption.Value" Value="نقل المبيعات" />
+			<Item Name="LocalizableStrings.MobilePhoneCaption.Value" Value="هاتف محمول" />
+			<Item Name="LocalizableStrings.NeedInfoTabCaption.Value" Value="يحتاج العميل إلى تفاصيل" />
+			<Item Name="LocalizableStrings.PredictiveScoreNotEvaluatedCaption.Value" Value="not evaluated" />
+			<Item Name="LocalizableStrings.PredictiveScoreTip.Value" Value="Lead conversion probability based on historical patterns and real-time data of the lead. &lt;a href=&quot;#&quot; data-context-help-id=&quot;1863&quot; &gt;Details...&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.QualifiedAccountCaption.Value" Value="الحساب" />
+			<Item Name="LocalizableStrings.QualifiedContactCaption.Value" Value="جهة الاتصال" />
+			<Item Name="LocalizableStrings.QualifyStatusDistributionCaption.Value" Value="توزيع" />
+			<Item Name="LocalizableStrings.QualifyStatusQualificationCaption.Value" Value="مؤهل" />
+			<Item Name="LocalizableStrings.QualifyStatusTranslationForSaleCaption.Value" Value="الشروع في التسليم" />
+			<Item Name="LocalizableStrings.RegionCaption.Value" Value="الولاية/ الإقليم" />
+			<Item Name="LocalizableStrings.RequiredFieldsMessage.Value" Value="يرجى ملء ايا من الحقلين &quot;جهة الاتصال&quot; أو &quot;الحساب&quot;" />
+			<Item Name="LocalizableStrings.SearchAccountInGoogleNotEnoughInfoMessage.Value" Value="To search on Google you should fill in the field &quot;Account name&quot;" />
+			<Item Name="LocalizableStrings.SearchAccountInLinkedInNotEnoughInfoMessage.Value" Value="To search on LinkedIn you should fill in the field &quot;Account name&quot;" />
+			<Item Name="LocalizableStrings.SearchContactInFacebookNotEnoughInfoMessage.Value" Value="To search on Facebook you should specify Email" />
+			<Item Name="LocalizableStrings.SearchContactInLinkedInNotEnoughInfoMessage.Value" Value="To search on LinkedIn you should fill in at least one of the fields &quot;Contact name&quot;, &quot;Account name&quot;" />
+			<Item Name="LocalizableStrings.SearchFacebook.Value" Value="Search in Facebook" />
+			<Item Name="LocalizableStrings.SearchGoogle.Value" Value="Search in Google" />
+			<Item Name="LocalizableStrings.SearchLinkedIn.Value" Value="Search in LinkedIn" />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonFoundHintText.Value" Value="وجدنا عدة حسابات يمكن ربطها بهذه القيادة. انقر هنا لاختيار واحد من القائمة." />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonNotFoundHintText.Value" Value="لم نجد أي حساب يمكن أن يكون مرتبطا بهذه القيادة." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonFoundHintText.Value" Value="وجدنا عدة جهات اتصال يمكن ربطها بهذه القيادة. انقر هنا لاختيار واحدة من القائمة." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonNotFoundHintText.Value" Value="لم نجد أية جهة اتصال يمكن ربطها بهذه القيادة." />
+			<Item Name="LocalizableStrings.TitleCaption.Value" Value="العنوان" />
+			<Item Name="LocalizableStrings.WebsiteCaption.Value" Value="شبكة" />
+			<Item Name="LocalizableStrings.ZipCaption.Value" Value="رقم البريد" />
+		</Items>
+	</Group>
+</Resources>

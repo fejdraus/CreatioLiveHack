@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.LeadTypeCaption.Value" Value="צורך לקוח" />
+			<Item Name="LocalizableStrings.OpportunityPageV28TabCaption.Value" Value="הפניות" />
+		</Items>
+	</Group>
+</Resources>

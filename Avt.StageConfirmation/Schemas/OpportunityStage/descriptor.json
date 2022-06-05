@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "123ec0ac-eadb-4231-9bda-0311243d96b4",
+    "Name": "OpportunityStage",
+    "ModifiedOnUtc": "\/Date(1636058196000)\/",
+    "Parent": {
+      "UId": "ccf7d813-fc83-47ad-be61-8f3b3b98a54f",
+      "Name": "OpportunityStage"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Opportunity stage",
+    "DependsOn": []
+  }
+}

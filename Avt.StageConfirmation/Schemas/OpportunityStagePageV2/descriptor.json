@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "6008261d-8b41-40c9-85ef-132e7b44afea",
+    "Name": "OpportunityStagePageV2",
+    "ModifiedOnUtc": "\/Date(1636058196000)\/",
+    "Parent": {
+      "UId": "115b96d9-95bf-4811-a63f-bcaf54cb85c4",
+      "Name": "OpportunityStagePageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Opportunity stage lookup edit page",
+    "DependsOn": []
+  }
+}

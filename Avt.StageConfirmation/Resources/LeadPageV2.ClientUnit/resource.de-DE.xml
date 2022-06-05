@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="de-DE">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.704490f4-6b1c-42af-ad1e-d09516048d65.Caption" Value="Image 2SimilarAccountsButtonImage" />
+			<Item Name="Images.ac59959c-5ce3-4de6-ac2b-e34847f49a9b.Caption" Value="SearchInternetButtonImage" />
+			<Item Name="Images.dfc52eca-5c10-47a7-8264-89905a1f5b14.Caption" Value="SimilarContactsButtonImage" />
+			<Item Name="LocalizableStrings.AccountCategoryCaption.Value" Value="Kategorie" />
+			<Item Name="LocalizableStrings.AccountNameCaption.Value" Value="Accountname" />
+			<Item Name="LocalizableStrings.AccountOwnershipCaption.Value" Value="Geschäftseinheit" />
+			<Item Name="LocalizableStrings.AddressCaption.Value" Value="Adresse" />
+			<Item Name="LocalizableStrings.AddressTypeCaption.Value" Value="Adresstyp" />
+			<Item Name="LocalizableStrings.AnnualRevenueCaption.Value" Value="Jahresumsatz" />
+			<Item Name="LocalizableStrings.BusinesPhoneCaption.Value" Value="Telnr. Firma" />
+			<Item Name="LocalizableStrings.CityCaption.Value" Value="Stadt" />
+			<Item Name="LocalizableStrings.ContactCaption.Value" Value="Kontaktname" />
+			<Item Name="LocalizableStrings.CountryCaption.Value" Value="Land" />
+			<Item Name="LocalizableStrings.DearCaption.Value" Value="Name des Empfänger" />
+			<Item Name="LocalizableStrings.DecisionRoleCaption.Value" Value="Rolle" />
+			<Item Name="LocalizableStrings.DepartmentCaption.Value" Value="Abteilung" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Value" Value="Ausschließen" />
+			<Item Name="LocalizableStrings.EmailCaption.Value" Value="E-Mail" />
+			<Item Name="LocalizableStrings.EmployeesNumberCaption.Value" Value="Mitarbeiteranzahl" />
+			<Item Name="LocalizableStrings.FaxCaption.Value" Value="Fax" />
+			<Item Name="LocalizableStrings.FullJobTitleCaption.Value" Value="Vollständiger Jobtitel" />
+			<Item Name="LocalizableStrings.GenderCaption.Value" Value="Geschlecht" />
+			<Item Name="LocalizableStrings.IndustryCaption.Value" Value="Industrie" />
+			<Item Name="LocalizableStrings.JobCaption.Value" Value="Stellenbezeichnung" />
+			<Item Name="LocalizableStrings.LeadPageAccountInfoCaption.Value" Value="Accountinfo" />
+			<Item Name="LocalizableStrings.LeadPageContactInfoCaption.Value" Value="Kontaktinfo" />
+			<Item Name="LocalizableStrings.LeadPageDistributionInfoCaption.Value" Value="Lead-Verteilung" />
+			<Item Name="LocalizableStrings.LeadPageGeneralTabContainerCaption.Value" Value="Leadinfo" />
+			<Item Name="LocalizableStrings.LeadPageTransferToSaleInfoCaption.Value" Value="Übergabe zum Verkauf" />
+			<Item Name="LocalizableStrings.MobilePhoneCaption.Value" Value="Handy" />
+			<Item Name="LocalizableStrings.NeedInfoTabCaption.Value" Value="Details Kundenbedarf" />
+			<Item Name="LocalizableStrings.PredictiveScoreNotEvaluatedCaption.Value" Value="not evaluated" />
+			<Item Name="LocalizableStrings.PredictiveScoreTip.Value" Value="Lead conversion probability based on historical patterns and real-time data of the lead. &lt;a href=&quot;#&quot; data-context-help-id=&quot;1863&quot; &gt;Details...&lt;/a&gt;" />
+			<Item Name="LocalizableStrings.QualifiedAccountCaption.Value" Value="Account" />
+			<Item Name="LocalizableStrings.QualifiedContactCaption.Value" Value="Kontakt" />
+			<Item Name="LocalizableStrings.QualifyStatusDistributionCaption.Value" Value="Verteilen" />
+			<Item Name="LocalizableStrings.QualifyStatusQualificationCaption.Value" Value="Qualifizieren" />
+			<Item Name="LocalizableStrings.QualifyStatusTranslationForSaleCaption.Value" Value="Mit Übergabe forsetzen" />
+			<Item Name="LocalizableStrings.RegionCaption.Value" Value="Bundesland" />
+			<Item Name="LocalizableStrings.RequiredFieldsMessage.Value" Value="Füllen Sie entweder das &quot;Account&quot;- oder &quot;Kontakt&quot;-Feld" />
+			<Item Name="LocalizableStrings.SearchAccountInGoogleNotEnoughInfoMessage.Value" Value="Um auf Google zu suchen, sollten Sie das Feld &quot;Accountname&quot; angeben" />
+			<Item Name="LocalizableStrings.SearchAccountInLinkedInNotEnoughInfoMessage.Value" Value="Um auf LinkedIn zu suchen, müssen Sie das Feld &quot;Accountname&quot; angeben" />
+			<Item Name="LocalizableStrings.SearchContactInFacebookNotEnoughInfoMessage.Value" Value="Um auf Facebook zu suchen, sollten Sie die E-Mail angeben" />
+			<Item Name="LocalizableStrings.SearchContactInLinkedInNotEnoughInfoMessage.Value" Value="Um auf LinkedIn zu suchen müssen Sie mindetens eines der Felder &quot;Kontaktname&quot; oder &quot;Accountname&quot; angeben" />
+			<Item Name="LocalizableStrings.SearchFacebook.Value" Value="Suche in Facebook" />
+			<Item Name="LocalizableStrings.SearchGoogle.Value" Value="Suche in Google" />
+			<Item Name="LocalizableStrings.SearchLinkedIn.Value" Value="Suche in LinkedIn" />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonFoundHintText.Value" Value="Verschiedene Accounts gefunden, die mit diesem Lead verbunden werden können. Wählen Sie einen aus der Liste." />
+			<Item Name="LocalizableStrings.SimilarAccountsButtonNotFoundHintText.Value" Value="Es konnten keine Accounts gefunden werden, die zu diesem Lead verbunden werden können." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonFoundHintText.Value" Value="Verschiedene Kontakte gefunden, die mit diesem Lead verbunden werden können. Wählen Sie einen aus der Liste." />
+			<Item Name="LocalizableStrings.SimilarContactsButtonNotFoundHintText.Value" Value="Es konnten keine Kontakte gefunden werden, die zu diesem Lead verbunden werden können." />
+			<Item Name="LocalizableStrings.TitleCaption.Value" Value="Titel" />
+			<Item Name="LocalizableStrings.WebsiteCaption.Value" Value="Web" />
+			<Item Name="LocalizableStrings.ZipCaption.Value" Value="PLZ" />
+		</Items>
+	</Group>
+</Resources>

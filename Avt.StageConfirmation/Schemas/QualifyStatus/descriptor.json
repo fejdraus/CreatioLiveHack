@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "43fb8221-4cf1-4593-b48c-bff0b12ccedb",
+    "Name": "QualifyStatus",
+    "ModifiedOnUtc": "\/Date(1636058196000)\/",
+    "Parent": {
+      "UId": "22341cd1-5b33-4c40-9011-6f7693ef6e44",
+      "Name": "QualifyStatus"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Lead stage",
+    "DependsOn": []
+  }
+}

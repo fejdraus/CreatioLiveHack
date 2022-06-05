@@ -45,6 +45,7 @@ define("KtConfigurationConstantsKarTel", ["KtConfigurationConstantsKarTelResourc
 Что бы использовать доступы по операциям в клиентсвой схеме, в секцию "methods" в init помещаем 
 define("ContactPageV2", ["RightUtilities", "ConfigurationConstants"], function(RightUtilities, ConfigurationConstants) -- обьявляем зависимости "RightUtilities"
 RightUtilities.checkCanExecuteOperations(operationNames, function(result) -- RightUtilities - метод для доступа по опурациям, checkCanExecuteOperations - проверяем соответствие поля "IsEmployeeRights" в примере входит ли в список result.CanChooseEmployeeType указанны в настройке прав и возвращает значение из списка прав (true или false)
+
 init: function() {
 	const operationNames = [
 		"CanChooseEmployeeType"
@@ -638,6 +639,9 @@ foreach (var requestRight in requestRights) {
 
 {{Получение колейции c применением фильтра}}
 var result = 0.0;
+//Так же можно получить по UId схемы
+//EntitySchema entitySchema = UserConnection.EntitySchemaManager.GetInstanceByUId(Get<Guid>("VisaSchemaUId"));
+//var esq = new EntitySchemaQuery(UserConnection.EntitySchemaManager, entitySchema.Name);
 var esq = new EntitySchemaQuery(UserConnection.EntitySchemaManager, "OpportunityProductInterest");
 string quantity = esq.AddColumn("Quantity").Name;
 IEntitySchemaQueryFilterItem opportunityIdFilter = esq.CreateFilterWithParameters(FilterComparisonType.Equal, "Opportunity.Account", accountId);
@@ -1610,3 +1614,138 @@ ON
 WHERE 
     f.name = 'FKnokgcq1rxh5Y7DLhgCqIZJ4KY'
    
+-----------------------------------------------------------------------------------------------
+Блокировка полей в редактируемом реестре, дабавить в схему детали:
+
+generateActiveRowControlsConfig: function (id, columnsConfig, rowConfig) {
+	this.columnsConfig = columnsConfig;
+	var gridData = this.getGridData();
+	var activeRow = gridData.get(id);
+	var isEditableColumn = this.isEditableColumn;
+	var gridLayoutItems = [];
+	var currentColumnIndex = 0;
+	Terrasoft.each(columnsConfig, function (columnConfig) {
+		var cellConfig = this.getActiveRowCellConfig(columnConfig, currentColumnIndex);
+		cellConfig.enabled = isEditableColumn(cellConfig.name);
+		if (!cellConfig.hasOwnProperty("isNotFound")) {
+			gridLayoutItems.push(cellConfig);
+		}
+		currentColumnIndex += cellConfig.layout.colSpan;
+	}, this);
+	this.applyBusinessRulesForActiveRow(id, gridLayoutItems);
+	var viewGenerator = Ext.create(this.getRowViewGeneratorClassName());
+	viewGenerator.viewModelClass = this;
+	var gridLayoutConfig = viewGenerator.generateGridLayout({
+		name: this.name,
+		items: gridLayoutItems
+	});
+	rowConfig.push(gridLayoutConfig);
+},
+isEditableColumn: function (columnName) {
+	var columnNameArray = ["BnzApprovalRoute", "BnzVisaStatus"]; //Список полей которые нужно заблокировать
+	return !columnNameArray.includes(columnName);
+}
+--------------------------------------------------------------------
+Получить список колонок в запросе C#;
+
+bool column = entity.GetColumnValueNames().Contains("TsiIsSignatory") // получаем список колонок и проверяем есть ли в списке колонка
+
+var column = entity.Schema.Columns.FindByName(columnName); // если колонка нет, возвращает NULL
+----------------------------------------------------------------------------------------------
+Базовый код схемы страницы:
+
+define("ExampleSchema", [], function() {
+	return {
+		entitySchemaName: "ExampleEntity",
+		mixins: {},
+		attributes: {},
+		messages: {},
+		methods: {},
+		rules: {},
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
+		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
+		diff: /**SCHEMA_DIFF*/[]/**SCHEMA_DIFF*/
+	};
+});
+
+define("FileDetailV2", [],
+	function() {
+	return {
+		mixins: {},
+		properties: {},
+		attributes: {},
+		messages: {},
+		methods: {},
+		diff: /**SCHEMA_DIFF*/[]/**SCHEMA_DIFF*/
+	};
+});
+----------------------------------------------------------------
+Шаблон страницы
+
+define("SysModuleVisaPage", [], function() {
+	return {
+		entitySchemaName: "SysModuleVisa",
+		attributes: {},
+		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
+		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
+		methods: {},
+		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
+		diff: /**SCHEMA_DIFF*/[]/**SCHEMA_DIFF*/
+	};
+});
+-----------------------------------------------------------------
+Guid empty для JS:
+
+this.Terrasoft.GUID_EMPTY
+
+--------------------------------------------------------------------
+Валидация полей в детали с редактируемым реестром:
+
+init: function() {
+	this.callParent(arguments);
+	this.saveRowChangesOriginal = this.saveRowChanges;
+	this.saveRowChanges = this.saveRowChangesOverriden;
+},
+saveRowChangesOverriden: function(row, callback, scope) {
+	var activeRow = this.getActiveRow();
+	if (activeRow && !this.validateRow(activeRow)) {
+		return;
+	}
+	this.makeBaseInit(); // Нужно проверить можно ли без него
+	this.saveRowChangesOriginal(row,callback,scope);
+},
+makeBaseInit: function(callback) { // ????
+	callback = callback || Terrasoft.emptyFn;
+	var gridData = this.getGridData();
+	this.Terrasoft.each(gridData.collection, function(item) {
+		item.makeBaseInit();
+	});
+	callback.call(this);
+},
+validateRow: function(activeRow) {
+	var message = "";
+	var result = this.validateMeasure(activeRow);
+	if (!result.isValid) {
+		this.showInformationDialog(result.message);
+		return result.isValid;
+	}
+	return result.isValid;
+},
+validateMeasure: function(row) {
+	var invalidMessage = "";
+	var result = true;
+	var measure = row.get("Measure");
+	if(Ext.isEmpty(measure)){
+		invalidMessage = resources.localizableStrings.MeasureBetweenZeroAndHundred;
+		result = false;
+	}
+	return {
+		isValid: result,
+		message: invalidMessage
+	}
+},
+---------------------------------------------------------------------
+Получение значения полей из страницы (наследники BasePage) по sandbox.id (например в подключенный миксин или страницы на каотороую перешли с другой):
+
+var isApprovalProcessEnabled = this.sandbox.publish("GetColumnsValues", ["BnzIsApprovalActive"], [this.sandbox.id]);
