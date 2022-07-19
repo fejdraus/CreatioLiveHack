@@ -1749,3 +1749,74 @@ validateMeasure: function(row) {
 Получение значения полей из страницы (наследники BasePage) по sandbox.id (например в подключенный миксин или страницы на каотороую перешли с другой):
 
 var isApprovalProcessEnabled = this.sandbox.publish("GetColumnsValues", ["BnzIsApprovalActive"], [this.sandbox.id]);
+---------------------------------------------------------------------------
+Работа с порталом
+
+Для того что записи объекта были видны портальным пользователям нужно:
+1.Раздать права на операции для портальных пользователей
+2.Добавить объект в справочник "Список объектов, доступных пользователям портала"
+(без этого, к примеру: поле справочника на странице будет пустое, колонка справочника в детали так же будет пустой)
+3. Не обязательно. Добавить колонки "Список доступных полей объектов на портале". Об этом ниже.
+
+При добавлении объекта или добавлении новых полей в объект портальный пользователь не сможет вывести их на деталь через настройку полей.
+Что бы такая возможность была о нужно добавить новые поля в справочник "Список доступных полей объектов на портале".
+(При чем, если колонка выведена на деталь привязкой, она будет отображаться нормально)
+
+Страницы редактирования отображаются только сотрудникам, что б они отображались  пользователям портала нужно:
+Создать еще одну запись для вашего объекта в SysModuleEntity, добавить к этой записи страницу в SysModuleEdit, и добавить запись с новой SysModuleEntity.Id в SysModuleEntityInPortal.
+Если же добавить существующую запись вашего объекта SysModuleEntity.Id в SysModuleEntityInPortal, то страница пропадет для сотрудников и будет видна только для 
+портальных пользователей. По этому нужны две записи в SysModuleEntity.
+
+справочник "Список доступных полей объектов на портале"
+-------------------------------------------------------------------------------------
+Удаление правил в старой секции rules:
+
+define("VisaPageV2", [], function() {
+	return {
+		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+		diff: /**SCHEMA_DIFF*/[]/**SCHEMA_DIFF*/,
+		methods: {
+			onEntityInitialized: function() {
+				this.callParent();
+				delete this.rules.TsiRejectHandler.TsiRejectHandlerRequired;
+			}
+		}
+	};
+});
+------------------------------------------------------------------------------------
+Для перезагрузки ActionsDashboard:
+
+// Регестрация Messages в mixin
+init: function() {
+	this.registerSandboxMessages();
+},
+
+// Регестрация Messages в mixin
+registerSandboxMessages: function() {
+	this.sandbox.registerMessages({
+		"ReloadDashboardItems": {
+			direction: Terrasoft.MessageDirectionType.BIDIRECTIONAL,
+			mode: Terrasoft.MessageMode.BROADCAST
+		}
+	});
+},
+
+// Или регестрация сообщения в карточке редактирования
+messages: {
+	"ReloadDashboardItems": {
+		direction: Terrasoft.MessageDirectionType.BIDIRECTIONAL,
+		mode: Terrasoft.MessageMode.BROADCAST
+	}
+}
+
+//Публикация сообщения для перезагрузки ActionsDashboard
+//this.sandbox.publish("ReloadDashboardItems", null, [this.sandbox.id]); // не сработал, но можно еще попробовать 
+this.sandbox.publish("ReloadDashboardItems", {id: this.get("Id")});
+
+-------------------------------------------------------------------------------------------------
+Присвоение справочному полю значения:
+
+this.set("CurrentAccount", {
+	value: this.get("Id"),
+	displayValue: this.get("Name")
+});

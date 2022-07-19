@@ -1,24 +1,19 @@
 From: <Saved by Blink>
-Snapshot-Content-Location: https://community.terrasoft.ua/questions/pokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdela-keys
-Subject: =?utf-8?Q?=D0=9F=D0=BE=D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C=20=D0=B4=D0=B8?=
- =?utf-8?Q?=D0=B0=D0=BB=D0=BE=D0=B3=20=D0=B4=D0=BB=D1=8F=20=D0=BF=D0=BE=D0?=
- =?utf-8?Q?=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F?=
- =?utf-8?Q?=20=D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81=D0=B0=20"=D0=9E=D1=82?=
- =?utf-8?Q?=D0=BC=D0=B5=D0=BD=D0=B0"=20=D0=B2=20DCM=20=D1=80=D0=B0=D0=B7?=
- =?utf-8?Q?=D0=B4=D0=B5=D0=BB=D0=B0=20=D0=9A=D0=B5=D0=B9=D1=81.=20|=20Comm?=
- =?utf-8?Q?unity=20Creatio?=
-Date: Wed, 6 Jul 2022 14:25:45 -0000
+Snapshot-Content-Location: https://community.terrasoft.ua/questions/otmena-izmeneniy
+Subject: =?utf-8?Q?=D0=9E=D1=82=D0=BC=D0=B5=D0=BD=D0=B0=20=D0=B8=D0=B7=D0=BC=D0=B5?=
+ =?utf-8?Q?=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9=20|=20Community=20Creatio?=
+Date: Wed, 6 Jul 2022 14:29:24 -0000
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----"
+	boundary="----MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----"
 
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/html
-Content-ID: <frame-8B9A26C8CF655F2E53ED48D83B769176@mhtml.blink>
+Content-ID: <frame-008483ECA3A04F6429DDF44A251884C4@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://community.terrasoft.ua/questions/pokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdela-keys
+Content-Location: https://community.terrasoft.ua/questions/otmena-izmeneniy
 
 <!DOCTYPE html><html lang=3D"ru" dir=3D"ltr" prefix=3D"content: http://purl=
 .org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://=
@@ -28,16 +23,16 @@ ioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/cor=
 e#  xsd: http://www.w3.org/2001/XMLSchema# " style=3D"" class=3D" no-touche=
 vents details js"><head><meta http-equiv=3D"Content-Type" content=3D"text/h=
 tml; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"ci=
-d:css-4d77760c-26b2-441d-9fc6-c01909806d8d@mhtml.blink" /><link rel=3D"styl=
-esheet" type=3D"text/css" href=3D"cid:css-aabceede-d94a-4328-abb2-0eee36083=
-6c1@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:c=
-ss-b8cf9cc7-e443-4aed-a326-f7c9336fc3de@mhtml.blink" /><link rel=3D"stylesh=
-eet" type=3D"text/css" href=3D"cid:css-e927067a-a5cd-49a2-bd08-95e7509bebb1=
+d:css-61e97aea-91e9-4de7-98e2-240287ba2a37@mhtml.blink" /><link rel=3D"styl=
+esheet" type=3D"text/css" href=3D"cid:css-457171be-6cba-4c09-bb5a-c109302fd=
+233@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:c=
+ss-db69ff25-5c44-4ff0-b1a7-ac4f238ea560@mhtml.blink" /><link rel=3D"stylesh=
+eet" type=3D"text/css" href=3D"cid:css-dc053d4f-bc4b-4e7b-8580-6665fdb452b5=
 @mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-=
-e97e4331-1d9e-458a-b256-1498c6207137@mhtml.blink" /><link rel=3D"stylesheet=
-" type=3D"text/css" href=3D"cid:css-6039f4dd-52a0-4472-93af-824a7d7379b5@mh=
-tml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-cd5=
-8f138-51e2-429f-8939-506687f0f173@mhtml.blink" />
+371214f6-2780-4539-a822-93ea2501bf6a@mhtml.blink" /><link rel=3D"stylesheet=
+" type=3D"text/css" href=3D"cid:css-9a615aee-233c-4910-a1c7-16b5f7f17fb8@mh=
+tml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c76=
+c2cd4-d2a0-4c4c-a016-85578e6ba5e9@mhtml.blink" />
    =20
 <meta name=3D"Generator" content=3D"Drupal 8 (https://www.drupal.org)">
 <meta name=3D"MobileOptimized" content=3D"width">
@@ -48,37 +43,33 @@ tml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-cd5=
 
 <link rel=3D"shortcut icon" href=3D"https://community.terrasoft.ua/themes/c=
 ustom/creatio/favicon.ico" type=3D"image/vnd.microsoft.icon">
-<link rel=3D"canonical" href=3D"https://community.terrasoft.ua/questions/po=
-kazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdela-keys">
-<link rel=3D"shortlink" href=3D"https://community.terrasoft.ua/node/31109">
-<link rel=3D"delete-form" href=3D"https://community.terrasoft.ua/node/31109=
+<link rel=3D"canonical" href=3D"https://community.terrasoft.ua/questions/ot=
+mena-izmeneniy">
+<link rel=3D"shortlink" href=3D"https://community.terrasoft.ua/node/24955">
+<link rel=3D"delete-form" href=3D"https://community.terrasoft.ua/node/24955=
 /delete">
 <link rel=3D"delete-multiple-form" href=3D"https://community.terrasoft.ua/a=
-dmin/content/node/delete?node=3D31109">
-<link rel=3D"edit-form" href=3D"https://community.terrasoft.ua/node/31109/e=
+dmin/content/node/delete?node=3D24955">
+<link rel=3D"edit-form" href=3D"https://community.terrasoft.ua/node/24955/e=
 dit">
-<link rel=3D"version-history" href=3D"https://community.terrasoft.ua/node/3=
-1109/revisions">
-<link rel=3D"revision" href=3D"https://community.terrasoft.ua/questions/pok=
-azat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdela-keys">
+<link rel=3D"version-history" href=3D"https://community.terrasoft.ua/node/2=
+4955/revisions">
+<link rel=3D"revision" href=3D"https://community.terrasoft.ua/questions/otm=
+ena-izmeneniy">
 <link rel=3D"devel-load" href=3D"https://community.terrasoft.ua/devel/node/=
-31109">
+24955">
 <link rel=3D"devel-render" href=3D"https://community.terrasoft.ua/devel/nod=
-e/31109/render">
+e/24955/render">
 <link rel=3D"devel-definition" href=3D"https://community.terrasoft.ua/devel=
-/node/31109/definition">
-<link rel=3D"display" href=3D"https://community.terrasoft.ua/node/31109/man=
+/node/24955/definition">
+<link rel=3D"display" href=3D"https://community.terrasoft.ua/node/24955/man=
 age-display">
-<link rel=3D"token-devel" href=3D"https://community.terrasoft.ua/node/31109=
+<link rel=3D"token-devel" href=3D"https://community.terrasoft.ua/node/24955=
 /devel/token">
 
 
-    <title>=D0=9F=D0=BE=D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C =D0=B4=D0=B8=D0=
-=B0=D0=BB=D0=BE=D0=B3 =D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=
-=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=82=D0=B0=D1=82=D1=
-=83=D1=81=D0=B0 "=D0=9E=D1=82=D0=BC=D0=B5=D0=BD=D0=B0" =D0=B2 DCM =D1=80=D0=
-=B0=D0=B7=D0=B4=D0=B5=D0=BB=D0=B0 =D0=9A=D0=B5=D0=B9=D1=81. | Community Cre=
-atio</title>
+    <title>=D0=9E=D1=82=D0=BC=D0=B5=D0=BD=D0=B0 =D0=B8=D0=B7=D0=BC=D0=B5=D0=
+=BD=D0=B5=D0=BD=D0=B8=D0=B9 | Community Creatio</title>
     <link href=3D"https://fonts.googleapis.com/css?family=3DMontserrat:400,=
 500,600,700&amp;display=3Dswap&amp;subset=3Dcyrillic" rel=3D"stylesheet">
     <link href=3D"https://fonts.googleapis.com/css?family=3DOpen+Sans:300,4=
@@ -110,8 +101,7 @@ asoft.ua/core/assets/vendor/ckeditor/skins/moono-lisa/editor.css?t=3Drcbxoe=
 asoft.ua/core/assets/vendor/ckeditor/plugins/dialog/styles/dialog.css"></he=
 ad>
   <body class=3D"user-logged-in path-node page-node-type-question page-alia=
-s-questions-pokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdel=
-a-keys zone-ua">
+s-questions-otmena-izmeneniy zone-ua">
                       <!-- Google Tag Manager (noscript) -->
      =20
       <!-- End Google Tag Manager (noscript) -->
@@ -600,12 +590,11 @@ hosen-single">
   <div class=3D"add-post question active">
     <form class=3D"node-question-form node-form" data-drupal-selector=3D"no=
 de-question-form" enctype=3D"multipart/form-data" action=3D"https://communi=
-ty.terrasoft.ua/questions/pokazat-dialog-dlya-podtverzhdeniya-statusa-otmen=
-a-v-dcm-razdela-keys" method=3D"post" id=3D"node-question-form" accept-char=
-set=3D"UTF-8" data-drupal-form-fields=3D"edit-field-tags-target-id,edit-tit=
-le-0-value,edit-body-0-value,edit-field-atachments-0-upload,edit-field-atac=
-hments-0-upload-button,edit-field-question-product,edit-field-question-ver,=
-edit-status-value,edit-submit">
+ty.terrasoft.ua/questions/otmena-izmeneniy" method=3D"post" id=3D"node-ques=
+tion-form" accept-charset=3D"UTF-8" data-drupal-form-fields=3D"edit-field-t=
+ags-target-id,edit-title-0-value,edit-body-0-value,edit-field-atachments-0-=
+upload,edit-field-atachments-0-upload-button,edit-field-question-product,ed=
+it-field-question-ver,edit-status-value,edit-submit">
  =20
 <div class=3D"field--type-entity-reference field--name-field-tags field--wi=
 dget-entity-reference-autocomplete-tags js-form-wrapper form-wrapper" data-=
@@ -805,7 +794,7 @@ e_contents cke_reset" role=3D"presentation" style=3D"height: 200px;"><span =
 id=3D"cke_38" class=3D"cke_voice_label">=D0=9D=D0=B0=D0=B6=D0=BC=D0=B8=D1=
 =82=D0=B5 ALT-0 =D0=B4=D0=BB=D1=8F =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=
 =B8=D1=8F =D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B8</span><iframe src=3D"c=
-id:frame-EB7F6492B18EDF1F0AB737F509425653@mhtml.blink" frameborder=3D"0" cl=
+id:frame-5FBC16FFBDD7DE2CE2FF9B66AC79FCFC@mhtml.blink" frameborder=3D"0" cl=
 ass=3D"cke_wysiwyg_frame cke_reset" title=3D"=D0=A0=D0=B5=D0=B4=D0=B0=D0=BA=
 =D1=82=D0=BE=D1=80 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82=D0=B8=D1=80=D0=BE=
 =D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=B5=D0=BA=D1=81=D1=82=
@@ -1009,12 +998,12 @@ mit">
   <div class=3D"add-post article">
     <form class=3D"node-article-form node-form" data-drupal-selector=3D"nod=
 e-article-form" enctype=3D"multipart/form-data" action=3D"https://community=
-.terrasoft.ua/questions/pokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-=
-v-dcm-razdela-keys" method=3D"post" id=3D"node-article-form" accept-charset=
-=3D"UTF-8" data-drupal-form-fields=3D"edit-field-tags-target-id--2,edit-tit=
-le-0-value--2,edit-field-image-0-upload,edit-field-image-0-upload-button,ed=
-it-body-0-value--2,edit-field-atachments-0-upload--2,edit-field-atachments-=
-0-upload-button--2,edit-status-value--2,edit-submit--2">
+.terrasoft.ua/questions/otmena-izmeneniy" method=3D"post" id=3D"node-articl=
+e-form" accept-charset=3D"UTF-8" data-drupal-form-fields=3D"edit-field-tags=
+-target-id--2,edit-title-0-value--2,edit-field-image-0-upload,edit-field-im=
+age-0-upload-button,edit-body-0-value--2,edit-field-atachments-0-upload--2,=
+edit-field-atachments-0-upload-button--2,edit-status-value--2,edit-submit--=
+2">
  =20
 <div class=3D"field--type-entity-reference field--name-field-tags field--wi=
 dget-entity-reference-autocomplete-tags js-form-wrapper form-wrapper" data-=
@@ -1269,7 +1258,7 @@ ts" class=3D"cke_contents cke_reset" role=3D"presentation" style=3D"height:=
  200px;"><span id=3D"cke_63" class=3D"cke_voice_label">=D0=9D=D0=B0=D0=B6=
 =D0=BC=D0=B8=D1=82=D0=B5 ALT-0 =D0=B4=D0=BB=D1=8F =D0=BE=D1=82=D0=BA=D1=80=
 =D1=8B=D1=82=D0=B8=D1=8F =D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B8</span><=
-iframe src=3D"cid:frame-9F30E66FBF0276C6EB57B3D5EF7D5EBD@mhtml.blink" frame=
+iframe src=3D"cid:frame-4458FD29726DFCEF3A10E962890CD414@mhtml.blink" frame=
 border=3D"0" class=3D"cke_wysiwyg_frame cke_reset" title=3D"=D0=A0=D0=B5=D0=
 =B4=D0=B0=D0=BA=D1=82=D0=BE=D1=80 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82=D0=
 =B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=B5=D0=
@@ -1398,11 +1387,11 @@ upal-selector=3D"edit-submit" type=3D"submit" id=3D"edit-submit--2" name=3D=
   <div class=3D"add-post idea">
     <form class=3D"node-idea-form node-form" data-drupal-selector=3D"node-i=
 dea-form" enctype=3D"multipart/form-data" action=3D"https://community.terra=
-soft.ua/questions/pokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-=
-razdela-keys" method=3D"post" id=3D"node-idea-form" accept-charset=3D"UTF-8=
-" data-drupal-form-fields=3D"edit-field-tags-target-id--3,edit-title-0-valu=
-e--3,edit-body-0-value--3,edit-field-atachments-0-upload--3,edit-field-atac=
-hments-0-upload-button--3,edit-status-value--3,edit-submit--3">
+soft.ua/questions/otmena-izmeneniy" method=3D"post" id=3D"node-idea-form" a=
+ccept-charset=3D"UTF-8" data-drupal-form-fields=3D"edit-field-tags-target-i=
+d--3,edit-title-0-value--3,edit-body-0-value--3,edit-field-atachments-0-upl=
+oad--3,edit-field-atachments-0-upload-button--3,edit-status-value--3,edit-s=
+ubmit--3">
  =20
 <div class=3D"field--type-entity-reference field--name-field-tags field--wi=
 dget-entity-reference-autocomplete-tags js-form-wrapper form-wrapper" data-=
@@ -1602,7 +1591,7 @@ ts" class=3D"cke_contents cke_reset" role=3D"presentation" style=3D"height:=
  200px;"><span id=3D"cke_88" class=3D"cke_voice_label">=D0=9D=D0=B0=D0=B6=
 =D0=BC=D0=B8=D1=82=D0=B5 ALT-0 =D0=B4=D0=BB=D1=8F =D0=BE=D1=82=D0=BA=D1=80=
 =D1=8B=D1=82=D0=B8=D1=8F =D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B8</span><=
-iframe src=3D"cid:frame-B2E20956A1EE07FFF6D407D44F43E71E@mhtml.blink" frame=
+iframe src=3D"cid:frame-5F0B3E53E97986A66031CA3AEE602A0D@mhtml.blink" frame=
 border=3D"0" class=3D"cke_wysiwyg_frame cke_reset" title=3D"=D0=A0=D0=B5=D0=
 =B4=D0=B0=D0=BA=D1=82=D0=BE=D1=80 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82=D0=
 =B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=B5=D0=
@@ -1735,11 +1724,11 @@ upal-selector=3D"edit-submit" type=3D"submit" id=3D"edit-submit--3" name=3D=
 main-block">
  =20
    =20
-      <div data-history-node-id=3D"31109" class=3D"contextual-region row bs=
+      <div data-history-node-id=3D"24955" class=3D"contextual-region row bs=
 -2col-bricked node node--type-question node--view-mode-full">
-  <div data-contextual-id=3D"node:node=3D31109:changed=3D1611918480&amp;ds_=
+  <div data-contextual-id=3D"node:node=3D24955:changed=3D1484132891&amp;ds_=
 bundle=3Dquestion&amp;ds_view_mode=3Dfull&amp;langcode=3Dru" data-contextua=
-l-token=3D"OTMxNbDgmq8nuZGZNwAEWr3t8mXD65C9Sh3i0Xdo2JU"></div>
+l-token=3D"9oZkIQIc5siCjJ-tgjfc0uShWbTj3iiYsR1fe5-TkgI"></div>
 
     <div class=3D"col-sm-12 bs-region bs-region--top">
    =20
@@ -1752,22 +1741,18 @@ l-token=3D"OTMxNbDgmq8nuZGZNwAEWr3t8mXD65C9Sh3i0Xdo2JU"></div>
       <div class=3D"field field--name-field-tags field--type-entity-referen=
 ce field--label-hidden field__items">
               <div class=3D"field__item"><a href=3D"https://community.terra=
-soft.ua/tags/keis" hreflang=3D"ru">=D0=9A=D0=B5=D0=B9=D1=81</a></div>
+soft.ua/tags/tehniceskie-voprosy" hreflang=3D"ru">=D0=A2=D0=B5=D1=85=D0=BD=
+=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B5 =D0=B2=D0=BE=D0=BF=D1=80=D0=BE=
+=D1=81=D1=8B</a></div>
               <div class=3D"field__item"><a href=3D"https://community.terra=
-soft.ua/tags/dialog" hreflang=3D"ru">=D0=B4=D0=B8=D0=B0=D0=BB=D0=BE=D0=B3</=
-a></div>
-              <div class=3D"field__item"><a href=3D"https://community.terra=
-soft.ua/tags/eventlistener" hreflang=3D"ru">EventListener</a></div>
+soft.ua/tags/7x" hreflang=3D"ru">7.x</a></div>
           </div>
  =20
   </div>
             <div class=3D"field field--name-node-title field--type-ds field=
 --label-hidden field__item"><h1>
-  =D0=9F=D0=BE=D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C =D0=B4=D0=B8=D0=B0=D0=BB=
-=D0=BE=D0=B3 =D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=
-=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81=
-=D0=B0 "=D0=9E=D1=82=D0=BC=D0=B5=D0=BD=D0=B0" =D0=B2 DCM =D1=80=D0=B0=D0=B7=
-=D0=B4=D0=B5=D0=BB=D0=B0 =D0=9A=D0=B5=D0=B9=D1=81.
+  =D0=9E=D1=82=D0=BC=D0=B5=D0=BD=D0=B0 =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=
+=D0=BD=D0=B8=D0=B9
 </h1>
 </div>
      =20
@@ -1776,26 +1761,28 @@ soft.ua/tags/eventlistener" hreflang=3D"ru">EventListener</a></div>
             <div class=3D"field field--name-user field--type-ds field--labe=
 l-hidden field__item"><div class=3D"contextual-region row bs-1col user user=
 --type-user user--view-mode-avatar-with-name">
-  <div data-contextual-id=3D"user:user=3D193347:changed=3D1612258019&amp;ds=
+  <div data-contextual-id=3D"user:user=3D167687:changed=3D1604344228&amp;ds=
 _bundle=3Duser&amp;ds_view_mode=3Davatar_with_name&amp;langcode=3Dru" data-=
-contextual-token=3D"c8G3Cx4TpcgXJeFHEG-SK9q0N2FqFSv-00JQ7xiETY0"></div>
+contextual-token=3D"tl1lFp62oA4jda9wbBbLSKO4lAQgUpK1U31L1jJm9Cw"></div>
   <div class=3D"col-sm-12 bs-region bs-region--main">
    =20
             <div class=3D"field field--name-user-picture field--type-image =
 field--label-hidden field__item">  <a href=3D"https://community.terrasoft.u=
-a/user/193347" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/s=
-ites/default/files/styles/avatar_small/public/pictures/2020-09/woman2_0.png=
-?itok=3DoqWvYYui" width=3D"40" height=3D"40" alt=3D"Profile picture for use=
-r Mariia Prostiak" typeof=3D"foaf:Image" class=3D"image-style-avatar-small"=
->
+a/user/167687" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/s=
+ites/default/files/styles/avatar_small/public/pictures/2020-08/7slhT7cKoKI.=
+jpg?itok=3DR-7HGT5g" width=3D"40" height=3D"40" alt=3D"Profile picture for =
+user =D0=A1=D0=BC=D0=BE=D1=80=D0=BE=D0=B4=D0=B8=D0=BD=D0=BE=D0=B2 =D0=94=D0=
+=B5=D0=BD=D0=B8=D1=81" typeof=3D"foaf:Image" class=3D"image-style-avatar-sm=
+all">
 
 </a>
 </div>
      =20
             <div class=3D"field field--name-username field--type-ds field--=
 label-hidden field__item"><user_name-wrtapper class=3D"user_name-wrtapper">
-  <a href=3D"https://community.terrasoft.ua/user/193347" hreflang=3D"ru">Ma=
-riia Prostiak</a>
+  <a href=3D"https://community.terrasoft.ua/user/167687" hreflang=3D"ru">=
+=D0=A1=D0=BC=D0=BE=D1=80=D0=BE=D0=B4=D0=B8=D0=BD=D0=BE=D0=B2 =D0=94=D0=B5=
+=D0=BD=D0=B8=D1=81</a>
 </user_name-wrtapper>
 </div>
      =20
@@ -1805,8 +1792,8 @@ riia Prostiak</a>
 </div>
      =20
             <div class=3D"field field--name-node-post-date field--type-ds f=
-ield--label-hidden field__item">13 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F 202=
-1  16:20</div>
+ield--label-hidden field__item">11 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F 201=
+7  13:08</div>
      =20
   </div>
   </div>
@@ -1816,134 +1803,73 @@ ield--label-hidden field__item">13 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F 202=
     <div class=3D"col-sm-12 bs-region bs-region--middle">
    =20
             <div class=3D"clearfix text-formatted field field--name-body fi=
-eld--type-text-with-summary field--label-hidden field__item"><p>=D0=97=D0=
-=B4=D1=80=D0=B0=D0=B2=D1=81=D1=82=D0=B2=D1=83=D0=B9=D1=82=D0=B5,</p>
-<p>
-=D0=98=D0=BC=D0=B5=D0=B5=D1=82=D1=81=D1=8F =D0=B7=D0=B0=D0=B4=D0=B0=D1=87=
-=D0=B0: =D0=9F=D0=BE=D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C =D0=B4=D0=B8=D0=B0=
-=D0=BB=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=D0=B5 =D0=BE=D0=BA=D0=BD=D0=BE =D0=BF=
-=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =
-=D1=81 =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0=D0=BC=D0=B8 OK =D0=B8 KO =D0=B4=
-=D0=BB=D1=8F =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=
-=D0=BD=D0=B8=D1=8F =D0=BE=D1=82=D0=BC=D0=B5=D0=BD=D1=8B =D0=9E=D0=B1=D1=80=
-=D0=B0=D1=89=D0=B5=D0=BD=D0=B8=D1=8F (Case), =D0=B5=D1=81=D0=BB=D0=B8 =D0=
-=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8C =D0=
-=BD=D0=B0=D0=B6=D0=B0=D0=BB =D0=BD=D0=B0 =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=
-=81 Cancel =D0=B2 DCM.<br>
-=D0=95=D1=81=D0=BB=D0=B8 =D0=B1=D1=8B=D0=BB=D0=B0 =D0=BD=D0=B0=D0=B6=D0=B0=
-=D1=82=D0=B0 =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0 OK, =D1=82=D0=BE Case =D0=
-=BE=D1=82=D0=BC=D0=B5=D0=BD=D1=8F=D0=B5=D1=82=D1=81=D1=8F.<br>
-=D0=95=D1=81=D0=BB=D0=B8 =D0=B1=D1=8B=D0=BB=D0=B0 =D0=BD=D0=B0=D0=B6=D0=B0=
-=D1=82=D0=B0 =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0 KO, =D1=82=D0=BE Case =D0=
-=B2=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D1=81=D1=8F =D0=BA =D0=BF=D1=80=D0=B5=D0=
-=B4=D1=8B=D0=B4=D1=83=D1=89=D0=B5=D0=BC=D1=83 =D1=81=D1=82=D0=B0=D1=82=D1=
-=83=D1=81=D1=83.<br>
-<img alt=3D"" data-entity-type=3D"file" data-entity-uuid=3D"f4cddffe-3fda-4=
-880-abff-7384d1f4fe94" src=3D"https://community.terrasoft.ua/sites/default/=
-files/inline-images/Capture_49.PNG"><br>
-=D0=AF =D0=BF=D0=BE=D0=BF=D1=8B=D1=82=D0=B0=D0=BB=D1=81=D1=8F =D0=BE=D1=82=
-=D0=BE=D0=B1=D1=80=D0=B0=D0=B7=D0=B8=D1=82=D1=8C =D0=B4=D0=B8=D0=B0=D0=BB=
-=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=D0=B5 =D0=BE=D0=BA=D0=BD=D0=BE =D0=BF=D0=BE =
-=D1=81=D0=BE=D0=B1=D1=8B=D1=82=D0=B8=D1=8E OnSaving =D0=BE=D0=B1=D1=8A=D0=
-=B5=D0=BA=D1=82=D0=B0 Case.<br>
-=D0=92=D0=BE=D1=82 =D0=BC=D0=BE=D1=8F =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=
-=D1=8F:</p>
-<pre><div class=3D"geshifilter"><pre class=3D"cpp geshifilter-cpp" style=3D=
-"font-family:monospace;"><span style=3D"color: #0000ff;">public</span> <spa=
-n style=3D"color: #0000ff;">override</span> <span style=3D"color: #0000ff;"=
->void</span> OnSaving<span style=3D"color: #008000;">(</span>object sender,=
- EntityBeforeEventArgs e<span style=3D"color: #008000;">)</span> <span styl=
-e=3D"color: #008000;">{</span> =20
-string status <span style=3D"color: #000080;">=3D</span> UpdateData<span st=
-yle=3D"color: #008000;">(</span>sender<span style=3D"color: #008000;">)</sp=
-an><span style=3D"color: #008080;">;</span>
-<span style=3D"color: #0000ff;">if</span><span style=3D"color: #008000;">(<=
-/span>status<span style=3D"color: #000040;">!</span><span style=3D"color: #=
-000080;">=3D</span><span style=3D"color: #FF0000;">"Canceled"</span><span s=
-tyle=3D"color: #008000;">)</span> <span style=3D"color: #008000;">{</span>
-base.<span style=3D"color: #007788;">OnSaving</span><span style=3D"color: #=
-008000;">(</span>sender, e<span style=3D"color: #008000;">)</span><span sty=
-le=3D"color: #008080;">;</span>
-  	<span style=3D"color: #008000;">}</span> <span style=3D"color: #0000ff;"=
->else</span> <span style=3D"color: #008000;">{</span>
-    		<span style=3D"color: #666666;">//Todo: Show dialog with question</sp=
-an>
-  		<span style=3D"color: #666666;">//Todo: Get response OK or KO</span>
-                <span style=3D"color: #ff0000; font-style: italic;">/*if(re=
-sponse =3D"OK"){
-                        base.OnSaving(sender, e);
-                 }else{
-                        e.IsCanceled =3D true;
-        }*/</span>
-<span style=3D"color: #008000;">}</span>
-<span style=3D"color: #008000;">}</span></pre></div>
-</pre><p>=D0=9A =D1=81=D0=BE=D0=B6=D0=B0=D0=BB=D0=B5=D0=BD=D0=B8=D1=8E, =D1=
-=8F =D0=BD=D0=B5 =D0=BD=D0=B0=D1=88=D0=BB=D0=B0 =D0=BD=D0=B8=D0=BA=D0=B0=D0=
-=BA=D0=BE=D0=B9 =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D0=
-=B8 =D0=BE =D1=82=D0=BE=D0=BC, =D0=BA=D0=B0=D0=BA =D0=BE=D1=82=D0=BE=D0=B1=
-=D1=80=D0=B0=D0=B7=D0=B8=D1=82=D1=8C =D0=B4=D0=B8=D0=B0=D0=BB=D0=BE=D0=B3=
-=D0=BE=D0=B2=D0=BE=D0=B5 =D0=BE=D0=BA=D0=BD=D0=BE =D0=BD=D0=B0 =D1=81=D1=82=
-=D0=BE=D1=80=D0=BE=D0=BD=D0=B5 =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80=D0=B0.<=
-br>
-=D0=AF =D0=B7=D0=BD=D0=B0=D1=8E =D1=81=D0=BF=D0=BE=D1=81=D0=BE=D0=B1 =D0=BE=
-=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B8 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=
-=D0=B5=D0=BD=D0=B8=D0=B9 =D1=81 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D1=81=
-=D0=BA=D0=BE=D0=B9 =D1=81=D1=82=D0=BE=D1=80=D0=BE=D0=BD=D1=8B (this.showCon=
-firmationDialog(message, function(returnCode)), =D0=BD=D0=BE =D0=BD=D0=B5 =
-=D0=B7=D0=BD=D0=B0=D1=8E, =D0=BA=D0=B0=D0=BA =D0=B2=D0=B5=D1=80=D0=BD=D1=83=
-=D1=82=D1=8C =D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82 =D0=BD=
-=D0=B0=D0=B6=D0=B0=D1=82=D0=B8=D1=8F =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B8 =
-=D0=BD=D0=B0 =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80 =D0=B4=D0=BB=D1=8F =D0=B7=
-=D0=B0=D0=B2=D0=B5=D1=80=D1=88=D0=B5=D0=BD=D0=B8=D1=8F =D0=BC=D0=B5=D1=82=
-=D0=BE=D0=B4=D0=B0 OnSaving.</p>
-<pre><div class=3D"geshifilter"><pre class=3D"cpp geshifilter-cpp" style=3D=
-"font-family:monospace;"><span style=3D"color: #0000ff;">private</span> <sp=
-an style=3D"color: #0000ff;">void</span> SendMessage<span style=3D"color: #=
-008000;">(</span>object sender<span style=3D"color: #008000;">)</span> <spa=
-n style=3D"color: #008000;">{</span>
-       var entity <span style=3D"color: #000080;">=3D</span> <span style=3D=
-"color: #008000;">(</span>Entity<span style=3D"color: #008000;">)</span>sen=
-der<span style=3D"color: #008080;">;</span>=20
-       var userConnection <span style=3D"color: #000080;">=3D</span> entity=
-.<span style=3D"color: #007788;">UserConnection</span><span style=3D"color:=
- #008080;">;</span>
-      string senderName <span style=3D"color: #000080;">=3D</span> <span st=
-yle=3D"color: #FF0000;">"MySenderNameCase"</span><span style=3D"color: #008=
-080;">;</span> =20
-      string message <span style=3D"color: #000080;">=3D</span> JsonConvert=
-.<span style=3D"color: #007788;">SerializeObject</span><span style=3D"color=
-: #008000;">(</span><span style=3D"color: #0000dd;">new</span> <span style=
-=3D"color: #008000;">{</span>test <span style=3D"color: #000080;">=3D</span=
-> <span style=3D"color: #FF0000;">"status"</span><span style=3D"color: #008=
-000;">}</span><span style=3D"color: #008000;">)</span><span style=3D"color:=
- #008080;">;</span>
-      MsgChannelUtilities.<span style=3D"color: #007788;">PostMessage</span=
-><span style=3D"color: #008000;">(</span>userConnection, senderName, messag=
-e<span style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;<=
-/span>
-  <span style=3D"color: #008000;">}</span>             </pre></div>
-</pre><p>=D0=9F=D0=BE=D0=B6=D0=B0=D0=BB=D1=83=D0=B9=D1=81=D1=82=D0=B0, =D0=
-=BF=D0=BE=D0=B4=D1=81=D0=BA=D0=B0=D0=B6=D0=B8=D1=82=D0=B5, =D0=BA=D0=B0=D0=
-=BA =D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE =D0=B2=D1=8B=D0=
-=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C =D1=8D=D1=82=D1=83 =D0=B7=D0=B0=D0=
-=B4=D0=B0=D1=87=D1=83.<br>
-=D0=A1=D0=BF=D0=B0=D1=81=D0=B8=D0=B1=D0=BE.<br>
-=D0=A1 =D0=BD=D0=B0=D0=B8=D0=BB=D1=83=D1=87=D1=88=D0=B8=D0=BC=D0=B8 =D0=BF=
-=D0=BE=D0=B6=D0=B5=D0=BB=D0=B0=D0=BD=D0=B8=D1=8F=D0=BC=D0=B8,<br>
-=D0=9C=D0=B0=D1=80=D0=B8=D1=8F</p>
-</div>
+eld--type-text-with-summary field--label-hidden field__item"> <p>=D0=92=D1=
+=81=D0=B5=D0=BC =D0=B4=D0=BE=D0=B1=D1=80=D0=BE=D0=B3=D0=BE =D0=B2=D1=80=D0=
+=B5=D0=BC=D0=B5=D0=BD=D0=B8 =D1=81=D1=83=D1=82=D0=BE=D0=BA.</p><p>=D0=92=D0=
+=B5=D1=80=D1=81=D0=B8=D1=8F 7.9 sales.</p>
+<p>=D0=9D=D0=B0 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B5 =D0=B5=D1=
+=81=D1=82=D1=8C =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0 =D0=9E=D1=82=D0=BC=D0=
+=B5=D0=BD=D0=B0 (=D1=81=D0=BC. =D1=81=D0=BA=D1=80=D0=B8=D0=BD=D1=88=D0=BE=
+=D1=82). =D0=9D=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D0=
+=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D1=81=D0=BE=D0=B1=D1=8B=D1=
+=82=D0=B8=D0=B5 =D0=BD=D0=B0 =D1=8D=D1=82=D1=83 =D0=BA=D0=BD=D0=BE=D0=BF=D0=
+=BA=D1=83. =D0=A1=D0=BE=D0=B1=D1=8B=D1=82=D0=B8=D0=B5  =D1=81=D0=B2=D1=8F=
+=D0=B7=D0=B0=D0=BD=D0=BE =D1=81 =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=
+=D0=B8=D1=8F=D0=BC=D0=B8 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BD=D0=B0 =
+=D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B5 =D0=B8 =D0=BF=D0=B5=D1=80=
+=D0=B5=D1=81=D1=87=D1=91=D1=82=D0=B0=D0=BC=D0=B8 =D0=BF=D0=B0=D1=80=D0=B0=
+=D0=BC=D0=B5=D1=82=D1=80=D0=BE=D0=B2, =D0=BD=D0=BE =D0=B4=D0=B5=D0=BB=D0=BE=
+ =D0=BD=D0=B5 =D0=B2 =D0=BD=D1=91=D0=BC.</p>
+<p></p><div class=3D"geshifilter"><div class=3D"javascript geshifilter-java=
+script" style=3D"font-family:monospace;">onDiscardChangesClick<span style=
+=3D"color: #339933;">:</span> <span style=3D"color: #003366; font-weight: b=
+old;">function</span><span style=3D"color: #009900;">(</span><span style=3D=
+"color: #009900;">)</span><span style=3D"color: #009900;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span style=3D"color: #000066; font-weight: bol=
+d;">this</span>.<span style=3D"color: #660066;">callParent</span><span styl=
+e=3D"color: #009900;">(</span>arguments<span style=3D"color: #009900;">)</s=
+pan><span style=3D"color: #339933;">;</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; console.<span style=3D"color: #660066;">log</sp=
+an><span style=3D"color: #009900;">(</span><span style=3D"color: #3366CC;">=
+"=D0=A1=D0=BE=D0=B1=D1=8B=D1=82=D0=B8=D0=B5"</span><span style=3D"color: #0=
+09900;">)</span><span style=3D"color: #339933;">;</span><br>
+<span style=3D"color: #009900;">}</span></div></div>
+<p>=D0=A2=D0=B0=D0=BA=D0=BE=D0=B9 =D0=B2=D0=B0=D1=80=D0=B8=D0=B0=D0=BD=D1=
+=82 =D0=BD=D0=B5 =D0=BF=D0=BE=D0=BC=D0=BE=D0=B3=D0=B0=D0=B5=D1=82 - =D0=BD=
+=D1=83=D0=B6=D0=BD=D0=BE=D0=B5 =D1=81=D0=BE=D0=B1=D1=8B=D1=82=D0=B8=D0=B5 =
+=D0=BF=D1=80=D0=BE=D0=B8=D1=81=D1=85=D0=BE=D0=B4=D0=B8=D1=82 =D1=80=D0=B0=
+=D0=BD=D1=8C=D1=88=D0=B5, =D1=87=D0=B5=D0=BC =D0=BE=D1=82=D0=BC=D0=B5=D0=BD=
+=D0=B0 =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9 (=D0=BE=D0=BD=
+=D0=BE =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D0=BE =D0=BF=D1=80=D0=BE=D0=B8=D1=81=
+=D1=85=D0=BE=D0=B4=D0=B8=D1=82=D1=8C =D1=81=D1=80=D0=B0=D0=B7=D1=83 =D0=BF=
+=D0=BE=D1=81=D0=BB=D0=B5).</p>
+<p>=D0=A1=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=B5=D0=BD=
+=D0=BD=D0=BE, =D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81 - =D0=BA=D0=B0=D0=BA =D0=
+=BF=D1=80=D0=B0=D0=B2=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE =D1=81=D0=B4=D0=B5=D0=
+=BB=D0=B0=D1=82=D1=8C? =D0=9A=D0=B0=D0=BA=D0=B0=D1=8F =D1=84=D1=83=D0=BD=D0=
+=BA=D1=86=D0=B8=D1=8F =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D0=B0 =D0=B1=D1=8B=D1=
+=82=D1=8C =D0=BF=D0=B5=D1=80=D0=B5=D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=
+=BB=D0=B5=D0=BD=D0=B0, =D0=B8=D0=BB=D0=B8 =D0=B1=D1=8B=D1=82=D1=8C =D0=BC=
+=D0=BE=D0=B6=D0=B5=D1=82, =D0=B5=D1=81=D1=82=D1=8C sandbox-=D1=81=D0=BE=D0=
+=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5, =D0=BD=D0=B0 =D0=BA=D0=BE=D1=82=D0=
+=BE=D1=80=D0=BE=D0=B5 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=BF=D0=BE=D0=B4=D0=
+=BF=D0=B8=D1=81=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=B8 =D0=B2=D1=8B=D0=B7=D1=
+=8B=D0=B2=D0=B0=D1=82=D1=8C =D1=87=D0=B5=D1=80=D0=B5=D0=B7 =D0=BD=D0=B5=D0=
+=B3=D0=BE =D1=82=D1=80=D0=B5=D0=B1=D1=83=D0=B5=D0=BC=D0=BE=D0=B5 =D1=81=D0=
+=BE=D0=B1=D1=8B=D1=82=D0=B8=D0=B5?</p>
+ </div>
      =20
 <div class=3D"container-statistics">
      =20
 <div class=3D"group-like">
       <div class=3D"vote-widget-wrapper">
   <div class=3D"vote-widget">
-          <div class=3D"vote-like type-node" id=3D"like-container-node-3110=
-9">
+          <div class=3D"vote-like type-node" id=3D"like-container-node-2495=
+5">
         <a title=3D"=D0=9D=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F" data-=
-entity-id=3D"31109" data-entity-type=3D"node">=D0=9D=D1=80=D0=B0=D0=B2=D0=
+entity-id=3D"24955" data-entity-type=3D"node">=D0=9D=D1=80=D0=B0=D0=B2=D0=
 =B8=D1=82=D1=81=D1=8F</a>
-        <span class=3D"count">1</span>
+        <span class=3D"count wd-0">0</span>
       </div>
       </div>
 </div>
@@ -1953,18 +1879,18 @@ n-likes-label field--type-ds field--label-hidden field__item"><p>=D0=9D=D1=
 =80=D0=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F</p>
 </div>
      =20
-  </div><div class=3D"flag flag-bookmark js-flag-bookmark-31109 action-flag=
+  </div><div class=3D"flag flag-bookmark js-flag-bookmark-24955 action-flag=
 "><a title=3D"=D0=94=D0=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=B2 =D0=
 =B7=D0=B0=D0=BA=D0=BB=D0=B0=D0=B4=D0=BA=D0=B8, =D0=BF=D0=BE=D0=B4=D0=BF=D0=
 =B8=D1=81=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=BD=D0=B0 =D0=BE=D0=B1=D0=BD=D0=
 =BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F" href=3D"https://community.terrasof=
-t.ua/flag/flag/bookmark/31109?destination&amp;token=3DMXqtsde1AphzUiwtVwhBq=
-TkKhSpS4D9WENaeFU4p2iY" class=3D"use-ajax" rel=3D"nofollow">=D0=98=D0=B7=D0=
+t.ua/flag/flag/bookmark/24955?destination&amp;token=3DcmR-HVXTNTiBux1Zlf2Jm=
+VPKf_DCqASOslx9vZBA29I" class=3D"use-ajax" rel=3D"nofollow">=D0=98=D0=B7=D0=
 =B1=D1=80=D0=B0=D0=BD=D0=BD=D0=BE=D0=B5</a></div>
             <div class=3D"field field--name-dynamic-token-fieldnode-comment=
 -count field--type-ds field--label-hidden field__item"><div class=3D"commen=
-t-count"><span class=3D"count">5</span> <span>=D0=BA=D0=BE=D0=BC=D0=BC=D0=
-=B5=D0=BD=D1=82=D0=B0=D1=80=D0=B8=D0=B5=D0=B2</span></div>
+t-count"><span class=3D"count">3</span> <span>=D0=BA=D0=BE=D0=BC=D0=BC=D0=
+=B5=D0=BD=D1=82=D0=B0=D1=80=D0=B8=D1=8F</span></div>
 </div>
      =20
   </div>
@@ -1974,120 +1900,6 @@ t-count"><span class=3D"count">5</span> <span>=D0=BA=D0=BE=D0=BC=D0=BC=D0=
  =20
     <div class=3D"col-sm-12 bs-region bs-region--bottom">
    =20
-  <div class=3D"field field--name-field-best-answer-reference field--type-e=
-ntity-reference field--label-above">
-    <div class=3D"field__label">=D0=9B=D1=83=D1=87=D1=88=D0=B8=D0=B9 =D0=BE=
-=D1=82=D0=B2=D0=B5=D1=82</div>
-              <div class=3D"field__item"><div class=3D"contextual-region ro=
-w bs-1col comment comment--type-comment comment--view-mode-default">
-  <div data-contextual-id=3D"comment:comment=3D83676:changed=3D1610710278&a=
-mp;ds_bundle=3Dcomment&amp;ds_view_mode=3Ddefault&amp;langcode=3Dru" data-c=
-ontextual-token=3D"Q0Tc2wA546UKwsNit4FhVxw1qcmsb340P0a0kR-6BPM"></div>
-  <div class=3D"col-sm-12 bs-region bs-region--main">
-   =20
-<div class=3D"comment-top">
-     =20
-            <div class=3D"field field--name-comment-user field--type-ds fie=
-ld--label-hidden field__item"><div class=3D"contextual-region row bs-1col u=
-ser user--type-user user--view-mode-avatar-with-name">
-  <div data-contextual-id=3D"user:user=3D18354:changed=3D1645607108&amp;ds_=
-bundle=3Duser&amp;ds_view_mode=3Davatar_with_name&amp;langcode=3Dru" data-c=
-ontextual-token=3D"LtCu3hAMfWrhk4yv2MJb--MSO37KRYEc6rlidNhi6A0"></div>
-  <div class=3D"col-sm-12 bs-region bs-region--main">
-   =20
-            <div class=3D"field field--name-user-picture field--type-image =
-field--label-hidden field__item">  <a href=3D"https://community.terrasoft.u=
-a/user/18354" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/si=
-tes/default/files/styles/avatar_small/public/default_images/man4.png?itok=
-=3DBIJHgs1h" width=3D"40" height=3D"40" alt=3D"Profile picture for user =D0=
-=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80 =D0=A1=D0=BE=D0=BA=D0=BE=D0=
-=BB=D0=BE=D0=B2" typeof=3D"foaf:Image" class=3D"image-style-avatar-small">
-
-</a>
-</div>
-     =20
-            <div class=3D"field field--name-username field--type-ds field--=
-label-hidden field__item"><user_name-wrtapper class=3D"user_name-wrtapper">
-  <a href=3D"https://community.terrasoft.ua/user/18354" hreflang=3D"ru">=D0=
-=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80 =D0=A1=D0=BE=D0=BA=D0=BE=D0=
-=BB=D0=BE=D0=B2</a>
-</user_name-wrtapper>
-</div>
-     =20
-  </div>
-</div>
-
-</div>
-     =20
-            <div class=3D"field field--name-comment-post-date field--type-d=
-s field--label-hidden field__item">13 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F =
-2021  21:04</div>
-      <div class=3D"vote-widget-wrapper">
-  <div class=3D"vote-widget vote-widget--like-and-dislike">
-          <div class=3D"vote-like type-comment" id=3D"like-container-commen=
-t-83676">
-        <a title=3D"=D0=9D=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F" data-=
-entity-id=3D"83676" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
-=D0=B8=D1=82=D1=81=D1=8F</a>
-        <span class=3D"count wd-0">0</span>
-      </div>
-      </div>
-</div>
-
-  </div>
-            <div property=3D"schema:text" class=3D"clearfix text-formatted =
-field field--name-comment-body field--type-text-long field--label-hidden fi=
-eld__item"><p>=D0=9C=D1=8B =D0=B4=D0=B5=D0=BB=D0=B0=D0=BB=D0=B8 =D0=BF=D0=
-=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
-=BF=D0=B5=D1=80=D0=B5=D1=85=D0=BE=D0=B4=D0=B0 Case =D0=BD=D0=B0 =D1=84=D0=
-=B8=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=81=D1=82=D0=B0=D1=82=D1=
-=83=D1=81 =D0=BD=D0=B0 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B5, =
-=D0=B2=D1=8B=D0=B4=D0=B0=D0=B2=D0=B0=D1=8F&nbsp;showConfirmationDialog =D0=
-=B2 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=B8 Save.</p>
-
-<pre><div class=3D"geshifilter"><pre class=3D"cpp geshifilter-cpp" style=3D=
-"font-family:monospace;"><span style=3D"color: #0000dd;">this</span>.<span =
-style=3D"color: #007788;">showConfirmationDialog</span><span style=3D"color=
-: #008000;">(</span>confirmationMessage.<span style=3D"color: #007788;">mes=
-sage</span>, function<span style=3D"color: #008000;">(</span>result<span st=
-yle=3D"color: #008000;">)</span> <span style=3D"color: #008000;">{</span>
-    <span style=3D"color: #0000ff;">if</span> <span style=3D"color: #008000=
-;">(</span>result <span style=3D"color: #000080;">=3D=3D=3D</span> Terrasof=
-t.<span style=3D"color: #007788;">MessageBoxButtons</span>.<span style=3D"c=
-olor: #007788;">YES</span>.<span style=3D"color: #007788;">returnCode</span=
-><span style=3D"color: #008000;">)</span> <span style=3D"color: #008000;">{=
-</span>
-        <span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #=
-007788;">save</span><span style=3D"color: #008000;">(</span>scopeArguments<=
-span style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;</s=
-pan>
-     <span style=3D"color: #008000;">}</span> <span style=3D"color: #0000ff=
-;">else</span> <span style=3D"color: #008000;">{</span>
-        <span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #=
-007788;">onDiscardChangesClick</span><span style=3D"color: #008000;">(</spa=
-n><span style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;=
-</span>
-    <span style=3D"color: #008000;">}</span>
-<span style=3D"color: #008000;">}</span>, <span style=3D"color: #008000;">[=
-</span><span style=3D"color: #FF0000;">"Yes"</span>, <span style=3D"color: =
-#FF0000;">"No"</span><span style=3D"color: #008000;">]</span><span style=3D=
-"color: #008000;">)</span><span style=3D"color: #008080;">;</span></pre></d=
-iv>
-</pre>
-</div>
-      <ul class=3D"links inline"><li class=3D"comment-reply"><a href=3D"htt=
-ps://community.terrasoft.ua/comment/reply/node/31109/comment/83676">=D0=9E=
-=D1=82=D0=B2=D0=B5=D1=82=D0=B8=D1=82=D1=8C</a></li><li class=3D"comment-quo=
-te"><a href=3D"https://community.terrasoft.ua/" title=3D"=D0=A6=D0=B8=D1=82=
-=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C" class=3D"comment-quote" data-id=
-=3D"83676">=D0=A6=D0=B8=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a>=
-</li></ul>
-  </div>
-</div>
-
-</div>
-          </div>
-
 
 
  =20
@@ -2096,10 +1908,10 @@ te"><a href=3D"https://community.terrasoft.ua/" title=3D"=D0=A6=D0=B8=D1=82=
 l-hidden comment-wrapper is-js">
  =20
   <div class=3D"contextual-region row bs-1col comment comment--type-comment=
- comment--view-mode-default d-none">
-  <div data-contextual-id=3D"comment:comment=3D83676:changed=3D1610710278&a=
+ comment--view-mode-default">
+  <div data-contextual-id=3D"comment:comment=3D66313:changed=3D1484138233&a=
 mp;ds_bundle=3Dcomment&amp;ds_view_mode=3Ddefault&amp;langcode=3Dru" data-c=
-ontextual-token=3D"Q0Tc2wA546UKwsNit4FhVxw1qcmsb340P0a0kR-6BPM"></div>
+ontextual-token=3D"xiQh2M0PFvqk8h7lBxiD1OcjB0_BVQZ5TuXaWf6QMzA"></div>
   <div class=3D"col-sm-12 bs-region bs-region--main">
    =20
 <div class=3D"comment-top">
@@ -2107,27 +1919,28 @@ ontextual-token=3D"Q0Tc2wA546UKwsNit4FhVxw1qcmsb340P0a0kR-6BPM"></div>
             <div class=3D"field field--name-comment-user field--type-ds fie=
 ld--label-hidden field__item"><div class=3D"contextual-region row bs-1col u=
 ser user--type-user user--view-mode-avatar-with-name">
-  <div data-contextual-id=3D"user:user=3D18354:changed=3D1645607108&amp;ds_=
-bundle=3Duser&amp;ds_view_mode=3Davatar_with_name&amp;langcode=3Dru" data-c=
-ontextual-token=3D"LtCu3hAMfWrhk4yv2MJb--MSO37KRYEc6rlidNhi6A0"></div>
+  <div data-contextual-id=3D"user:user=3D145381:changed=3D1645520559&amp;ds=
+_bundle=3Duser&amp;ds_view_mode=3Davatar_with_name&amp;langcode=3Dru" data-=
+contextual-token=3D"Lqx97wtzZIvyjKgYXSdOeCosEpPWvpyj8GyK9jmB8eQ"></div>
   <div class=3D"col-sm-12 bs-region bs-region--main">
    =20
             <div class=3D"field field--name-user-picture field--type-image =
 field--label-hidden field__item">  <a href=3D"https://community.terrasoft.u=
-a/user/18354" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/si=
-tes/default/files/styles/avatar_small/public/default_images/man4.png?itok=
-=3DBIJHgs1h" width=3D"40" height=3D"40" alt=3D"Profile picture for user =D0=
-=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80 =D0=A1=D0=BE=D0=BA=D0=BE=D0=
-=BB=D0=BE=D0=B2" typeof=3D"foaf:Image" class=3D"image-style-avatar-small">
+a/user/145381" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/s=
+ites/default/files/styles/avatar_small/public/pictures/2020-08/picture-1453=
+81.jpg?itok=3DpP0MNxDr" width=3D"40" height=3D"40" alt=3D"Profile picture f=
+or user =D0=92=D0=B0=D1=80=D1=84=D0=BE=D0=BB=D0=BE=D0=BC=D0=B5=D0=B5=D0=B2 =
+=D0=94=D0=B0=D0=BD=D0=B8=D0=BB=D0=B0" typeof=3D"foaf:Image" class=3D"image-=
+style-avatar-small">
 
 </a>
 </div>
      =20
             <div class=3D"field field--name-username field--type-ds field--=
 label-hidden field__item"><user_name-wrtapper class=3D"user_name-wrtapper">
-  <a href=3D"https://community.terrasoft.ua/user/18354" hreflang=3D"ru">=D0=
-=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80 =D0=A1=D0=BE=D0=BA=D0=BE=D0=
-=BB=D0=BE=D0=B2</a>
+  <a href=3D"https://community.terrasoft.ua/user/145381" hreflang=3D"ru">=
+=D0=92=D0=B0=D1=80=D1=84=D0=BE=D0=BB=D0=BE=D0=BC=D0=B5=D0=B5=D0=B2 =D0=94=
+=D0=B0=D0=BD=D0=B8=D0=BB=D0=B0</a>
 </user_name-wrtapper>
 </div>
      =20
@@ -2137,14 +1950,14 @@ label-hidden field__item"><user_name-wrtapper class=3D"user_name-wrtapper">
 </div>
      =20
             <div class=3D"field field--name-comment-post-date field--type-d=
-s field--label-hidden field__item">13 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F =
-2021  21:04</div>
+s field--label-hidden field__item">11 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F =
+2017  14:37</div>
       <div class=3D"vote-widget-wrapper">
   <div class=3D"vote-widget vote-widget--like-and-dislike">
           <div class=3D"vote-like type-comment" id=3D"like-container-commen=
-t-83676">
+t-66313">
         <a title=3D"=D0=9D=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F" data-=
-entity-id=3D"83676" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
+entity-id=3D"66313" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
 =D0=B8=D1=82=D1=81=D1=8F</a>
         <span class=3D"count wd-0">0</span>
       </div>
@@ -2154,59 +1967,106 @@ entity-id=3D"83676" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
   </div>
             <div property=3D"schema:text" class=3D"clearfix text-formatted =
 field field--name-comment-body field--type-text-long field--label-hidden fi=
-eld__item"><p>=D0=9C=D1=8B =D0=B4=D0=B5=D0=BB=D0=B0=D0=BB=D0=B8 =D0=BF=D0=
-=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
-=BF=D0=B5=D1=80=D0=B5=D1=85=D0=BE=D0=B4=D0=B0 Case =D0=BD=D0=B0 =D1=84=D0=
-=B8=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=81=D1=82=D0=B0=D1=82=D1=
-=83=D1=81 =D0=BD=D0=B0 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B5, =
-=D0=B2=D1=8B=D0=B4=D0=B0=D0=B2=D0=B0=D1=8F&nbsp;showConfirmationDialog =D0=
-=B2 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=B8 Save.</p>
-
-<pre><div class=3D"geshifilter"><pre class=3D"cpp geshifilter-cpp" style=3D=
-"font-family:monospace;"><span style=3D"color: #0000dd;">this</span>.<span =
-style=3D"color: #007788;">showConfirmationDialog</span><span style=3D"color=
-: #008000;">(</span>confirmationMessage.<span style=3D"color: #007788;">mes=
-sage</span>, function<span style=3D"color: #008000;">(</span>result<span st=
-yle=3D"color: #008000;">)</span> <span style=3D"color: #008000;">{</span>
-    <span style=3D"color: #0000ff;">if</span> <span style=3D"color: #008000=
-;">(</span>result <span style=3D"color: #000080;">=3D=3D=3D</span> Terrasof=
-t.<span style=3D"color: #007788;">MessageBoxButtons</span>.<span style=3D"c=
-olor: #007788;">YES</span>.<span style=3D"color: #007788;">returnCode</span=
+eld__item"><div class=3D"geshifilter">
+<pre class=3D"cpp geshifilter-cpp" style=3D"font-family:monospace;">onDisca=
+rdChangesClick<span style=3D"color: #008080;">:</span> function<span style=
+=3D"color: #008000;">(</span><span style=3D"color: #008000;">)</span> <span=
+ style=3D"color: #008000;">{</span>
+	<span style=3D"color: #0000ff;">if</span> <span style=3D"color: #008000;">=
+(</span><span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #=
+007788;">isNew</span><span style=3D"color: #008000;">)</span> <span style=
+=3D"color: #008000;">{</span>
+		<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788=
+;">sandbox</span>.<span style=3D"color: #007788;">publish</span><span style=
+=3D"color: #008000;">(</span><span style=3D"color: #FF0000;">"BackHistorySt=
+ate"</span><span style=3D"color: #008000;">)</span><span style=3D"color: #0=
+08080;">;</span>
+		<span style=3D"color: #0000ff;">return</span><span style=3D"color: #00808=
+0;">;</span>
+	<span style=3D"color: #008000;">}</span>
+	<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788;=
+">set</span><span style=3D"color: #008000;">(</span><span style=3D"color: #=
+FF0000;">"IsEntityInitialized"</span>, <span style=3D"color: #0000ff;">fals=
+e</span><span style=3D"color: #008000;">)</span><span style=3D"color: #0080=
+80;">;</span>
+	<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788;=
+">loadEntity</span><span style=3D"color: #008000;">(</span><span style=3D"c=
+olor: #0000dd;">this</span>.<span style=3D"color: #007788;">getPrimaryColum=
+nValue</span><span style=3D"color: #008000;">(</span><span style=3D"color: =
+#008000;">)</span>, function<span style=3D"color: #008000;">(</span><span s=
+tyle=3D"color: #008000;">)</span> <span style=3D"color: #008000;">{</span>
+		<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788=
+;">updateButtonsVisibility</span><span style=3D"color: #008000;">(</span><s=
+pan style=3D"color: #0000ff;">false</span>, <span style=3D"color: #008000;"=
+>{</span>
+			force<span style=3D"color: #008080;">:</span> <span style=3D"color: #000=
+0ff;">true</span>
+		<span style=3D"color: #008000;">}</span><span style=3D"color: #008000;">)=
+</span><span style=3D"color: #008080;">;</span>
+		<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788=
+;">initMultiLookup</span><span style=3D"color: #008000;">(</span><span styl=
+e=3D"color: #008000;">)</span><span style=3D"color: #008080;">;</span>
+		<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788=
+;">set</span><span style=3D"color: #008000;">(</span><span style=3D"color: =
+#FF0000;">"IsEntityInitialized"</span>, <span style=3D"color: #0000ff;">tru=
+e</span><span style=3D"color: #008000;">)</span><span style=3D"color: #0080=
+80;">;</span>
+		<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788=
+;">discardDetailChange</span><span style=3D"color: #008000;">(</span><span =
+style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;</span>
+		<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788=
+;">updatePageHeaderCaption</span><span style=3D"color: #008000;">(</span><s=
+pan style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;</sp=
+an>
+	<span style=3D"color: #008000;">}</span>, <span style=3D"color: #0000dd;">=
+this</span><span style=3D"color: #008000;">)</span><span style=3D"color: #0=
+08080;">;</span>
+	<span style=3D"color: #0000ff;">if</span> <span style=3D"color: #008000;">=
+(</span><span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #=
+007788;">get</span><span style=3D"color: #008000;">(</span><span style=3D"c=
+olor: #FF0000;">"ForceUpdate"</span><span style=3D"color: #008000;">)</span=
 ><span style=3D"color: #008000;">)</span> <span style=3D"color: #008000;">{=
 </span>
-        <span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #=
-007788;">save</span><span style=3D"color: #008000;">(</span>scopeArguments<=
-span style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;</s=
-pan>
-     <span style=3D"color: #008000;">}</span> <span style=3D"color: #0000ff=
-;">else</span> <span style=3D"color: #008000;">{</span>
-        <span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #=
-007788;">onDiscardChangesClick</span><span style=3D"color: #008000;">(</spa=
-n><span style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;=
-</span>
-    <span style=3D"color: #008000;">}</span>
-<span style=3D"color: #008000;">}</span>, <span style=3D"color: #008000;">[=
-</span><span style=3D"color: #FF0000;">"Yes"</span>, <span style=3D"color: =
-#FF0000;">"No"</span><span style=3D"color: #008000;">]</span><span style=3D=
-"color: #008000;">)</span><span style=3D"color: #008080;">;</span></pre></d=
-iv>
-</pre>
+		<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788=
+;">set</span><span style=3D"color: #008000;">(</span><span style=3D"color: =
+#FF0000;">"ForceUpdate"</span>, <span style=3D"color: #0000ff;">false</span=
+><span style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;<=
+/span>
+	<span style=3D"color: #008000;">}</span>
+<span style=3D"color: #008000;">}</span>,</pre></div>
+<p>=D0=9A=D0=B0=D0=B6=D0=B5=D1=82=D1=81=D1=8F =D0=BC=D0=BD=D0=B5, =D1=87=D1=
+=82=D0=BE =D0=B2 =D1=81=D1=84=D0=B5=D1=80=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=
+=BE=D0=BC =D0=B2=D0=B0=D0=BA=D1=83=D1=83=D0=BC=D0=B5 =D0=BF=D0=B5=D1=80=D0=
+=B5=D0=B7=D0=B0=D0=B3=D1=80=D1=83=D0=B7=D0=BA=D0=B0 entity =D0=B2=D1=8B=D0=
+=B3=D0=BB=D1=8F=D0=B4=D0=B8=D1=82 =D0=BA=D0=B0=D0=BA-=D1=82=D0=BE =D1=82=D0=
+=B0=D0=BA:<br>
+</p><div class=3D"geshifilter">
+<pre class=3D"cpp geshifilter-cpp" style=3D"font-family:monospace;"><span s=
+tyle=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788;">loadEn=
+tity</span><span style=3D"color: #008000;">(</span>recordId, callback, scop=
+e<span style=3D"color: #008000;">)</span></pre></div>
+<p>=D0=9D=D1=83 =D0=B8 =D0=BF=D0=BE=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D1=
+=83 =D0=BE=D0=BD=D0=B0 =D0=B0=D1=81=D0=B8=D0=BD=D1=85=D1=80=D0=BE=D0=BD=D0=
+=BD=D0=B0, =D0=BF=D0=BE=D0=BF=D1=80=D0=BE=D0=B1=D1=83=D0=B9=D1=82=D0=B5 =D0=
+=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=D1=8C console.log =D0=BF=D0=BE=D1=
+=81=D0=BB=D0=B5, =D0=B4=D0=BE=D0=BF=D1=83=D1=81=D1=82=D0=B8=D0=BC, this.upd=
+atePageHeaderCaption()</p>
 </div>
       <ul class=3D"links inline"><li class=3D"comment-reply"><a href=3D"htt=
-ps://community.terrasoft.ua/comment/reply/node/31109/comment/83676">=D0=9E=
+ps://community.terrasoft.ua/comment/reply/node/24955/comment/66313">=D0=9E=
 =D1=82=D0=B2=D0=B5=D1=82=D0=B8=D1=82=D1=8C</a></li><li class=3D"comment-quo=
 te"><a href=3D"https://community.terrasoft.ua/" title=3D"=D0=A6=D0=B8=D1=82=
 =D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C" class=3D"comment-quote" data-id=
-=3D"83676">=D0=A6=D0=B8=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a>=
+=3D"66313">=D0=A6=D0=B8=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a>=
 </li></ul>
   </div>
 </div>
 
 <div class=3D"contextual-region row bs-1col comment comment--type-comment c=
 omment--view-mode-default">
-  <div data-contextual-id=3D"comment:comment=3D83678:changed=3D1610710270&a=
+  <div data-contextual-id=3D"comment:comment=3D66314:changed=3D1484141257&a=
 mp;ds_bundle=3Dcomment&amp;ds_view_mode=3Ddefault&amp;langcode=3Dru" data-c=
-ontextual-token=3D"sirdyHP8qzgYTGjiLoCY4qRaCjJ2pSYOq58VsQJZrXQ"></div>
+ontextual-token=3D"rK0xz_uvWBrake8UhDyTMH7eDACWMRuhvxE-Oc2bfVY"></div>
   <div class=3D"col-sm-12 bs-region bs-region--main">
    =20
 <div class=3D"comment-top">
@@ -2214,26 +2074,26 @@ ontextual-token=3D"sirdyHP8qzgYTGjiLoCY4qRaCjJ2pSYOq58VsQJZrXQ"></div>
             <div class=3D"field field--name-comment-user field--type-ds fie=
 ld--label-hidden field__item"><div class=3D"contextual-region row bs-1col u=
 ser user--type-user user--view-mode-avatar-with-name">
-  <div data-contextual-id=3D"user:user=3D193347:changed=3D1612258019&amp;ds=
+  <div data-contextual-id=3D"user:user=3D133262:changed=3D1603700792&amp;ds=
 _bundle=3Duser&amp;ds_view_mode=3Davatar_with_name&amp;langcode=3Dru" data-=
-contextual-token=3D"c8G3Cx4TpcgXJeFHEG-SK9q0N2FqFSv-00JQ7xiETY0"></div>
+contextual-token=3D"TkJtZ7D1LF6QUgcTkdzal1btVLBq-tzDt2rbi-B2axQ"></div>
   <div class=3D"col-sm-12 bs-region bs-region--main">
    =20
             <div class=3D"field field--name-user-picture field--type-image =
 field--label-hidden field__item">  <a href=3D"https://community.terrasoft.u=
-a/user/193347" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/s=
-ites/default/files/styles/avatar_small/public/pictures/2020-09/woman2_0.png=
-?itok=3DoqWvYYui" width=3D"40" height=3D"40" alt=3D"Profile picture for use=
-r Mariia Prostiak" typeof=3D"foaf:Image" class=3D"image-style-avatar-small"=
->
+a/user/133262" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/s=
+ites/default/files/styles/avatar_small/public/avatars/picture-133262.jpg?it=
+ok=3DEsFjL900" width=3D"40" height=3D"40" alt=3D"Profile picture for user =
+=D0=9C=D0=BE=D1=82=D0=BA=D0=BE=D0=B2 =D0=98=D0=BB=D1=8C=D1=8F" typeof=3D"fo=
+af:Image" class=3D"image-style-avatar-small">
 
 </a>
 </div>
      =20
             <div class=3D"field field--name-username field--type-ds field--=
 label-hidden field__item"><user_name-wrtapper class=3D"user_name-wrtapper">
-  <a href=3D"https://community.terrasoft.ua/user/193347" hreflang=3D"ru">Ma=
-riia Prostiak</a>
+  <a href=3D"https://community.terrasoft.ua/user/133262" hreflang=3D"ru">=
+=D0=9C=D0=BE=D1=82=D0=BA=D0=BE=D0=B2 =D0=98=D0=BB=D1=8C=D1=8F</a>
 </user_name-wrtapper>
 </div>
      =20
@@ -2243,14 +2103,14 @@ riia Prostiak</a>
 </div>
      =20
             <div class=3D"field field--name-comment-post-date field--type-d=
-s field--label-hidden field__item">14 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F =
-2021  12:37</div>
+s field--label-hidden field__item">11 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F =
+2017  15:27</div>
       <div class=3D"vote-widget-wrapper">
   <div class=3D"vote-widget vote-widget--like-and-dislike">
           <div class=3D"vote-like type-comment" id=3D"like-container-commen=
-t-83678">
+t-66314">
         <a title=3D"=D0=9D=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F" data-=
-entity-id=3D"83678" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
+entity-id=3D"66314" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
 =D0=B8=D1=82=D1=81=D1=8F</a>
         <span class=3D"count wd-0">0</span>
       </div>
@@ -2261,30 +2121,44 @@ entity-id=3D"83678" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
             <div property=3D"schema:text" class=3D"clearfix text-formatted =
 field field--name-comment-body field--type-text-long field--label-hidden fi=
 eld__item"><p>=D0=97=D0=B4=D1=80=D0=B0=D0=B2=D1=81=D1=82=D0=B2=D1=83=D0=B9=
-=D1=82=D0=B5, <cite><strong>=D0=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=
-=80. </strong></cite></p>
-<p>=D0=A1=D0=BF=D0=B0=D1=81=D0=B8=D0=B1=D0=BE =D0=B7=D0=B0 =D0=B2=D0=B0=D1=
-=88 =D0=BE=D1=82=D0=B2=D0=B5=D1=82.</p>
-
-<p>=D0=AD=D1=82=D0=BE =D0=BF=D0=BE=D0=BC=D0=BE=D0=B3=D0=BB=D0=BE =D1=80=D0=
-=B5=D1=88=D0=B8=D1=82=D1=8C =D0=B7=D0=B0=D0=B4=D0=B0=D1=87=D1=83!</p>
-
+=D1=82=D0=B5, =D0=94=D0=B5=D0=BD=D0=B8=D1=81. </p>
+<p>=D0=9F=D1=80=D0=B5=D0=B4=D1=8B=D0=B4=D1=83=D1=89=D0=B8=D0=B9 =D0=BA=D0=
+=BE=D0=BC=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=82=D0=BE=D1=80 =D0=B2=D0=B5=D1=
+=80=D0=BD=D0=BE =D0=BF=D0=BE=D0=B4=D0=BC=D0=B5=D1=82=D0=B8=D0=BB. =D0=94=D0=
+=BB=D1=8F =D0=B7=D0=B0=D0=BC=D0=B5=D1=89=D0=B5=D0=BD=D0=B8=D1=8F, =D0=92=D0=
+=B0=D0=BC =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D0=
+=BF=D0=B5=D1=80=D0=B5=D0=BF=D0=B8=D1=81=D0=B0=D1=82=D1=8C =D0=BC=D0=B5=D1=
+=82=D0=BE=D0=B4 onDiscardChangesClick =D1=86=D0=B5=D0=BB=D0=B8=D0=BA=D0=BE=
+=D0=BC (=D0=B2=D1=8B=D0=B7=D0=BE=D0=B2=D0=B0 this.callParent(arguments) =D0=
+=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=BD=D0=B5=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D1=
+=82=D0=BE=D1=87=D0=BD=D0=BE) =D0=B8 =D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=
+=82=D1=8C =D1=81=D0=B2=D0=BE=D0=B9 =D0=BA=D0=BE=D0=B4 =D0=B2 =D0=BA=D0=BE=
+=D0=BB=D0=BB=D0=B1=D1=8D=D0=BA =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D1=8E =
+=D0=B8=D0=B7 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D0=B0 loadEntity.</p>
+<p>=D0=A2=D0=B0=D0=BA=D0=B6=D0=B5, =D0=BF=D1=80=D0=B8 =D0=BD=D0=B5=D0=BE=D0=
+=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8, =D0=BC=D0=BE=D0=
+=B6=D0=B5=D1=82=D0=B5 =D0=BF=D0=BE=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B5=D1=
+=82=D1=8C =D0=B2 =D1=81=D1=82=D0=BE=D1=80=D0=BE=D0=BD=D1=83 =D0=B8=D1=81=D0=
+=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F js =D1=84=
+=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=B8 setTimeout =D0=B4=D0=BB=D1=8F =D0=BE=
+=D1=82=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=B2=D1=8B=
+=D0=B7=D0=BE=D0=B2=D0=B0 =D0=BA=D0=BE=D0=B4=D0=B0.</p>
 </div>
       <ul class=3D"links inline"><li class=3D"comment-reply"><a href=3D"htt=
-ps://community.terrasoft.ua/comment/reply/node/31109/comment/83678">=D0=9E=
+ps://community.terrasoft.ua/comment/reply/node/24955/comment/66314">=D0=9E=
 =D1=82=D0=B2=D0=B5=D1=82=D0=B8=D1=82=D1=8C</a></li><li class=3D"comment-quo=
 te"><a href=3D"https://community.terrasoft.ua/" title=3D"=D0=A6=D0=B8=D1=82=
 =D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C" class=3D"comment-quote" data-id=
-=3D"83678">=D0=A6=D0=B8=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a>=
+=3D"66314">=D0=A6=D0=B8=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a>=
 </li></ul>
   </div>
 </div>
 
 <div class=3D"contextual-region row bs-1col comment comment--type-comment c=
 omment--view-mode-default">
-  <div data-contextual-id=3D"comment:comment=3D83759:changed=3D1611236487&a=
+  <div data-contextual-id=3D"comment:comment=3D66317:changed=3D1484155057&a=
 mp;ds_bundle=3Dcomment&amp;ds_view_mode=3Ddefault&amp;langcode=3Dru" data-c=
-ontextual-token=3D"aQ24Z-jzhZf4Snd4FhmW5_t0_SNGSMRRlAksi38okHc"></div>
+ontextual-token=3D"SPd4txG-8Qcl5kEYjkCDWN8cl7kc3L5g0-SjhlTqRt0"></div>
   <div class=3D"col-sm-12 bs-region bs-region--main">
    =20
 <div class=3D"comment-top">
@@ -2292,27 +2166,28 @@ ontextual-token=3D"aQ24Z-jzhZf4Snd4FhmW5_t0_SNGSMRRlAksi38okHc"></div>
             <div class=3D"field field--name-comment-user field--type-ds fie=
 ld--label-hidden field__item"><div class=3D"contextual-region row bs-1col u=
 ser user--type-user user--view-mode-avatar-with-name">
-  <div data-contextual-id=3D"user:user=3D193509:changed=3D1648636547&amp;ds=
+  <div data-contextual-id=3D"user:user=3D167687:changed=3D1604344228&amp;ds=
 _bundle=3Duser&amp;ds_view_mode=3Davatar_with_name&amp;langcode=3Dru" data-=
-contextual-token=3D"VNGEa_YNps0w6LDumyQbLVoc2szZEn6LGZ_kfcEHOhM"></div>
+contextual-token=3D"tl1lFp62oA4jda9wbBbLSKO4lAQgUpK1U31L1jJm9Cw"></div>
   <div class=3D"col-sm-12 bs-region bs-region--main">
    =20
             <div class=3D"field field--name-user-picture field--type-image =
 field--label-hidden field__item">  <a href=3D"https://community.terrasoft.u=
-a/user/193509" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/s=
-ites/default/files/styles/avatar_small/public/pictures/2020-08/man_121.png?=
-itok=3DhQuWUlkc" width=3D"40" height=3D"40" alt=3D"Profile picture for user=
- =D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B0=D0=BD=D0=B4=D1=80 =D0=A2=D1=8B=D1=80=
-=D0=B0" typeof=3D"foaf:Image" class=3D"image-style-avatar-small">
+a/user/167687" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/s=
+ites/default/files/styles/avatar_small/public/pictures/2020-08/7slhT7cKoKI.=
+jpg?itok=3DR-7HGT5g" width=3D"40" height=3D"40" alt=3D"Profile picture for =
+user =D0=A1=D0=BC=D0=BE=D1=80=D0=BE=D0=B4=D0=B8=D0=BD=D0=BE=D0=B2 =D0=94=D0=
+=B5=D0=BD=D0=B8=D1=81" typeof=3D"foaf:Image" class=3D"image-style-avatar-sm=
+all">
 
 </a>
 </div>
      =20
             <div class=3D"field field--name-username field--type-ds field--=
 label-hidden field__item"><user_name-wrtapper class=3D"user_name-wrtapper">
-  <a href=3D"https://community.terrasoft.ua/user/193509" hreflang=3D"ru">=
-=D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B0=D0=BD=D0=B4=D1=80 =D0=A2=D1=8B=D1=80=
-=D0=B0</a>
+  <a href=3D"https://community.terrasoft.ua/user/167687" hreflang=3D"ru">=
+=D0=A1=D0=BC=D0=BE=D1=80=D0=BE=D0=B4=D0=B8=D0=BD=D0=BE=D0=B2 =D0=94=D0=B5=
+=D0=BD=D0=B8=D1=81</a>
 </user_name-wrtapper>
 </div>
      =20
@@ -2322,14 +2197,14 @@ label-hidden field__item"><user_name-wrtapper class=3D"user_name-wrtapper">
 </div>
      =20
             <div class=3D"field field--name-comment-post-date field--type-d=
-s field--label-hidden field__item">21 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F =
-2021  15:41</div>
+s field--label-hidden field__item">11 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F =
+2017  19:17</div>
       <div class=3D"vote-widget-wrapper">
   <div class=3D"vote-widget vote-widget--like-and-dislike">
           <div class=3D"vote-like type-comment" id=3D"like-container-commen=
-t-83759">
+t-66317">
         <a title=3D"=D0=9D=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F" data-=
-entity-id=3D"83759" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
+entity-id=3D"66317" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
 =D0=B8=D1=82=D1=81=D1=8F</a>
         <span class=3D"count wd-0">0</span>
       </div>
@@ -2339,226 +2214,17 @@ entity-id=3D"83759" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
   </div>
             <div property=3D"schema:text" class=3D"clearfix text-formatted =
 field field--name-comment-body field--type-text-long field--label-hidden fi=
-eld__item"><p><cite><strong>Mariia Prostiak,</strong></cite></p>
-<p>&nbsp;=D0=BA=D0=B0=D0=BA =D0=B2=D1=81=D0=B5 =D0=B6=D0=B5 =D1=83 =D0=92=
-=D0=B0=D1=81 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D0=BB=D0=BE=D1=81=D1=8C =
-=D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B8=D1=82=D1=8C =D0=B2=D1=81=D0=BF=D0=BB=
-=D1=8B=D0=B2=D0=B0=D1=8E=D1=89=D0=B8=D0=B9 =D0=B2=D0=BE=D0=BF=D1=80=D0=BE=
-=D1=81 =D0=B2 Save?</p>
-<p>this.save(scopeArguments); - =D0=B8 =D1=87=D1=82=D0=BE =D0=BB=D0=BE=D0=
-=B6=D0=B8=D0=BB=D0=B8 =D0=B2 "scopeArguments". =D0=95=D1=81=D0=BB=D0=B8 =D0=
-=BD=D0=B5 =D1=81=D0=BB=D0=BE=D0=B6=D0=BD=D0=BE, =D0=BC=D0=BE=D0=B6=D0=B5=D1=
-=82=D0=B5 =D0=BD=D0=B0=D0=BF=D0=B8=D1=81=D0=B0=D1=82=D1=8C =D0=BA=D0=BE=D0=
-=B4 =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=B8, =D0=B5=D1=81=D1=82=D1=8C =
-=D1=82=D0=B0=D0=BA=D0=B0=D1=8F =D0=B6=D0=B5 =D0=B7=D0=B0=D0=B4=D0=B0=D1=87=
-=D0=B0 =D0=BD=D0=B0 =D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=D0=B8?</p>
-</div>
-      <ul class=3D"links inline"><li class=3D"comment-edit"><a href=3D"http=
-s://community.terrasoft.ua/comment/83759/edit" hreflang=3D"ru">=D0=A0=D0=B5=
-=D0=B4=D0=B0=D0=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a></li>=
-<li class=3D"comment-reply"><a href=3D"https://community.terrasoft.ua/comme=
-nt/reply/node/31109/comment/83759">=D0=9E=D1=82=D0=B2=D0=B5=D1=82=D0=B8=D1=
-=82=D1=8C</a></li><li class=3D"comment-quote"><a href=3D"https://community.=
-terrasoft.ua/" title=3D"=D0=A6=D0=B8=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=
-=82=D1=8C" class=3D"comment-quote" data-id=3D"83759">=D0=A6=D0=B8=D1=82=D0=
-=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a></li><li class=3D"comment-delete=
-"><a href=3D"https://community.terrasoft.ua/comment/83759/delete">=D0=A3=D0=
-=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=8C</a></li></ul>
-  </div>
-</div>
-
-<div class=3D"contextual-region row bs-1col comment comment--type-comment c=
-omment--view-mode-default">
-  <div data-contextual-id=3D"comment:comment=3D83766:changed=3D1611265229&a=
-mp;ds_bundle=3Dcomment&amp;ds_view_mode=3Ddefault&amp;langcode=3Dru" data-c=
-ontextual-token=3D"RPtSJahYc4fqawS-2x3UQlaAl5y2i1Td12ep8QFtKtc"></div>
-  <div class=3D"col-sm-12 bs-region bs-region--main">
-   =20
-<div class=3D"comment-top">
-     =20
-            <div class=3D"field field--name-comment-user field--type-ds fie=
-ld--label-hidden field__item"><div class=3D"contextual-region row bs-1col u=
-ser user--type-user user--view-mode-avatar-with-name">
-  <div data-contextual-id=3D"user:user=3D193509:changed=3D1648636547&amp;ds=
-_bundle=3Duser&amp;ds_view_mode=3Davatar_with_name&amp;langcode=3Dru" data-=
-contextual-token=3D"VNGEa_YNps0w6LDumyQbLVoc2szZEn6LGZ_kfcEHOhM"></div>
-  <div class=3D"col-sm-12 bs-region bs-region--main">
-   =20
-            <div class=3D"field field--name-user-picture field--type-image =
-field--label-hidden field__item">  <a href=3D"https://community.terrasoft.u=
-a/user/193509" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/s=
-ites/default/files/styles/avatar_small/public/pictures/2020-08/man_121.png?=
-itok=3DhQuWUlkc" width=3D"40" height=3D"40" alt=3D"Profile picture for user=
- =D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B0=D0=BD=D0=B4=D1=80 =D0=A2=D1=8B=D1=80=
-=D0=B0" typeof=3D"foaf:Image" class=3D"image-style-avatar-small">
-
-</a>
-</div>
-     =20
-            <div class=3D"field field--name-username field--type-ds field--=
-label-hidden field__item"><user_name-wrtapper class=3D"user_name-wrtapper">
-  <a href=3D"https://community.terrasoft.ua/user/193509" hreflang=3D"ru">=
-=D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B0=D0=BD=D0=B4=D1=80 =D0=A2=D1=8B=D1=80=
-=D0=B0</a>
-</user_name-wrtapper>
-</div>
-     =20
-  </div>
-</div>
-
-</div>
-     =20
-            <div class=3D"field field--name-comment-post-date field--type-d=
-s field--label-hidden field__item">21 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F =
-2021  23:40</div>
-      <div class=3D"vote-widget-wrapper">
-  <div class=3D"vote-widget vote-widget--like-and-dislike">
-          <div class=3D"vote-like type-comment" id=3D"like-container-commen=
-t-83766">
-        <a title=3D"=D0=9D=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F" data-=
-entity-id=3D"83766" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
-=D0=B8=D1=82=D1=81=D1=8F</a>
-        <span class=3D"count wd-0">0</span>
-      </div>
-      </div>
-</div>
-
-  </div>
-            <div property=3D"schema:text" class=3D"clearfix text-formatted =
-field field--name-comment-body field--type-text-long field--label-hidden fi=
-eld__item"><p><cite><strong>=D0=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=
-=80 =D0=A1=D0=BE=D0=BA=D0=BE=D0=BB=D0=BE=D0=B2,</strong></cite></p>
-<p>&nbsp;=D0=B8=D0=BB=D0=B8 =D0=BF=D0=BE=D0=B4=D1=81=D0=BA=D0=B0=D0=B6=D0=
-=B8=D1=82=D0=B5 =D0=92=D1=8B, =D0=BA=D0=B0=D0=BA =D0=B2 Save =D1=80=D0=B5=
-=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D0=BB=D0=B8 =D0=B4=D0=B0=D0=BD=
-=D0=BD=D0=BE=D0=B5 =D0=B2=D1=81=D0=BF=D0=BB=D0=B0=D0=B2=D0=B0=D1=8E=D1=89=
-=D0=B5=D0=B5 =D1=81=D0=BE=D0=BE=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B5 =
-=D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D0=B2 =D1=80=D0=B5=D0=BA=D1=83=D1=80=
-=D1=81=D0=B8=D0=B8</p>
-</div>
-      <ul class=3D"links inline"><li class=3D"comment-edit"><a href=3D"http=
-s://community.terrasoft.ua/comment/83766/edit" hreflang=3D"ru">=D0=A0=D0=B5=
-=D0=B4=D0=B0=D0=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a></li>=
-<li class=3D"comment-reply"><a href=3D"https://community.terrasoft.ua/comme=
-nt/reply/node/31109/comment/83766">=D0=9E=D1=82=D0=B2=D0=B5=D1=82=D0=B8=D1=
-=82=D1=8C</a></li><li class=3D"comment-quote"><a href=3D"https://community.=
-terrasoft.ua/" title=3D"=D0=A6=D0=B8=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=
-=82=D1=8C" class=3D"comment-quote" data-id=3D"83766">=D0=A6=D0=B8=D1=82=D0=
-=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a></li><li class=3D"comment-delete=
-"><a href=3D"https://community.terrasoft.ua/comment/83766/delete">=D0=A3=D0=
-=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=8C</a></li></ul>
-  </div>
-</div>
-
-<div class=3D"contextual-region row bs-1col comment comment--type-comment c=
-omment--view-mode-default">
-  <div data-contextual-id=3D"comment:comment=3D83883:changed=3D1611916705&a=
-mp;ds_bundle=3Dcomment&amp;ds_view_mode=3Ddefault&amp;langcode=3Dru" data-c=
-ontextual-token=3D"SokzQm8nPYNGdZkXTTlF0or6pPFYCphCR4bONXUHtiU"></div>
-  <div class=3D"col-sm-12 bs-region bs-region--main">
-   =20
-<div class=3D"comment-top">
-     =20
-            <div class=3D"field field--name-comment-user field--type-ds fie=
-ld--label-hidden field__item"><div class=3D"contextual-region row bs-1col u=
-ser user--type-user user--view-mode-avatar-with-name">
-  <div data-contextual-id=3D"user:user=3D193347:changed=3D1612258019&amp;ds=
-_bundle=3Duser&amp;ds_view_mode=3Davatar_with_name&amp;langcode=3Dru" data-=
-contextual-token=3D"c8G3Cx4TpcgXJeFHEG-SK9q0N2FqFSv-00JQ7xiETY0"></div>
-  <div class=3D"col-sm-12 bs-region bs-region--main">
-   =20
-            <div class=3D"field field--name-user-picture field--type-image =
-field--label-hidden field__item">  <a href=3D"https://community.terrasoft.u=
-a/user/193347" hreflang=3D"ru"><img src=3D"https://community.terrasoft.ua/s=
-ites/default/files/styles/avatar_small/public/pictures/2020-09/woman2_0.png=
-?itok=3DoqWvYYui" width=3D"40" height=3D"40" alt=3D"Profile picture for use=
-r Mariia Prostiak" typeof=3D"foaf:Image" class=3D"image-style-avatar-small"=
->
-
-</a>
-</div>
-     =20
-            <div class=3D"field field--name-username field--type-ds field--=
-label-hidden field__item"><user_name-wrtapper class=3D"user_name-wrtapper">
-  <a href=3D"https://community.terrasoft.ua/user/193347" hreflang=3D"ru">Ma=
-riia Prostiak</a>
-</user_name-wrtapper>
-</div>
-     =20
-  </div>
-</div>
-
-</div>
-     =20
-            <div class=3D"field field--name-comment-post-date field--type-d=
-s field--label-hidden field__item">29 =D1=8F=D0=BD=D0=B2=D0=B0=D1=80=D1=8F =
-2021  12:35</div>
-      <div class=3D"vote-widget-wrapper">
-  <div class=3D"vote-widget vote-widget--like-and-dislike">
-          <div class=3D"vote-like type-comment" id=3D"like-container-commen=
-t-83883">
-        <a title=3D"=D0=9D=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F" data-=
-entity-id=3D"83883" data-entity-type=3D"comment">=D0=9D=D1=80=D0=B0=D0=B2=
-=D0=B8=D1=82=D1=81=D1=8F</a>
-        <span class=3D"count wd-0">0</span>
-      </div>
-      </div>
-</div>
-
-  </div>
-            <div property=3D"schema:text" class=3D"clearfix text-formatted =
-field field--name-comment-body field--type-text-long field--label-hidden fi=
-eld__item"><p><cite><strong>=D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B0=D0=BD=D0=
-=B4=D1=80 =D0=A2=D1=8B=D1=80=D0=B0,</strong></cite></p>
-
-<p>=D0=97=D0=B4=D1=80=D0=B0=D0=B2=D1=81=D1=82=D0=B2=D1=83=D0=B9=D1=82=D0=B5=
-,</p>
-<p>=D0=92=D0=B5=D1=87=D0=BD=D0=B0=D1=8F =D1=80=D0=B5=D0=BA=D1=83=D1=80=D1=
-=81=D0=B8=D1=8F =D1=80=D0=B5=D1=88=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D0=B2=D1=
-=8B=D0=B7=D0=BE=D0=B2=D0=BE=D0=BC this.callParent(config) =D0=B2=D0=BC=D0=
-=B5=D1=81=D1=82=D0=BE this.save(scopeArguments);</p>
-<p>=D0=98=D1=82=D0=BE=D0=B3=D0=BE =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D0=
-=B5=D1=82=D1=81=D1=8F:</p>
-<pre><div class=3D"geshifilter"><pre class=3D"cpp geshifilter-cpp" style=3D=
-"font-family:monospace;">save<span style=3D"color: #008080;">:</span> funct=
-ion<span style=3D"color: #008000;">(</span>config<span style=3D"color: #008=
-000;">)</span> <span style=3D"color: #008000;">{</span>
-<span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #007788;"=
->showConfirmationDialog</span><span style=3D"color: #008000;">(</span>confi=
-rmationMessage.<span style=3D"color: #007788;">message</span>, function<spa=
-n style=3D"color: #008000;">(</span>result<span style=3D"color: #008000;">)=
-</span> <span style=3D"color: #008000;">{</span>
-    <span style=3D"color: #0000ff;">if</span> <span style=3D"color: #008000=
-;">(</span>result <span style=3D"color: #000080;">=3D=3D=3D</span> Terrasof=
-t.<span style=3D"color: #007788;">MessageBoxButtons</span>.<span style=3D"c=
-olor: #007788;">YES</span>.<span style=3D"color: #007788;">returnCode</span=
-><span style=3D"color: #008000;">)</span> <span style=3D"color: #008000;">{=
-</span>
-        <span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #=
-007788;">callParent</span><span style=3D"color: #008000;">(</span>config<sp=
-an style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;</spa=
-n>
-     <span style=3D"color: #008000;">}</span> <span style=3D"color: #0000ff=
-;">else</span> <span style=3D"color: #008000;">{</span>
-        <span style=3D"color: #0000dd;">this</span>.<span style=3D"color: #=
-007788;">onDiscardChangesClick</span><span style=3D"color: #008000;">(</spa=
-n><span style=3D"color: #008000;">)</span><span style=3D"color: #008080;">;=
-</span>
-    <span style=3D"color: #008000;">}</span>
-<span style=3D"color: #008000;">}</span>, <span style=3D"color: #008000;">[=
-</span><span style=3D"color: #FF0000;">"Yes"</span>, <span style=3D"color: =
-#FF0000;">"No"</span><span style=3D"color: #008000;">]</span><span style=3D=
-"color: #008000;">)</span><span style=3D"color: #008080;">;</span>
-&nbsp;
-<span style=3D"color: #008000;">}</span></pre></div>
-</pre>
+eld__item"><p>=D0=98=D0=BB=D1=8C=D1=8F, =D0=94=D0=B0=D0=BD=D0=B8=D0=BB=D0=
+=B0 - =D1=81=D0=BF=D0=B0=D1=81=D0=B8=D0=B1=D0=BE!</p>
+<p>=D0=92=D1=80=D0=BE=D0=B4=D0=B5 =D0=BA=D0=B0=D0=BA =D0=B7=D0=B0=D0=B4=D0=
+=B0=D1=87=D0=B0 =D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=B0.</p>
 </div>
       <ul class=3D"links inline"><li class=3D"comment-reply"><a href=3D"htt=
-ps://community.terrasoft.ua/comment/reply/node/31109/comment/83883">=D0=9E=
+ps://community.terrasoft.ua/comment/reply/node/24955/comment/66317">=D0=9E=
 =D1=82=D0=B2=D0=B5=D1=82=D0=B8=D1=82=D1=8C</a></li><li class=3D"comment-quo=
 te"><a href=3D"https://community.terrasoft.ua/" title=3D"=D0=A6=D0=B8=D1=82=
 =D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C" class=3D"comment-quote" data-id=
-=3D"83883">=D0=A6=D0=B8=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a>=
+=3D"66317">=D0=A6=D0=B8=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</a>=
 </li></ul>
   </div>
 </div>
@@ -2570,7 +2236,7 @@ te"><a href=3D"https://community.terrasoft.ua/" title=3D"=D0=A6=D0=B8=D1=82=
 
       <form class=3D"comment-comment-form comment-form" data-drupal-selecto=
 r=3D"comment-form" action=3D"https://community.terrasoft.ua/comment/reply/n=
-ode/31109/comment" method=3D"post" id=3D"comment-form" accept-charset=3D"UT=
+ode/24955/comment" method=3D"post" id=3D"comment-form" accept-charset=3D"UT=
 F-8" data-drupal-form-fields=3D"edit-comment-body-0-value,edit-comment-body=
 -0-format--2,edit-submit--4">
   <div class=3D"field--type-markup field--name-field-user-avatar field--wid=
@@ -2614,7 +2280,7 @@ e_4_contents" class=3D"cke_contents cke_reset" role=3D"presentation" style=
 =3D"height: 56px;"><span id=3D"cke_111" class=3D"cke_voice_label">=D0=9D=D0=
 =B0=D0=B6=D0=BC=D0=B8=D1=82=D0=B5 ALT-0 =D0=B4=D0=BB=D1=8F =D0=BE=D1=82=D0=
 =BA=D1=80=D1=8B=D1=82=D0=B8=D1=8F =D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=
-=B8</span><iframe src=3D"cid:frame-ACBB553BE75CCC070C006720ABB8043D@mhtml.b=
+=B8</span><iframe src=3D"cid:frame-59C98380C51CD6EABF97C148CE80A0C4@mhtml.b=
 link" frameborder=3D"0" class=3D"cke_wysiwyg_frame cke_reset" style=3D"widt=
 h: 100%; height: 100%;" title=3D"=D0=A0=D0=B5=D0=B4=D0=B0=D0=BA=D1=82=D0=BE=
 =D1=80 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=
@@ -2628,129 +2294,130 @@ abel">=D0=9F=D0=B0=D0=BD=D0=B5=D0=BB=D0=B8 =D0=B8=D0=BD=D1=81=D1=82=D1=80=
 =D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2 =D1=80=D0=B5=D0=B4=D0=B0=D0=BA=
 =D1=82=D0=BE=D1=80=D0=B0</span><span id=3D"cke_4_toolbox" class=3D"cke_tool=
 box" role=3D"group" aria-labelledby=3D"cke_95"><span id=3D"cke_96" class=3D=
-"cke_toolbar" aria-labelledby=3D"cke_96_label" role=3D"toolbar"><span id=3D=
-"cke_96_label" class=3D"cke_voice_label">=D0=98=D0=BA=D0=BE=D0=BD=D0=BA=D0=
-=B8</span><span class=3D"cke_toolbar_start"></span><span class=3D"cke_toolg=
-roup" role=3D"presentation"><a id=3D"cke_97" class=3D"cke_button cke_button=
-__smiley cke_button_off" title=3D"=D0=A1=D0=BC=D0=B0=D0=B9=D0=BB=D1=8B" tab=
-index=3D"-1" hidefocus=3D"true" role=3D"button" aria-labelledby=3D"cke_97_l=
-abel" aria-describedby=3D"cke_97_description" aria-haspopup=3D"false" aria-=
-disabled=3D"false"><span class=3D"cke_button_icon cke_button__smiley_icon" =
-style=3D"background-image:url('/libraries/smiley/icons/smiley.png?t=3Drcbxo=
-e');background-position:0 0px;background-size:16px;">&nbsp;</span><span id=
-=3D"cke_97_label" class=3D"cke_button_label cke_button__smiley_label" aria-=
-hidden=3D"false">=D0=A1=D0=BC=D0=B0=D0=B9=D0=BB=D1=8B</span><span id=3D"cke=
-_97_description" class=3D"cke_button_label" aria-hidden=3D"false"></span></=
-a><a id=3D"cke_98" class=3D"cke_button cke_button__bold cke_button_off" tit=
-le=3D"=D0=9F=D0=BE=D0=BB=D1=83=D0=B6=D0=B8=D1=80=D0=BD=D1=8B=D0=B9 (Ctrl+B)=
-" tabindex=3D"-1" hidefocus=3D"true" role=3D"button" aria-labelledby=3D"cke=
-_98_label" aria-describedby=3D"cke_98_description" aria-haspopup=3D"false" =
-aria-disabled=3D"false"><span class=3D"cke_button_icon cke_button__bold_ico=
-n" style=3D"background-image:url('https://community.terrasoft.ua/core/asset=
-s/vendor/ckeditor/plugins/icons.png?t=3DL7CF');background-position:0 -24px;=
-background-size:auto;">&nbsp;</span><span id=3D"cke_98_label" class=3D"cke_=
-button_label cke_button__bold_label" aria-hidden=3D"false">=D0=9F=D0=BE=D0=
-=BB=D1=83=D0=B6=D0=B8=D1=80=D0=BD=D1=8B=D0=B9</span><span id=3D"cke_98_desc=
-ription" class=3D"cke_button_label" aria-hidden=3D"false">&nbsp;=D0=9A=D0=
-=BE=D0=BC=D0=B1=D0=B8=D0=BD=D0=B0=D1=86=D0=B8=D1=8F =D0=BA=D0=BB=D0=B0=D0=
-=B2=D0=B8=D1=88 Ctrl+B</span></a><a id=3D"cke_99" class=3D"cke_button cke_b=
-utton__italic cke_button_off" title=3D"=D0=9A=D1=83=D1=80=D1=81=D0=B8=D0=B2=
- (Ctrl+I)" tabindex=3D"-1" hidefocus=3D"true" role=3D"button" aria-labelled=
-by=3D"cke_99_label" aria-describedby=3D"cke_99_description" aria-haspopup=
-=3D"false" aria-disabled=3D"false"><span class=3D"cke_button_icon cke_butto=
-n__italic_icon" style=3D"background-image:url('https://community.terrasoft.=
-ua/core/assets/vendor/ckeditor/plugins/icons.png?t=3DL7CF');background-posi=
-tion:0 -48px;background-size:auto;">&nbsp;</span><span id=3D"cke_99_label" =
-class=3D"cke_button_label cke_button__italic_label" aria-hidden=3D"false">=
-=D0=9A=D1=83=D1=80=D1=81=D0=B8=D0=B2</span><span id=3D"cke_99_description" =
-class=3D"cke_button_label" aria-hidden=3D"false">&nbsp;=D0=9A=D0=BE=D0=BC=
-=D0=B1=D0=B8=D0=BD=D0=B0=D1=86=D0=B8=D1=8F =D0=BA=D0=BB=D0=B0=D0=B2=D0=B8=
-=D1=88 Ctrl+I</span></a><a id=3D"cke_100" class=3D"cke_button cke_button__b=
-ulletedlist cke_button_off" title=3D"=D0=92=D1=81=D1=82=D0=B0=D0=B2=D0=B8=
-=D1=82=D1=8C / =D1=83=D0=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=8C =D0=BC=D0=B0=D1=
-=80=D0=BA=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D1=81=D0=
-=BF=D0=B8=D1=81=D0=BE=D0=BA" tabindex=3D"-1" hidefocus=3D"true" role=3D"but=
-ton" aria-labelledby=3D"cke_100_label" aria-describedby=3D"cke_100_descript=
-ion" aria-haspopup=3D"false" aria-disabled=3D"false"><span class=3D"cke_but=
-ton_icon cke_button__bulletedlist_icon" style=3D"background-image:url('http=
-s://community.terrasoft.ua/core/assets/vendor/ckeditor/plugins/icons.png?t=
-=3DL7CF');background-position:0 -624px;background-size:auto;">&nbsp;</span>=
-<span id=3D"cke_100_label" class=3D"cke_button_label cke_button__bulletedli=
-st_label" aria-hidden=3D"false">=D0=92=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=
-=D1=8C / =D1=83=D0=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=8C =D0=BC=D0=B0=D1=80=D0=
-=BA=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D1=81=D0=BF=D0=
-=B8=D1=81=D0=BE=D0=BA</span><span id=3D"cke_100_description" class=3D"cke_b=
-utton_label" aria-hidden=3D"false"></span></a><a id=3D"cke_101" class=3D"ck=
-e_button cke_button__numberedlist cke_button_off" title=3D"=D0=92=D1=81=D1=
+"cke_toolbar" aria-labelledby=3D"cke_96_label" role=3D"toolbar" style=3D"di=
+splay: none;"><span id=3D"cke_96_label" class=3D"cke_voice_label">=D0=98=D0=
+=BA=D0=BE=D0=BD=D0=BA=D0=B8</span><span class=3D"cke_toolbar_start"></span>=
+<span class=3D"cke_toolgroup" role=3D"presentation"><a id=3D"cke_97" class=
+=3D"cke_button cke_button__smiley cke_button_off" title=3D"=D0=A1=D0=BC=D0=
+=B0=D0=B9=D0=BB=D1=8B" tabindex=3D"-1" hidefocus=3D"true" role=3D"button" a=
+ria-labelledby=3D"cke_97_label" aria-describedby=3D"cke_97_description" ari=
+a-haspopup=3D"false" aria-disabled=3D"false"><span class=3D"cke_button_icon=
+ cke_button__smiley_icon" style=3D"background-image:url('/libraries/smiley/=
+icons/smiley.png?t=3Drcbxoe');background-position:0 0px;background-size:16p=
+x;">&nbsp;</span><span id=3D"cke_97_label" class=3D"cke_button_label cke_bu=
+tton__smiley_label" aria-hidden=3D"false">=D0=A1=D0=BC=D0=B0=D0=B9=D0=BB=D1=
+=8B</span><span id=3D"cke_97_description" class=3D"cke_button_label" aria-h=
+idden=3D"false"></span></a><a id=3D"cke_98" class=3D"cke_button cke_button_=
+_bold cke_button_off" title=3D"=D0=9F=D0=BE=D0=BB=D1=83=D0=B6=D0=B8=D1=80=
+=D0=BD=D1=8B=D0=B9 (Ctrl+B)" tabindex=3D"-1" hidefocus=3D"true" role=3D"but=
+ton" aria-labelledby=3D"cke_98_label" aria-describedby=3D"cke_98_descriptio=
+n" aria-haspopup=3D"false" aria-disabled=3D"false"><span class=3D"cke_butto=
+n_icon cke_button__bold_icon" style=3D"background-image:url('https://commun=
+ity.terrasoft.ua/core/assets/vendor/ckeditor/plugins/icons.png?t=3DL7CF');b=
+ackground-position:0 -24px;background-size:auto;">&nbsp;</span><span id=3D"=
+cke_98_label" class=3D"cke_button_label cke_button__bold_label" aria-hidden=
+=3D"false">=D0=9F=D0=BE=D0=BB=D1=83=D0=B6=D0=B8=D1=80=D0=BD=D1=8B=D0=B9</sp=
+an><span id=3D"cke_98_description" class=3D"cke_button_label" aria-hidden=
+=3D"false">&nbsp;=D0=9A=D0=BE=D0=BC=D0=B1=D0=B8=D0=BD=D0=B0=D1=86=D0=B8=D1=
+=8F =D0=BA=D0=BB=D0=B0=D0=B2=D0=B8=D1=88 Ctrl+B</span></a><a id=3D"cke_99" =
+class=3D"cke_button cke_button__italic cke_button_off" title=3D"=D0=9A=D1=
+=83=D1=80=D1=81=D0=B8=D0=B2 (Ctrl+I)" tabindex=3D"-1" hidefocus=3D"true" ro=
+le=3D"button" aria-labelledby=3D"cke_99_label" aria-describedby=3D"cke_99_d=
+escription" aria-haspopup=3D"false" aria-disabled=3D"false"><span class=3D"=
+cke_button_icon cke_button__italic_icon" style=3D"background-image:url('htt=
+ps://community.terrasoft.ua/core/assets/vendor/ckeditor/plugins/icons.png?t=
+=3DL7CF');background-position:0 -48px;background-size:auto;">&nbsp;</span><=
+span id=3D"cke_99_label" class=3D"cke_button_label cke_button__italic_label=
+" aria-hidden=3D"false">=D0=9A=D1=83=D1=80=D1=81=D0=B8=D0=B2</span><span id=
+=3D"cke_99_description" class=3D"cke_button_label" aria-hidden=3D"false">&n=
+bsp;=D0=9A=D0=BE=D0=BC=D0=B1=D0=B8=D0=BD=D0=B0=D1=86=D0=B8=D1=8F =D0=BA=D0=
+=BB=D0=B0=D0=B2=D0=B8=D1=88 Ctrl+I</span></a><a id=3D"cke_100" class=3D"cke=
+_button cke_button__bulletedlist cke_button_off" title=3D"=D0=92=D1=81=D1=
 =82=D0=B0=D0=B2=D0=B8=D1=82=D1=8C / =D1=83=D0=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=
-=8C =D0=BD=D1=83=D0=BC=D0=B5=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=
-=B9 =D1=81=D0=BF=D0=B8=D1=81=D0=BE=D0=BA" tabindex=3D"-1" hidefocus=3D"true=
-" role=3D"button" aria-labelledby=3D"cke_101_label" aria-describedby=3D"cke=
-_101_description" aria-haspopup=3D"false" aria-disabled=3D"false"><span cla=
-ss=3D"cke_button_icon cke_button__numberedlist_icon" style=3D"background-im=
-age:url('https://community.terrasoft.ua/core/assets/vendor/ckeditor/plugins=
-/icons.png?t=3DL7CF');background-position:0 -672px;background-size:auto;">&=
-nbsp;</span><span id=3D"cke_101_label" class=3D"cke_button_label cke_button=
-__numberedlist_label" aria-hidden=3D"false">=D0=92=D1=81=D1=82=D0=B0=D0=B2=
-=D0=B8=D1=82=D1=8C / =D1=83=D0=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=8C =D0=BD=D1=
-=83=D0=BC=D0=B5=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9 =D1=81=D0=
-=BF=D0=B8=D1=81=D0=BE=D0=BA</span><span id=3D"cke_101_description" class=3D=
-"cke_button_label" aria-hidden=3D"false"></span></a><a id=3D"cke_102" class=
-=3D"cke_button cke_button__blockquote cke_button_off" title=3D"=D0=A6=D0=B8=
-=D1=82=D0=B0=D1=82=D0=B0" tabindex=3D"-1" hidefocus=3D"true" role=3D"button=
-" aria-labelledby=3D"cke_102_label" aria-describedby=3D"cke_102_description=
-" aria-haspopup=3D"false" aria-disabled=3D"false"><span class=3D"cke_button=
-_icon cke_button__blockquote_icon" style=3D"background-image:url('https://c=
-ommunity.terrasoft.ua/core/assets/vendor/ckeditor/plugins/icons.png?t=3DL7C=
-F');background-position:0 -168px;background-size:auto;">&nbsp;</span><span =
-id=3D"cke_102_label" class=3D"cke_button_label cke_button__blockquote_label=
-" aria-hidden=3D"false">=D0=A6=D0=B8=D1=82=D0=B0=D1=82=D0=B0</span><span id=
-=3D"cke_102_description" class=3D"cke_button_label" aria-hidden=3D"false"><=
-/span></a><a id=3D"cke_103" class=3D"cke_button cke_button__codesnippet cke=
-_button_off" title=3D"=D0=92=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D1=
-=81=D0=BD=D0=B8=D0=BF=D0=BF=D0=B5=D1=82" tabindex=3D"-1" hidefocus=3D"true"=
- role=3D"button" aria-labelledby=3D"cke_103_label" aria-describedby=3D"cke_=
-103_description" aria-haspopup=3D"false" aria-disabled=3D"false"><span clas=
-s=3D"cke_button_icon cke_button__codesnippet_icon" style=3D"background-imag=
-e:url('/libraries/codesnippet/icons/codesnippet.png?t=3Drcbxoe');background=
--position:0 0px;background-size:16px;">&nbsp;</span><span id=3D"cke_103_lab=
-el" class=3D"cke_button_label cke_button__codesnippet_label" aria-hidden=3D=
-"false">=D0=92=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D1=81=D0=BD=D0=B8=
-=D0=BF=D0=BF=D0=B5=D1=82</span><span id=3D"cke_103_description" class=3D"ck=
-e_button_label" aria-hidden=3D"false"></span></a></span><span class=3D"cke_=
-toolbar_end"></span></span><span id=3D"cke_104" class=3D"cke_toolbar cke_to=
-olbar_last" aria-labelledby=3D"cke_104_label" role=3D"toolbar"><span id=3D"=
-cke_104_label" class=3D"cke_voice_label">=D0=A1=D1=81=D1=8B=D0=BB=D0=BA=D0=
-=B8</span><span class=3D"cke_toolbar_start"></span><span class=3D"cke_toolg=
-roup" role=3D"presentation"><a id=3D"cke_105" class=3D"cke_button cke_butto=
-n__drupallink cke_button_off" title=3D"=D0=A1=D1=81=D1=8B=D0=BB=D0=BA=D0=B0=
- (Ctrl+K)" tabindex=3D"-1" hidefocus=3D"true" role=3D"button" aria-labelled=
-by=3D"cke_105_label" aria-describedby=3D"cke_105_description" aria-haspopup=
-=3D"false" aria-disabled=3D"false"><span class=3D"cke_button_icon cke_butto=
-n__drupallink_icon" style=3D"background-image:url('/core/modules/ckeditor/j=
-s/plugins/drupallink/icons/drupallink.png?t=3Drcbxoe');background-position:=
-0 0px;background-size:16px;">&nbsp;</span><span id=3D"cke_105_label" class=
-=3D"cke_button_label cke_button__drupallink_label" aria-hidden=3D"false">=
-=D0=A1=D1=81=D1=8B=D0=BB=D0=BA=D0=B0</span><span id=3D"cke_105_description"=
- class=3D"cke_button_label" aria-hidden=3D"false">&nbsp;=D0=9A=D0=BE=D0=BC=
-=D0=B1=D0=B8=D0=BD=D0=B0=D1=86=D0=B8=D1=8F =D0=BA=D0=BB=D0=B0=D0=B2=D0=B8=
-=D1=88 Ctrl+K</span></a><a id=3D"cke_106" class=3D"cke_button cke_button__d=
-rupalimage cke_button_off" title=3D"=D0=98=D0=B7=D0=BE=D0=B1=D1=80=D0=B0=D0=
-=B6=D0=B5=D0=BD=D0=B8=D0=B5" tabindex=3D"-1" hidefocus=3D"true" role=3D"but=
-ton" aria-labelledby=3D"cke_106_label" aria-describedby=3D"cke_106_descript=
-ion" aria-haspopup=3D"false" aria-disabled=3D"false"><span class=3D"cke_but=
-ton_icon cke_button__drupalimage_icon" style=3D"background-image:url('/core=
-/modules/ckeditor/js/plugins/drupalimage/icons/drupalimage.png?t=3Drcbxoe')=
+=8C =D0=BC=D0=B0=D1=80=D0=BA=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=
+=8B=D0=B9 =D1=81=D0=BF=D0=B8=D1=81=D0=BE=D0=BA" tabindex=3D"-1" hidefocus=
+=3D"true" role=3D"button" aria-labelledby=3D"cke_100_label" aria-describedb=
+y=3D"cke_100_description" aria-haspopup=3D"false" aria-disabled=3D"false"><=
+span class=3D"cke_button_icon cke_button__bulletedlist_icon" style=3D"backg=
+round-image:url('https://community.terrasoft.ua/core/assets/vendor/ckeditor=
+/plugins/icons.png?t=3DL7CF');background-position:0 -624px;background-size:=
+auto;">&nbsp;</span><span id=3D"cke_100_label" class=3D"cke_button_label ck=
+e_button__bulletedlist_label" aria-hidden=3D"false">=D0=92=D1=81=D1=82=D0=
+=B0=D0=B2=D0=B8=D1=82=D1=8C / =D1=83=D0=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=8C =
+=D0=BC=D0=B0=D1=80=D0=BA=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=
+=B9 =D1=81=D0=BF=D0=B8=D1=81=D0=BE=D0=BA</span><span id=3D"cke_100_descript=
+ion" class=3D"cke_button_label" aria-hidden=3D"false"></span></a><a id=3D"c=
+ke_101" class=3D"cke_button cke_button__numberedlist cke_button_off" title=
+=3D"=D0=92=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=8C / =D1=83=D0=B4=D0=B0=
+=D0=BB=D0=B8=D1=82=D1=8C =D0=BD=D1=83=D0=BC=D0=B5=D1=80=D0=BE=D0=B2=D0=B0=
+=D0=BD=D0=BD=D1=8B=D0=B9 =D1=81=D0=BF=D0=B8=D1=81=D0=BE=D0=BA" tabindex=3D"=
+-1" hidefocus=3D"true" role=3D"button" aria-labelledby=3D"cke_101_label" ar=
+ia-describedby=3D"cke_101_description" aria-haspopup=3D"false" aria-disable=
+d=3D"false"><span class=3D"cke_button_icon cke_button__numberedlist_icon" s=
+tyle=3D"background-image:url('https://community.terrasoft.ua/core/assets/ve=
+ndor/ckeditor/plugins/icons.png?t=3DL7CF');background-position:0 -672px;bac=
+kground-size:auto;">&nbsp;</span><span id=3D"cke_101_label" class=3D"cke_bu=
+tton_label cke_button__numberedlist_label" aria-hidden=3D"false">=D0=92=D1=
+=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=8C / =D1=83=D0=B4=D0=B0=D0=BB=D0=B8=D1=
+=82=D1=8C =D0=BD=D1=83=D0=BC=D0=B5=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=
+=8B=D0=B9 =D1=81=D0=BF=D0=B8=D1=81=D0=BE=D0=BA</span><span id=3D"cke_101_de=
+scription" class=3D"cke_button_label" aria-hidden=3D"false"></span></a><a i=
+d=3D"cke_102" class=3D"cke_button cke_button__blockquote cke_button_off" ti=
+tle=3D"=D0=A6=D0=B8=D1=82=D0=B0=D1=82=D0=B0" tabindex=3D"-1" hidefocus=3D"t=
+rue" role=3D"button" aria-labelledby=3D"cke_102_label" aria-describedby=3D"=
+cke_102_description" aria-haspopup=3D"false" aria-disabled=3D"false"><span =
+class=3D"cke_button_icon cke_button__blockquote_icon" style=3D"background-i=
+mage:url('https://community.terrasoft.ua/core/assets/vendor/ckeditor/plugin=
+s/icons.png?t=3DL7CF');background-position:0 -168px;background-size:auto;">=
+&nbsp;</span><span id=3D"cke_102_label" class=3D"cke_button_label cke_butto=
+n__blockquote_label" aria-hidden=3D"false">=D0=A6=D0=B8=D1=82=D0=B0=D1=82=
+=D0=B0</span><span id=3D"cke_102_description" class=3D"cke_button_label" ar=
+ia-hidden=3D"false"></span></a><a id=3D"cke_103" class=3D"cke_button cke_bu=
+tton__codesnippet cke_button_off" title=3D"=D0=92=D1=81=D1=82=D0=B0=D0=B2=
+=D0=B8=D1=82=D1=8C =D1=81=D0=BD=D0=B8=D0=BF=D0=BF=D0=B5=D1=82" tabindex=3D"=
+-1" hidefocus=3D"true" role=3D"button" aria-labelledby=3D"cke_103_label" ar=
+ia-describedby=3D"cke_103_description" aria-haspopup=3D"false" aria-disable=
+d=3D"false"><span class=3D"cke_button_icon cke_button__codesnippet_icon" st=
+yle=3D"background-image:url('/libraries/codesnippet/icons/codesnippet.png?t=
+=3Drcbxoe');background-position:0 0px;background-size:16px;">&nbsp;</span><=
+span id=3D"cke_103_label" class=3D"cke_button_label cke_button__codesnippet=
+_label" aria-hidden=3D"false">=D0=92=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=
+=8C =D1=81=D0=BD=D0=B8=D0=BF=D0=BF=D0=B5=D1=82</span><span id=3D"cke_103_de=
+scription" class=3D"cke_button_label" aria-hidden=3D"false"></span></a></sp=
+an><span class=3D"cke_toolbar_end"></span></span><span id=3D"cke_104" class=
+=3D"cke_toolbar cke_toolbar_last" aria-labelledby=3D"cke_104_label" role=3D=
+"toolbar"><span id=3D"cke_104_label" class=3D"cke_voice_label">=D0=A1=D1=81=
+=D1=8B=D0=BB=D0=BA=D0=B8</span><span class=3D"cke_toolbar_start"></span><sp=
+an class=3D"cke_toolgroup" role=3D"presentation"><a id=3D"cke_105" class=3D=
+"cke_button cke_button__drupallink cke_button_off" title=3D"=D0=A1=D1=81=D1=
+=8B=D0=BB=D0=BA=D0=B0 (Ctrl+K)" tabindex=3D"-1" hidefocus=3D"true" role=3D"=
+button" aria-labelledby=3D"cke_105_label" aria-describedby=3D"cke_105_descr=
+iption" aria-haspopup=3D"false" aria-disabled=3D"false"><span class=3D"cke_=
+button_icon cke_button__drupallink_icon" style=3D"background-image:url('/co=
+re/modules/ckeditor/js/plugins/drupallink/icons/drupallink.png?t=3Drcbxoe')=
 ;background-position:0 0px;background-size:16px;">&nbsp;</span><span id=3D"=
-cke_106_label" class=3D"cke_button_label cke_button__drupalimage_label" ari=
-a-hidden=3D"false">=D0=98=D0=B7=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=B5=D0=BD=
-=D0=B8=D0=B5</span><span id=3D"cke_106_description" class=3D"cke_button_lab=
-el" aria-hidden=3D"false"></span></a></span><span class=3D"cke_toolbar_end"=
-></span></span><span class=3D"cke_toolbar_break"></span></span><span id=3D"=
-cke_4_path_label" class=3D"cke_voice_label">=D0=9F=D1=83=D1=82=D1=8C =D1=8D=
-=D0=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2</span><span id=3D"cke_4_pa=
-th" class=3D"cke_path" role=3D"group" aria-labelledby=3D"cke_4_path_label">=
-<span class=3D"cke_path_empty">&nbsp;</span></span></span></div></div>
+cke_105_label" class=3D"cke_button_label cke_button__drupallink_label" aria=
+-hidden=3D"false">=D0=A1=D1=81=D1=8B=D0=BB=D0=BA=D0=B0</span><span id=3D"ck=
+e_105_description" class=3D"cke_button_label" aria-hidden=3D"false">&nbsp;=
+=D0=9A=D0=BE=D0=BC=D0=B1=D0=B8=D0=BD=D0=B0=D1=86=D0=B8=D1=8F =D0=BA=D0=BB=
+=D0=B0=D0=B2=D0=B8=D1=88 Ctrl+K</span></a><a id=3D"cke_106" class=3D"cke_bu=
+tton cke_button__drupalimage cke_button_off" title=3D"=D0=98=D0=B7=D0=BE=D0=
+=B1=D1=80=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5" tabindex=3D"-1" hidefocus=3D=
+"true" role=3D"button" aria-labelledby=3D"cke_106_label" aria-describedby=
+=3D"cke_106_description" aria-haspopup=3D"false" aria-disabled=3D"false"><s=
+pan class=3D"cke_button_icon cke_button__drupalimage_icon" style=3D"backgro=
+und-image:url('/core/modules/ckeditor/js/plugins/drupalimage/icons/drupalim=
+age.png?t=3Drcbxoe');background-position:0 0px;background-size:16px;">&nbsp=
+;</span><span id=3D"cke_106_label" class=3D"cke_button_label cke_button__dr=
+upalimage_label" aria-hidden=3D"false">=D0=98=D0=B7=D0=BE=D0=B1=D1=80=D0=B0=
+=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5</span><span id=3D"cke_106_description" class=
+=3D"cke_button_label" aria-hidden=3D"false"></span></a></span><span class=
+=3D"cke_toolbar_end"></span></span><span class=3D"cke_toolbar_break"></span=
+></span><span id=3D"cke_4_path_label" class=3D"cke_voice_label">=D0=9F=D1=
+=83=D1=82=D1=8C =D1=8D=D0=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2</spa=
+n><span id=3D"cke_4_path" class=3D"cke_path" role=3D"group" aria-labelledby=
+=3D"cke_4_path_label"><span class=3D"cke_path_empty">&nbsp;</span></span></=
+span></div></div>
 </div>
 
         </div>
@@ -3083,7 +2750,7 @@ kument-v-bp" title=3D"Aspode PDF =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=
       </div>
    =20
                          =20
-      <div class=3D"feed-item type-question last">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/200038">
@@ -3126,7 +2793,7 @@ tle=3D"=D0=9F=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=
       </div>
    =20
                                            =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/204347">
@@ -3158,7 +2825,7 @@ acheniy-spravochnogo-polya-sotrudniki" title=3D"=D1=84=D0=B8=D0=BB=D1=8C=D1=
       </div>
    =20
                                            =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/199228">
@@ -3187,7 +2854,7 @@ t-svoy-lookuppage" title=3D"=D0=9D=D0=B5 =D0=BC=D0=BE=D0=B3=D1=83 =D0=B2=D1=
       </div>
    =20
                                            =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/204306">
@@ -3221,7 +2888,7 @@ t-vozmozhnost-vlozheniya-v-shablon-pisma-isc-fayl" title=3D"=D0=9A=D0=B0=D0=
       </div>
    =20
                          =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/204496">
@@ -3256,7 +2923,7 @@ t-vozmozhnost-vlozheniya-v-shablon-pisma-isc-fayl" title=3D"=D0=9A=D0=B0=D0=
       </div>
    =20
                                            =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/196802">
@@ -3286,7 +2953,7 @@ oom-meeting-0" title=3D"=D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=
       </div>
    =20
                          =20
-      <div class=3D"feed-item type-idea hidden">
+      <div class=3D"feed-item type-idea">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/199413">
@@ -3321,7 +2988,7 @@ oduktovoi-rozrobki-abo-onovlennya-produktiv-do-8" title=3D"=D0=93=D0=BE=D1=
       </div>
    =20
                                            =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/196802">
@@ -3351,7 +3018,7 @@ oom-meeting-0" title=3D"=D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=
       </div>
    =20
                          =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/203824">
@@ -3385,7 +3052,7 @@ push-uvedomlenie-vsem-operatoram-ocheredi-chata" title=3D"=D0=9A=D0=B0=D0=
       </div>
    =20
                                            =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/201931">
@@ -3421,7 +3088,7 @@ dobrazhati-drukovani-formi-v-zalezhnosti-vid-obranogo-postachalnika" title=
       </div>
    =20
                                            =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/197619">
@@ -3448,7 +3115,7 @@ oom-meeting-0" title=3D"=D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=
       </div>
    =20
                          =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/204493">
@@ -3484,7 +3151,7 @@ dobrazhati-drukovani-formi-v-zalezhnosti-vid-obranogo-postachalnika" title=
       </div>
    =20
                                            =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/200971">
@@ -3518,7 +3185,7 @@ olnit-vizirovanie-neposredstvenno-iz-e-mail-uvedomleniya" title=3D"=D0=9C=
       </div>
    =20
                                            =20
-      <div class=3D"feed-item type-question hidden">
+      <div class=3D"feed-item type-question last">
         <div class=3D"feed-top">
           <div class=3D"feed-user-avatar">
             <a href=3D"https://community.terrasoft.ua/user/199228">
@@ -3552,7 +3219,7 @@ div class=3D"scroll-element_outer"><div class=3D"scroll-element_size"></div=
 =3D"width: 0px;"></div></div></div><div class=3D"scroll-element scroll-y sc=
 roll-scrolly_visible"><div class=3D"scroll-element_outer"><div class=3D"scr=
 oll-element_size"></div><div class=3D"scroll-element_track"></div><div clas=
-s=3D"scroll-bar" style=3D"height: 415px; top: 249.373px;"></div></div></div=
+s=3D"scroll-bar" style=3D"height: 158px; top: 228.404px;"></div></div></div=
 ></div>
 </div>
   </div>
@@ -3868,7 +3535,7 @@ lity: hidden; display: none; max-width: none;"></div></div><div style=3D"po=
 sition: static;"><div style=3D"height: 1px; width: 1px; position: absolute;=
  z-index: 100000; top: 0px; visibility: hidden;"><iframe id=3D"a2a_sm_ifr" =
 title=3D"AddToAny Utility Frame" transparency=3D"true" allowtransparency=3D=
-"true" frameborder=3D"0" src=3D"cid:frame-9AA2CB17F96C8B017111DF0751A3E5A8@=
+"true" frameborder=3D"0" src=3D"cid:frame-B72DC178EEFF4D771CD5BF222A36DAEB@=
 mhtml.blink" style=3D"height: 1px; width: 1px; border: 0px; left: 0px; top:=
  0px; position: absolute; z-index: 100000; display: none;"></iframe></div><=
 /div><div style=3D"position: absolute; left: -9999px; top: -9999px; margin:=
@@ -3877,10 +3544,10 @@ mhtml.blink" style=3D"height: 1px; width: 1px; border: 0px; left: 0px; top:=
 x-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200=
 px;"><div style=3D"border: none; box-sizing: content-box; height: 200px; ma=
 rgin: 0px; padding: 0px; width: 200px;"></div></div></body></html>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-4d77760c-26b2-441d-9fc6-c01909806d8d@mhtml.blink
+Content-Location: cid:css-61e97aea-91e9-4de7-98e2-240287ba2a37@mhtml.blink
 
 @charset "utf-8";
 
@@ -3894,26 +3561,26 @@ div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; }
 .eu-cookie-withdraw-tab { color: rgb(255, 255, 255); }
 
 .eu-cookie-withdraw-tab { border-color: rgb(255, 255, 255); }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-aabceede-d94a-4328-abb2-0eee360836c1@mhtml.blink
+Content-Location: cid:css-457171be-6cba-4c09-bb5a-c109302fd233@mhtml.blink
 
 @charset "utf-8";
 
 .cke { visibility: hidden; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-b8cf9cc7-e443-4aed-a326-f7c9336fc3de@mhtml.blink
+Content-Location: cid:css-db69ff25-5c44-4ff0-b1a7-ac4f238ea560@mhtml.blink
 
 @charset "utf-8";
 
 textarea.placeholder { color: rgb(153, 153, 153); font-style: italic; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-e927067a-a5cd-49a2-bd08-95e7509bebb1@mhtml.blink
+Content-Location: cid:css-dc053d4f-bc4b-4e7b-8580-6665fdb452b5@mhtml.blink
 
 @charset "utf-8";
 
@@ -3970,10 +3637,10 @@ nd-color: rgb(216, 216, 216); }
 th_item:active { background-color: rgb(216, 216, 216); }
 
 .cke_4.cke_panel { border-color: rgb(204, 204, 204); }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-e97e4331-1d9e-458a-b256-1498c6207137@mhtml.blink
+Content-Location: cid:css-371214f6-2780-4539-a822-93ea2501bf6a@mhtml.blink
 
 @charset "utf-8";
 
@@ -3982,7 +3649,7 @@ Content-Location: cid:css-e97e4331-1d9e-458a-b256-1498c6207137@mhtml.blink
 
 @import url("https://www.terrasoft.ua/themes/custom/creatio/css/components/=
 informer.css");
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap
@@ -4018,7 +3685,7 @@ TUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aXo.woff2") format("woff2"); unicode=
 -range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-20=
 6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
  }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.terrasoft.ua/themes/custom/creatio/css/components/informer.css
@@ -4065,7 +3732,7 @@ top: 50%; transform: translateY(-50%); height: 22px; width: 70px; }
 nt; }
   .ts-swu__link:hover { text-decoration: none !important; }
 }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.terrasoft.ua/themes/custom/creatio/img/i-left.svg
@@ -4263,7 +3930,7 @@ e:multiply;isolation:isolate"/><rect width=3D"15" height=3D"16" transform=
 =3D"translate(-1.498 -2.735)" fill=3D"url(#t)"/><rect width=3D"8" height=3D=
 "15" transform=3D"translate(-0.498 -3.735)" fill=3D"url(#u)"/></g></g></g><=
 /g></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.terrasoft.ua/themes/custom/creatio/img/i-right.svg
@@ -4420,19 +4087,19 @@ WEyuxL24EJdlsFiJGggDghSR4/80OSdOn+Q3tH3a874tWGsNWeCGuS7+U8QMBzRQQg0+KmzwRRk=
 DpPBR4YQHVJqiCR8VtkigN2NU4KOCsoeG7EBHqZjFFV64Q9dD3XBxhRV2eGIMfSWLKyhLaNAuNE=
 cLQaENbaSHEa4IChdo3Q96mCAoaN0jNLAGPSMoKPrl2qaOKuJ84Q0d4eZI84U1tK7+6sgY0/8B/=
 WEpODOtgwEAAAAASUVORK5CYII=3D"/></g></g></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-6039f4dd-52a0-4472-93af-824a7d7379b5@mhtml.blink
+Content-Location: cid:css-9a615aee-233c-4910-a1c7-16b5f7f17fb8@mhtml.blink
 
 @charset "utf-8";
 
 #modal.edit-field #user-avatar .thumbnail { padding-bottom: 0px; margin-bot=
 tom: 10px; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-cd58f138-51e2-429f-8939-506687f0f173@mhtml.blink
+Content-Location: cid:css-c76c2cd4-d2a0-4c4c-a016-85578e6ba5e9@mhtml.blink
 
 @charset "utf-8";
 
@@ -5852,7 +5519,7 @@ rgin: 0px; border: 2px solid rgb(19, 159, 247); }
 #drupal-off-canvas .cke_dialog_contents_body .cke_tpl_list a:focus .cke_tpl=
 _item, #drupal-off-canvas .cke_dialog_contents_body .cke_tpl_list a:active =
 .cke_tpl_item { border: 2px solid rgb(19, 159, 247); padding: 6px; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=cyrillic
@@ -5970,7 +5637,7 @@ TUSjIg1_i6t8kCHKm459Wdhyzbi.woff2") format("woff2"); unicode-range: U+100-2=
 TUSjIg1_i6t8kCHKm459Wlhyw.woff2") format("woff2"); unicode-range: U+0-FF, U=
 +131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20A=
 C, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic
@@ -6164,7 +5831,7 @@ om/s/opensans/v29/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format=
 ("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
 , U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+221=
 5, U+FEFF, U+FFFD; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/sites/default/files/css/css_C8n5IdRueNIWMcxGMJpxYNuVyGjMrdWESJ7zgtS9PZo.css
@@ -8026,7 +7693,7 @@ in-out 0s 1 normal none running flag-flash; }
 .flag a { border: none; }
 
 .flag a:hover { border: none; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/sites/default/files/css/css_rOklCEoLmzcWCa4QaDxxAPF9znxm1oUyZQZtZ6R97fc.css
@@ -17097,7 +16764,7 @@ ption { display: none; }
 @media (max-width: 767px) {
   .node-form .field--name-field-tags { padding-left: 0px; }
 }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/thumb-up.svg
@@ -17108,7 +16775,7 @@ x=3D"0 0 22 20"><defs><style>.a{fill:#707070;}</style></defs><path class=3D=
 05,1.505,0,0,0-.44-1.06L14.17,1,7.59,7.59A1.955,1.955,0,0,0,7,9V19a2.006,2.=
 006,0,0,0,2,2h9a1.987,1.987,0,0,0,1.84-1.22l3.02-7.05A1.976,1.976,0,0,0,23,=
 12V10.09l-.01-.01Z" transform=3D"translate(-1 -1)"/></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/thumb-up-blue.svg
@@ -17119,7 +16786,7 @@ x=3D"0 0 22 20"><defs><style>.a{fill:#0B2E4E;}</style></defs><path class=3D=
 05,1.505,0,0,0-.44-1.06L14.17,1,7.59,7.59A1.955,1.955,0,0,0,7,9V19a2.006,2.=
 006,0,0,0,2,2h9a1.987,1.987,0,0,0,1.84-1.22l3.02-7.05A1.976,1.976,0,0,0,23,=
 12V10.09l-.01-.01Z" transform=3D"translate(-1 -1)"/></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/bookmark.svg
@@ -17130,7 +16797,7 @@ x=3D"0 0 20 19"><defs><style>.a{fill:#707070;}</style></defs><path class=3D=
 7,18.18,21l-1.63-7.03ZM12,15.4,8.24,17.67l1-4.28L5.92,10.51l4.38-.38L12,6.1=
 l1.71,4.04,4.38.38L14.77,13.4l1,4.28Z" transform=3D"translate(-2 -2)"/></sv=
 g>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/bookmark-filled.svg
@@ -17139,7 +16806,7 @@ Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons
 x=3D"0 0 20 19"><defs><style>.a{fill:#ef7000;}</style></defs><path class=3D=
 "a" d=3D"M12,17.27,18.18,21l-1.64-7.03L22,9.24l-7.19-.62L12,2,9.19,8.62,2,9=
 .24l5.45,4.73L5.82,21Z" transform=3D"translate(-2 -2)"/></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/comment.svg
@@ -17149,16 +16816,7 @@ x=3D"0 0 20 20"><defs><style>.a{fill:#707070;}</style></defs><path class=3D=
 "a" d=3D"M21.99,4A2,2,0,0,0,20,2H4A2.006,2.006,0,0,0,2,4V16a2.006,2.006,0,0=
 ,0,2,2H18l4,4ZM18,14H6V12H18Zm0-3H6V9H18Zm0-3H6V6H18Z" transform=3D"transla=
 te(-2 -2)"/></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
-Content-Type: image/svg+xml
-Content-Transfer-Encoding: quoted-printable
-Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/best-answer.svg
-
-<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"16" height=3D"16" viewBo=
-x=3D"0 0 16 16"><defs><style>.a{fill:#22ac14;}</style></defs><path class=3D=
-"a" d=3D"M8.4,14l-4-4L5.528,8.864,8.4,11.736l6.072-6.072L15.6,6.8M10,2a8,8,=
-0,1,0,8,8A8,8,0,0,0,10,2Z" transform=3D"translate(-2 -2)"/></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/accelerate.svg
@@ -17207,7 +16865,7 @@ ls-3" transform=3D"translate(-406.934 -263.018)"/>
         </g>
     </g>
 </svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/ic-s-fb.svg
@@ -17228,7 +16886,7 @@ a3.083,3.083,0,0,0-3.35,3.093v1.761H12v2.08h2.081v6.241Z" transform=3D"tran=
 slate(0 0.999)" fill=3D"#fff"/>
   </g>
 </svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/ic-s-in.svg
@@ -17255,7 +16913,7 @@ Z" transform=3D"translate(-121.145 -9.836)" fill=3D"#fff"/>
     </g>
   </g>
 </svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/ic-s-yt.svg
@@ -17277,7 +16935,7 @@ Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons
 ff"/>
   </g>
 </svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/ic-phone.svg
@@ -17308,7 +16966,7 @@ c1.452,1.172-.134,2.631-.777,3.394-.486.574-1.1,1.255-5.379-1.1a21.563,21.5=
 eight=3D"16" fill=3D"none"/>
   </g>
 </svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/ic-email.svg
@@ -17335,7 +16993,7 @@ ip-path)">
 eight=3D"16" fill=3D"none"/>
   </g>
 </svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/ic-s-tg.svg
@@ -17353,7 +17011,7 @@ w.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xlink"
 -2.6l-146.6,92.3l-63.2-19.7
 	C100.5,266.4,100.2,257.1,117.1,250.5L117.1,250.5z"/>
 </svg>=0A
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/re-arrow.svg
@@ -17364,7 +17022,7 @@ tyle></defs><g transform=3D"translate(-103.646 -692.28)"><path class=3D"a" =
 d=3D"M6151.47,950.942h-9v-11" transform=3D"translate(-6033.47 -246.942)"/><=
 path class=3D"a" d=3D"M6156.853,912.351l5-5,4.663,5" transform=3D"translate=
 (-6052.853 -214.351)"/></g></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/more.svg
@@ -17374,7 +17032,7 @@ Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons
 =3D"M6,10.5a2,2,0,1,0,2,2A2.006,2.006,0,0,0,6,10.5Zm12,0a2,2,0,1,0,2,2A2.00=
 6,2.006,0,0,0,18,10.5Zm-6,0a2,2,0,1,0,2,2A2.006,2.006,0,0,0,12,10.5Z" trans=
 form=3D"translate(-4 -10.5)"/></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/format-link.svg
@@ -17384,7 +17042,7 @@ x=3D"0 0 20 10"><defs><style>.a{fill:#888;}</style></defs><path class=3D"a"=
  d=3D"M4,12.2a2.935,2.935,0,0,1,3-3h4v-2H7a5,5,0,0,0,0,10h4v-2H7A2.935,2.93=
 5,0,0,1,4,12.2Zm4,1h8v-2H8Zm9-6H13v2h4a2.935,2.935,0,0,1,3,3,2.935,2.935,0,=
 0,1-3,3H13v2h4a5,5,0,0,0,0-10Z" transform=3D"translate(-2 -7.198)"/></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/format-image.svg
@@ -17396,7 +17054,7 @@ ranslate(0 -0.198)"><circle class=3D"a" cx=3D"3" cy=3D"3" r=3D"3" transform=
 ,0,0-2,2v12a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6.2a2.006,2.006,=
 0,0,0-2-2H17l-2-2Zm3,15a5,5,0,1,1,5-5A5,5,0,0,1,12,17.2Z" transform=3D"tran=
 slate(-2 -2)"/></g></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/send.svg
@@ -17405,7 +17063,7 @@ Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons
 x=3D"0 0 21 18"><defs><style>.a{fill:#fff;}</style></defs><path class=3D"a"=
  d=3D"M2,21.5l21-9L2,3.5v7l15,2-15,2Z" transform=3D"translate(-2 -3.5)"/></=
 svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/img/icons/ic-search.svg
@@ -17422,14 +17080,14 @@ ke-width=3D"1">
 e" stroke=3D"#707070" stroke-width=3D"1"/>
   </g>
 </svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/sites/default/files/css/css_AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs.css
 
 @charset "utf-8";
 =0A
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/sites/default/files/asset_injector/css/css_temporary-b23dc9762f716051bc75e8ba1248aefa.css?rcbxoe
@@ -17455,7 +17113,7 @@ important; }
 @media (max-width: 375px) {
   .field--name-comment-body a { word-break: break-word; }
 }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/core/assets/vendor/ckeditor/skins/moono-lisa/editor.css?t=rcbxoe
@@ -18441,7 +18099,7 @@ _undo_icon { background: url("icons_hidpi.png?t=3DL7CF") 0px -1104px / 16px=
 
 .cke_hidpi .cke_button__simplebox_icon { background: url("icons_hidpi.png?t=
 =3DL7CF") 0px -2256px no-repeat !important; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/core/assets/vendor/ckeditor/plugins/dialog/styles/dialog.css
@@ -18454,7 +18112,7 @@ Content-Location: https://community.terrasoft.ua/core/assets/vendor/ckeditor/plu
 t: 100%; top: 0px; left: 0px; z-index: 10010; }
 
 .cke_dialog_body { position: relative; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2020-08/man_121.png?itok=hQuWUlkc
@@ -18502,7 +18160,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/bpmonline/logo_ru.svg
@@ -18553,7 +18211,7 @@ h.07Zm-1.47,19.39h2.95V11.6h-2.95Zm15.37-3.07a3.69,3.69,0,0,1-2.3.77,2.4,2.=
 .61,13-5.68-13H249l7.18,16.23L255.68,29c-.8,1.88-1.69,2.52-3.1,2.52a4.17,4.=
 17,0,0,1-2.91-1.19l-1.26,2.2A6.08,6.08,0,0,0,252.58,34c2.49,0,4.36-1.08,5.8=
 -4.51l7.89-17.89Z" style=3D"fill:#0b2e4e"/></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/svg+xml
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/themes/custom/creatio/logo-white.svg
@@ -18603,7 +18261,7 @@ V18.5c0-4.79-2.79-7.06-6.75-7.06Zm12.27-3a1.94,1.94,0,0,0,2-1.86V6.5a1.92,1=
 -5.68-13H249l7.18,16.23L255.68,29c-.8,1.88-1.69,2.52-3.1,2.52a4.17,4.17,0,0=
 ,1-2.91-1.19l-1.26,2.2A6.08,6.08,0,0,0,252.58,34c2.49,0,4.36-1.08,5.8-4.51l=
 7.89-17.89Z" style=3D"fill:#fff"/></svg>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/pictures/2020-08/man_121.png
@@ -18750,7 +18408,7 @@ BVNJAnXOANKb/kqqlM9rK3W5uctlsahuzrWx0KnM+veXJ1v27ys0VLlE1g0HOHdyidlYT8or00E8
 yAgeblH8ksYP6zZLQ2j6zP2BSxcfsDndRzRN62BM7jh0aLNn7tyfxG+uJSngRJv9Lxp5X7vLbQye
 AAAAAElFTkSuQmCC
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/themes/custom/bpmonline/img/icons/arrow.png
@@ -18763,353 +18421,95 @@ zVwAZnPTNO1u91u+iLTn83kVoo/MKaU6vQrhe4CIdKq6FxEQ0axh0rr7hv55QSkF4zj2ZoaUEkQE
 wG0q/TiOWJTAzEgpHevE2tiIqIjIDZpzBjNDI2Kvqqj/w7QkMDMA08atnIkI/AB5PbA7o4YTywAA
 AABJRU5ErkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
-Content-Type: image/png
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
+Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
-Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2020-09/woman2_0.png?itok=oqWvYYui
+Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2020-08/7slhT7cKoKI.jpg?itok=R-7HGT5g
 
-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
-t3NlXjr7XGIsG2MXTXxKkohghcoJhcuJxaKUh0DMNMI+r6zysZlwBYAADVsfGhQndQ++/w6quOls
-iiTGYEJlVwQIYEJhxGTvMuqmKY/FMEb2oe49zXf8oL+gfVAni295eMh4mXtR/zXfyYUKueIZBLBC
-2aNJVfHSSYzwclnYvu+qOx8PDJhFj+r6m7/d7znjXzfGPKqqgyLyKc1gWe5puN8Yvhtykw8u3fZI
-0fTo8k/AfZ3Gj1ReI5b948RQ723xC91XNI2Vy1pSkdqluzXjPDXpJI5XNWz85E/AeaCj/7LHegZa
-0xNDjyLmi0A9InYJlqC4QD/q7ymrrn+upnxxl7R8pqSsd97Xs6Hdzxo3FluK2O2IbAY2IdIC1M+4
-XzvgD6JyArQTOCBe5j1NT/Yv+fJj87p1/R+dYGB/pc8CsgAAAABJRU5ErkJggg==
+/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2NjIpLCBxdWFsaXR5ID0gNzUK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0a
+Hx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAKAAo
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
+2vDOkR/2hFLcIDGhDEHvTYrqzk8Ua7BMlmUtrWeKENamUH5y3BB6/NjPbFM8Zm8WxhSCEwwwBpj5
+PDOoHJJPb0+tZnhnwxq2slNUS+WD/SmyrZUvuHJwBjG5cfh0rWpK7KbLGs6v4UstTjupdSkW+aOI
+mOzgVUjBjB4BJ5wc/jUUepTzzrfW2rXywq4Uy6jZL5O4cAHHQZwOBxketdXafDPQYvE9xPcNJ9ov
+LQNBg/NCUVUdk4x/EvJBxkYrofEGjQX+jnSYisdmjbp0ILGQckKM9Pm2nPtj6Rz20RcWi74a1Rtb
+09zMYmmt5PLke3RhExA/hJzng0VV8F6IuheH4LCEEJGCXnbAaViSSTj8uewopPcze+h4/wDErU7i
+78f3FjGs0cMOyNUb5VbAHI9iTUngrxPdaf4il+3yXP2eMhHt442YjaRtXHQYx1+vrWprGqp4m8Y6
+HHM9zm3hbzlSPOcnPAwfTrzXr2l20bWKzzRK08o/eOyjcwBwAePSi1gehRtNUS8sI9TlijVZlxEF
+zvRSQSrHoGGB361NG8kdm0jE3k3mMDtwu1ckDP4Yyf5dK5y4vBoXj/TtOQKdK1XeyQgcRzAckD8B
++Z6VZXSde0yYnT5o7hlumkVLpmCvDgDaSOhGc5wenSnyq9wvpYm1iUTwBXvms4/KWQQCIBmJzxk9
+fpRWi+j2+pf6VJkThiDukZ1HPQZ7c9sfhRSu+honFLU8p8HeMLbSRrt61sjQqF8ubqwwpwOe3yk/
+jXpvgG+/tfwRpd7ICJmiKO2cksrFSfxIJx70UU7e7ciWupW1PQobrxxo+pvNMq2qTBUdPkaRgoyD
+67Q3Xr+Faeu6rFpVjc3krsyRRliqrk/hRRUy6F01rc5qfVNQju1gWTySwBkAkPDY5HpRRRWjii27
+6n//2Q==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
-Content-Type: image/png
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
+Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
-Content-Location: https://community.terrasoft.ua/sites/default/files/inline-images/Capture_49.PNG
+Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2020-08/picture-145381.jpg?itok=pP0MNxDr
 
-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
-aUOHL168WPSp6QYzn7avT15/9NFHwzHlT1d/5plnCDkRW8zJ0XO+rnF52pCQU5+W/uK6HnnggZXZ
-Qk6/96fdezN42nr/3yWDyJoh50dD8ttRq9fm2G/k8aUdsvr55JPO8w05fy9nT1+SP0TvJ+TyC+tk
-QeLemqGvPSod9j05PxmQH65YIt89krxEPbb49+Q0Dl47E/XmLMrT1dOhpVp690mZHLvmB51BwPmZ
-P8w1ravNPHUFmFl0tVUPnz59V/7jc19J56tfVnX5G1/IjQl3G4iIiIiI7WAzhZxQfwg5sZ29c/GI
-fLX33/rqa9c0edmgkNPzk5fkWwvsMFGDQut+l6F6D8qDj/SUP03df9p68rL1miHniZ1yb2+XdHR2
-y9e9f7u675W//MlvrAAysGLImVq2+J6h1ULOj+XAhnuku7NDunoXSndXl/StfFxe+7j8cvvb11+Q
-1dbT1f31KftMa9n8p6tPowfpHGs/hOjd4fKnk+v9O9PD6qkruFRLv/obmbw5Krdv3/Zfu6ZRXW3m
-qSvAzKKrrXqoPTkfeov7biIiIiIi1pKQE2wIObFdNQHnnYuH5c6l1+sedNYl5MSsTsjR7/bIosdP
-OsaVO/L8Gul8+GdyxTGuqOqT1U3Q+Y9nfhIN156ei17477728HrqCi6NX7yz1dc1zuhqM09dAWYW
-XW3VQ0JORERERMRsEnKCDSEntqN2wBkNq3PQScg514YPZnr6rKOnp+3YUflOb7881SS9OG3tHp33
-Huzx79Op4aYZpn73rW/VvWenK7icjq4289QVYGbR1VY9JORERERERMwmISfYEHJiu+kKOKNxJuj0
-/k2Pm62EnNgQNej8xgt/lAg20z74T0ud8+alK7icjq4266EJL//Td87IW++POaeZCwk5ERERERGz
-ScgJNoSc2E5WCziN9Qo6CTmxYeol6n95ZKUz4FQ1BHXNl5fy0j3O8DKT3ryuNuuhBpxf235WLo7c
-do6fKwk5ERERERGzScgJNoSc2C5GAWeG8LIeQSchJzZc7dW5/OXuspCzKE9hn2u/9dPLMnareF96
-hJyIiIiIiNkk5AQbQk5sByevn512aGmCzsnRIef46UrIiXOmhpqb31rn9+Ak4Cy+F/4wJadHppzj
-EBERERExlpATbAg5sV2cHD3nHF7NmcxTSUJORERERERExBwl5AQbQk7Extj2Iee1keu+rnGIiIiI
-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
-AAAASUVORK5CYII=
+/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2NjIpLCBxdWFsaXR5ID0gNzUK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0a
+Hx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAKAAo
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
+53x891D4eWW1kkj2TKXaMkEDB9PfFecX+uXOqRRrfqk8sS7EmOQ4Hvjg/lXsPjXTdXn8KKdFsxOX
+Z0ulVd77O21e/wCAzXOfCf4caZ4zTULnVpLpFs5kjEMRC78gkgnGew6Vy4eS5Ls1mnzWOM03xTeW
+Giz6UjFVkYGOYMQYuQTjHavWdJvIr7TLeaO6S5+QB5V43Njnjt9KyPit8N9F8I6B/amnmYy3N8ER
+GPyRRlWO0Dv0HJz0rznw/wCKNR8NyyNZMjRyffilGVPv9audONRXWglJx0Z7X1ootdQi1TRLa7jk
+gdnC+YYW3Kr45GfY0Vx1IcjsaQlzK50nhv7V/ZI+2GMz+Y2RGMAc9KyPDvw+sdI8UPqNlc3kUYu0
+YRJMyomQWIIA+YcY56Z71o+Dv7ZuvDiX+pWK28crbo23YaQHnO3sPxrqNFnjivLq3kcLJMyvHk43
+ALgge4xSp81Oo4vqU2pRueZ/Eb4ezWnhHUrmzuL+8f7Uk4iluGm+XcRwCOMB/evGPEWiwaF4im0x
+L+O6ii2bp4sMMlQWHB5wSR17V9lkw2Vu7u5Ea8szsW/n/Kvnzwn8PX0/Vbi+1iGB1ywhtnUOV+bh
+j2B9q7YVNNTCasbeh6PaaP4XtYrKQyxy4mMrDBcsM5x24xxRW5qAAtlAGBuGB+FFclV3lqaUvhOl
+XxNDrFsg/dW6DlYi/OOxwe3NSRTxMHTbDOrDDIwDD1oorlnOTlds6fZxUbHlPjf4i+KNO1a78P2E
+cQhhnjkiuQGaRQNrgbicdfXtW5YeJn1a3+2fZjGXYhgVO0P1IDdDjNFFd7d4J+RMqEFT5+tyae7a
+dArKAAc8UUUVzNtmSSWiP//Z
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
-Content-Type: image/png
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
+Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
-Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/default_images/man4.png?itok=BIJHgs1h
+Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/avatars/picture-133262.jpg?itok=EsFjL900
 
-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
-rkJggg==
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2OTApLCBxdWFsaXR5ID0gNzUK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0a
+Hx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAKAAo
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
+9y1C6Fjp1xdFS3kxs+0d8DOK8V0bS/8AhI57rUtZP2i8nc53H7g7Aele23kK3FnNC5wsiFSfqK8f
+0KGawguBap57rK5OT15rlxV7I9DAKPM2zVsfAmlW2JRCrMoGCeea0LOCLRtdtLmAeUsr+TKF4Vge
+mR7Gn2l9qL2pW4hgimKZQA5/Oq0dpqJXdeTpJIJUZQowowwP8q542TTR2VLzi1I9FopByKK9NHhM
+cwypBrz+6019D1bJ2+XMSykd69BNeV+L/EyX3iddMjdI4LcFVuDz+9OMg/7Pb61lVp88XbdHVha3
+s6lnszTmuojcq/nKjbcEEZJrS0/be3EKD5lY5PGOBXJxXmo2sgju9M88/wADpIMGuv8ACFwt2908
+nlrcJtHlKclFI4/PB/KuSnDmnZno4ioo0rpHVDgUUtFehc8Sx5TrvxEu7yaW30//AEe1YYWTGJG/
+wzXCB4w0jTEfKNzM3p3Of89aKK9GEIxSscrbk9TofD/iZHtDDeAG3BCws2S2OeT7dPesxfFj6J4v
+kuNPuyzTjY5Vcx8E4Vv896KKweFpxq8yOl4qo6LgzvdL+KULOYtUtWj/ALssPIP1B/xooorZYaEt
+TD2sj//Z
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2021-05/man_77.png?itok=NzvWyCD-
@@ -19157,7 +18557,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2021-06/man_71.png?itok=PZ9QgQvO
@@ -19205,7 +18605,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2021-09/man_83.png?itok=Vs3mCfrq
@@ -19253,7 +18653,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2021-03/man_343.png?itok=OTa28LbP
@@ -19301,7 +18701,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2021-07/woman2_1.png?itok=ctvyQnoS
@@ -19345,7 +18745,7 @@ iiTGYEJlVwQIYEJhxGTvMuqmKY/FMEb2oe49zXf8oL+gfVAni295eMh4mXtR/zXfyYUKueIZBLBC
 0xNDjyLmi0A9InYJlqC4QD/q7ymrrn+upnxxl7R8pqSsd97Xs6Hdzxo3FluK2O2IbAY2IdIC1M+4
 XzvgD6JyArQTOCBe5j1NT/Yv+fJj87p1/R+dYGB/pc8CsgAAAABJRU5ErkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2021-07/man_179.png?itok=sJFcAsmu
@@ -19393,7 +18793,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2022-06/man_72.png?itok=CL3QlIrZ
@@ -19441,7 +18841,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2022-06/man_32.png?itok=zdgBIt_h
@@ -19489,7 +18889,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2022-07/man_1.png?itok=VTETcspM
@@ -19537,7 +18937,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/default_images/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_viber_2022-05-16_12-51-57-808.jpg?itok=wdK35yza
@@ -19566,7 +18966,7 @@ C0jmg852IlIWPaoLNkngetZmpeLZry7uNSt7Oyj+co20FXHZQDj8OlFFZqTbsdVvcZRifz4ZLhLQ
 Iy/O0hAZ2b3Y/wD1zXXaXLJLbbWwVIwRjrRRXGqspSkn0KjBFnw1o7adrE0V0inS7lcbf7ynp+XN
 FFFelGN4pnI7XZ//2Q==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2021-09/photo_2021-09-20_12-53-40.jpg?itok=Tv4UdQiF
@@ -19591,7 +18991,7 @@ kP51d8Mas9jqUcyNhgwwaiEVEqcnI7jTfhxPd2RkEfaiu+0jxMthYmKVdrADh+DyM0VpzEcrPGb7
 WLu9gjQbYYyo+WEbULA43KB3wME/X1rjtWXyLlVHJ2c59eaKK5YzblqdTguRvtYpGTaiYcMCM4B+
 7z/9arlpcNGgbP3G4x7/AP6qKK3RgdxZeIZokSGeQyQF03KeCEUHKg9Vzk8iiiis1I122P/Z
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2022-04/DBC3FF40-B22E-4091-90F9-BBF659E43561_1_201_a.jpeg?itok=kgyII-Xu
@@ -19619,7 +19019,7 @@ JvErTyRSWrM7wOGOB2rX1zWbm40pY41hfzE3mQ8+VgZLAdyKKK1fxWM0tLnD6vf311Y288V05t51
 5TABX2yKu+E4wt/CrKCFPmuWHTHIP54oorKlFOaXmdVVv2bfkdxd6VaahIJ0ZkLdtvyk/wBKKKK7
 JUYXPPVWS0P/2Q==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2021-11/man_327.png?itok=In070p5E
@@ -19667,7 +19067,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2020-11/man_71.png?itok=H2GBim9_
@@ -19715,7 +19115,7 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://community.terrasoft.ua/sites/default/files/styles/avatar_small/public/pictures/2022-06/man_220.png?itok=sMBbK5wZ
@@ -19763,40 +19163,40 @@ Q1DMA1XVV7U9kQ2eKYTjm3OXc/dkald0ZzIbSp4WbimBKaxYscECp9/tffk7TamOn8bcxCZRs01g
 qxkZWqMiraBTNWleJ8fP2/z4Ses5byr2337kv5XzL/Z3NF1X0d8Q/wMTxJTvuCgHyAAAAABJRU5E
 rkJggg==
 
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/html
-Content-ID: <frame-FCCC1CF00800FC3226C32EADB1BE9EE6@mhtml.blink>
+Content-ID: <frame-3F56350624937B4A5BBD384C68882ABF@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/html
-Content-ID: <frame-5FBC7945EDF32614C10FA3D612E292D5@mhtml.blink>
+Content-ID: <frame-ACDF349337960E97A5D92741AC2F24D7@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/html
-Content-ID: <frame-9AA2CB17F96C8B017111DF0751A3E5A8@mhtml.blink>
+Content-ID: <frame-B72DC178EEFF4D771CD5BF222A36DAEB@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://static.addtoany.com/menu/sm.23.html#type=core&event=load&url=https%3A%2F%2Fcommunity.terrasoft.ua%2Fquestions%2Fpokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdela-keys&referrer=https%3A%2F%2Fcommunity.terrasoft.ua%2Fsearch%3Fsearch%3Dthis.onDiscardChangesClick%2528%2529%253B%26tags%3D
+Content-Location: https://static.addtoany.com/menu/sm.23.html#type=core&event=load&url=https%3A%2F%2Fcommunity.terrasoft.ua%2Fquestions%2Fotmena-izmeneniy&referrer=https%3A%2F%2Fcommunity.terrasoft.ua%2Fsearch%3Fsearch%3Dthis.onDiscardChangesClick%2528%2529%253B%26tags%3D
 
 <!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
 t/html; charset=3DUTF-8"><title>A2A</title></head><body style=3D"background=
 -color:transparent"></body></html>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/html
-Content-ID: <frame-EB7F6492B18EDF1F0AB737F509425653@mhtml.blink>
+Content-ID: <frame-5FBC16FFBDD7DE2CE2FF9B66AC79FCFC@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://community.terrasoft.ua/questions/pokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdela-keys
+Content-Location: https://community.terrasoft.ua/questions/otmena-izmeneniy
 
 <!DOCTYPE html><html dir=3D"ltr" lang=3D"ru"><head><meta http-equiv=3D"Cont=
 ent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" t=
-ype=3D"text/css" href=3D"cid:css-5d6232e8-2bf8-449d-a64e-93fbfbe981bf@mhtml=
-.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-879bf6=
-92-8087-4aa8-81db-961c85b3c4e4@mhtml.blink" /><title data-cke-title=3D"=D0=
+ype=3D"text/css" href=3D"cid:css-8d66db49-8e66-4895-b00c-62126a7f2623@mhtml=
+.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f71f65=
+5e-a112-42a4-b1e7-9dd23e3af55c@mhtml.blink" /><title data-cke-title=3D"=D0=
 =A0=D0=B5=D0=B4=D0=B0=D0=BA=D1=82=D0=BE=D1=80 =D1=84=D0=BE=D1=80=D0=BC=D0=
 =B0=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=
 =82=D0=B5=D0=BA=D1=81=D1=82=D0=B0, =D0=BF=D0=BE=D0=BB=D0=B5 =D0=A2=D0=B5=D0=
@@ -19823,20 +19223,20 @@ type=3D"text/css" rel=3D"stylesheet" href=3D"https://community.terrasoft.ua=
 nteditable=3D"true" class=3D"cke_editable cke_editable_themed cke_contents_=
 ltr cke_show_borders" spellcheck=3D"true" style=3D"height: auto; min-height=
 : auto;"><p><br></p></body></html>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-5d6232e8-2bf8-449d-a64e-93fbfbe981bf@mhtml.blink
+Content-Location: cid:css-8d66db49-8e66-4895-b00c-62126a7f2623@mhtml.blink
 
 @charset "utf-8";
 
 html { cursor: text; }
 
 img, input, textarea { cursor: default; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-879bf692-8087-4aa8-81db-961c85b3c4e4@mhtml.blink
+Content-Location: cid:css-f71f655e-a112-42a4-b1e7-9dd23e3af55c@mhtml.blink
 
 @charset "utf-8";
 
@@ -20014,7 +19414,7 @@ rders table.cke_show_border > tfoot > tr > th { border: 1px dotted rgb(211,=
  211, 211); }
 
 .placeholder { color: rgb(153, 153, 153); }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/core/modules/ckeditor/css/ckeditor-iframe.css?rcbxoe=
@@ -20029,7 +19429,7 @@ body { margin: 8px; color: rgb(34, 34, 34); background-color: rgb(255, 255,=
 }
 
 ol, ul, dl { padding: 0px 40px; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/core/modules/system/css/components/align.module.css?rcbxoe=
@@ -20049,14 +19449,14 @@ Content-Location: https://community.terrasoft.ua/core/modules/system/css/compone
 .align-right { float: right; }
 
 .align-center { display: block; margin-right: auto; margin-left: auto; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/sites/default/files/asset_injector/css/css_temporary-b23dc9762f716051bc75e8ba1248aefa.css%3Frcbxoe
 
 @charset "utf-8";
 =0A
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/libraries/codesnippet/lib/highlight/styles/default.css?rcbxoe=
@@ -20111,7 +19511,7 @@ ong, .hljs-request, .hljs-status { font-weight: bold; }
 .coffeescript .javascript, .javascript .xml, .lasso .markup, .tex .hljs-for=
 mula, .xml .javascript, .xml .vbscript, .xml .css, .xml .hljs-cdata { opaci=
 ty: 0.5; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/core/modules/ckeditor/css/plugins/drupalimagecaption/ckeditor.drupalimagecaption.css?rcbxoe=
@@ -20122,7 +19522,7 @@ p[data-widget=3D"image"].align-center { text-align: center; }
 
 div[data-cke-widget-wrapper].align-center > figure[data-widget=3D"image"] {=
  margin-right: auto; margin-left: auto; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/core/themes/classy/css/components/media-embed-error.css?rcbxoe=
@@ -20134,7 +19534,7 @@ ng: 100px 20px 20px; text-align: center; background-color: rgb(235, 235, 23=
 5); background-image: url("../../../../modules/media/images/icons/no-thumbn=
 ail.png"); background-repeat: no-repeat; background-position: center top; b=
 ackground-size: 100px 100px; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/modules/custom/ts_custom/ckeditor/css/ckeditor-full.css
@@ -20157,7 +19557,7 @@ idden; padding: 10px; }
 .cke_editable blockquote { margin: 0px; }
 
 .cke_editable img.cke_reset.cke_widget_mask { height: 100%; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=cyrillic
@@ -20210,7 +19610,7 @@ om/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ga=
 VI.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-=
 2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+21=
 93, U+2212, U+2215, U+FEFF, U+FFFD; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/libraries/codesnippet/lib/highlight/styles/default.css
@@ -20265,17 +19665,17 @@ ong, .hljs-request, .hljs-status { font-weight: bold; }
 .coffeescript .javascript, .javascript .xml, .lasso .markup, .tex .hljs-for=
 mula, .xml .javascript, .xml .vbscript, .xml .css, .xml .hljs-cdata { opaci=
 ty: 0.5; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/html
-Content-ID: <frame-9F30E66FBF0276C6EB57B3D5EF7D5EBD@mhtml.blink>
+Content-ID: <frame-4458FD29726DFCEF3A10E962890CD414@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://community.terrasoft.ua/questions/pokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdela-keys
+Content-Location: https://community.terrasoft.ua/questions/otmena-izmeneniy
 
 <!DOCTYPE html><html dir=3D"ltr" lang=3D"ru"><head><meta http-equiv=3D"Cont=
 ent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" t=
-ype=3D"text/css" href=3D"cid:css-41710801-c7bd-4cdb-b99f-f13980d7bf48@mhtml=
-.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-98116f=
-2f-e239-40e1-a744-75496ee4b94d@mhtml.blink" /><title data-cke-title=3D"=D0=
+ype=3D"text/css" href=3D"cid:css-8597f461-0554-4e61-ac9b-3ae2395532d8@mhtml=
+.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-a897da=
+19-adb2-4659-ae0d-146aff3bf751@mhtml.blink" /><title data-cke-title=3D"=D0=
 =A0=D0=B5=D0=B4=D0=B0=D0=BA=D1=82=D0=BE=D1=80 =D1=84=D0=BE=D1=80=D0=BC=D0=
 =B0=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=
 =82=D0=B5=D0=BA=D1=81=D1=82=D0=B0, =D0=BF=D0=BE=D0=BB=D0=B5 =D0=A2=D0=B5=D0=
@@ -20302,20 +19702,20 @@ type=3D"text/css" rel=3D"stylesheet" href=3D"https://community.terrasoft.ua=
 nteditable=3D"true" class=3D"cke_editable cke_editable_themed cke_contents_=
 ltr cke_show_borders" spellcheck=3D"true" style=3D"height: auto; min-height=
 : auto;"><p><br></p></body></html>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-41710801-c7bd-4cdb-b99f-f13980d7bf48@mhtml.blink
+Content-Location: cid:css-8597f461-0554-4e61-ac9b-3ae2395532d8@mhtml.blink
 
 @charset "utf-8";
 
 html { cursor: text; }
 
 img, input, textarea { cursor: default; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-98116f2f-e239-40e1-a744-75496ee4b94d@mhtml.blink
+Content-Location: cid:css-a897da19-adb2-4659-ae0d-146aff3bf751@mhtml.blink
 
 @charset "utf-8";
 
@@ -20493,17 +19893,17 @@ rders table.cke_show_border > tfoot > tr > th { border: 1px dotted rgb(211,=
  211, 211); }
 
 .placeholder { color: rgb(153, 153, 153); }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/html
-Content-ID: <frame-B2E20956A1EE07FFF6D407D44F43E71E@mhtml.blink>
+Content-ID: <frame-5F0B3E53E97986A66031CA3AEE602A0D@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://community.terrasoft.ua/questions/pokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdela-keys
+Content-Location: https://community.terrasoft.ua/questions/otmena-izmeneniy
 
 <!DOCTYPE html><html dir=3D"ltr" lang=3D"ru"><head><meta http-equiv=3D"Cont=
 ent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" t=
-ype=3D"text/css" href=3D"cid:css-84267a50-e8a2-42df-9401-830c0babc11c@mhtml=
-.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c39dee=
-75-5067-46f3-adc4-b2fe6f2d7617@mhtml.blink" /><title data-cke-title=3D"=D0=
+ype=3D"text/css" href=3D"cid:css-d226f6c9-b1fb-46ad-887a-e568db92d327@mhtml=
+.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-44f694=
+4e-d17a-4685-a561-eb52c0e5edbb@mhtml.blink" /><title data-cke-title=3D"=D0=
 =A0=D0=B5=D0=B4=D0=B0=D0=BA=D1=82=D0=BE=D1=80 =D1=84=D0=BE=D1=80=D0=BC=D0=
 =B0=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=
 =82=D0=B5=D0=BA=D1=81=D1=82=D0=B0, =D0=BF=D0=BE=D0=BB=D0=B5 =D0=A2=D0=B5=D0=
@@ -20530,20 +19930,20 @@ type=3D"text/css" rel=3D"stylesheet" href=3D"https://community.terrasoft.ua=
 nteditable=3D"true" class=3D"cke_editable cke_editable_themed cke_contents_=
 ltr cke_show_borders" spellcheck=3D"true" style=3D"height: auto; min-height=
 : auto;"><p><br></p></body></html>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-84267a50-e8a2-42df-9401-830c0babc11c@mhtml.blink
+Content-Location: cid:css-d226f6c9-b1fb-46ad-887a-e568db92d327@mhtml.blink
 
 @charset "utf-8";
 
 html { cursor: text; }
 
 img, input, textarea { cursor: default; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-c39dee75-5067-46f3-adc4-b2fe6f2d7617@mhtml.blink
+Content-Location: cid:css-44f6944e-d17a-4685-a561-eb52c0e5edbb@mhtml.blink
 
 @charset "utf-8";
 
@@ -20721,17 +20121,17 @@ rders table.cke_show_border > tfoot > tr > th { border: 1px dotted rgb(211,=
  211, 211); }
 
 .placeholder { color: rgb(153, 153, 153); }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/html
-Content-ID: <frame-ACBB553BE75CCC070C006720ABB8043D@mhtml.blink>
+Content-ID: <frame-59C98380C51CD6EABF97C148CE80A0C4@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://community.terrasoft.ua/questions/pokazat-dialog-dlya-podtverzhdeniya-statusa-otmena-v-dcm-razdela-keys
+Content-Location: https://community.terrasoft.ua/questions/otmena-izmeneniy
 
 <!DOCTYPE html><html dir=3D"ltr" lang=3D"ru"><head><meta http-equiv=3D"Cont=
 ent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" t=
-ype=3D"text/css" href=3D"cid:css-3b0cab7d-310c-41da-ae2d-9e9b70f73e46@mhtml=
-.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b6e095=
-ca-7f84-47f2-b198-278a63642926@mhtml.blink" /><title data-cke-title=3D"=D0=
+ype=3D"text/css" href=3D"cid:css-9a581237-1d41-4d20-972b-6500a1b18219@mhtml=
+.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d31b3f=
+97-a0d7-4bbf-bd4a-36bfd74f1658@mhtml.blink" /><title data-cke-title=3D"=D0=
 =A0=D0=B5=D0=B4=D0=B0=D0=BA=D1=82=D0=BE=D1=80 =D1=84=D0=BE=D1=80=D0=BC=D0=
 =B0=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=
 =82=D0=B5=D0=BA=D1=81=D1=82=D0=B0, =D0=BF=D0=BE=D0=BB=D0=B5 =D0=94=D0=BE=D0=
@@ -20762,20 +20162,20 @@ e_themed cke_contents_ltr placeholder cke_show_borders" spellcheck=3D"true"=
  style=3D"height: auto; min-height: auto;">=D0=94=D0=BE=D0=B1=D0=B0=D0=B2=
 =D0=B8=D1=82=D1=8C =D0=BA=D0=BE=D0=BC=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=80=
 =D0=B8=D0=B9</body></html>
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-3b0cab7d-310c-41da-ae2d-9e9b70f73e46@mhtml.blink
+Content-Location: cid:css-9a581237-1d41-4d20-972b-6500a1b18219@mhtml.blink
 
 @charset "utf-8";
 
 html { cursor: text; }
 
 img, input, textarea { cursor: default; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-b6e095ca-7f84-47f2-b198-278a63642926@mhtml.blink
+Content-Location: cid:css-d31b3f97-a0d7-4bbf-bd4a-36bfd74f1658@mhtml.blink
 
 @charset "utf-8";
 
@@ -20953,7 +20353,7 @@ rders table.cke_show_border > tfoot > tr > th { border: 1px dotted rgb(211,=
  211, 211); }
 
 .placeholder { color: rgb(153, 153, 153); }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB----
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://community.terrasoft.ua/modules/custom/ts_custom/ckeditor/css/ckeditor.css
@@ -20976,4 +20376,4 @@ rgb(10, 10, 10); font-style: italic; margin: 0px 0px 15px 11px; padding: 0p=
 x 0px 0px 11px; }
 
 .cke_editable img.cke_reset.cke_widget_mask { height: 100%; }
-------MultipartBoundary--5ngArRkZ39XcoTqCKrPM7BgMkyAVgQ9Cmtj4ld5kzB------
+------MultipartBoundary--NWMWzWBQbSh5NcvNhIhK6wZh8ySSDR3btS4CQfkjvN------
