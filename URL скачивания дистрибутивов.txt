@@ -1,0 +1,4 @@
+http://ftp.creatio.com/support/delivery/Updater.zip
+http://ftp.creatio.com/support/delivery/UpdateScenarios/8.0.3-MSSQL.zip
+http://ftp.creatio.com/support/downloads/8.0.3/binary_files/8.0.3.2908_SalesEnterprise_Marketing_ServiceEnterprise_UpdatePack_MSSQL_ENU.zip
+http://ftp.creatio.com/support/downloads/8.0.3/installation_files/8.0.3.2908_SalesEnterprise_Marketing_ServiceEnterprise_Softkey_PostgreSQL_ENU.zip
