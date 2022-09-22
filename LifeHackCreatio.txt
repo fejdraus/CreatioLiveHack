@@ -524,6 +524,16 @@ var callback = function (result) {
        }
 };
 Terrasoft.SysSettings.postSysSettingsValues(postData, callback, this);
+
+Или так:
+
+const config = {
+	sysSettingsValues: {},
+	isPersonal: this.$IsPersonal // для всех или для текущего пользователя
+};
+config.sysSettingsValues[code] = value;
+Terrasoft.SysSettings.postSysSettingsValues(config, callback, scope);
+
 ------------------------------------------------------------------------------------------
 Замещение модулей запрещено с вистеме, но если очень нужно изменить поведение моделя существующего то вот как:
 Создаем модуль без наследования "UsrSummaryModuleV2"
@@ -1848,4 +1858,22 @@ if (Account && Account.value) {
 	var Owner = Account.Owner;
 }
 
+--------------------------------------------------------------------------------
+Добавить колонку в загрузку грида (например детали) которая не выведена:
 
+initQueryColumns: function(esq) {
+	this.callParent(arguments);
+	esq.addColumn("DependencyType.ReverseTypeName", "LczReverseTypeName");
+},
+-----------------------------------------------------------------------------
+Отображаемое имя детали:
+
+diff: /**SCHEMA_DIFF*/[
+	{
+		"operation": "merge",
+		"name": "Detail",
+		"values": {
+			"caption": { "bindTo": "getCaptionByPage"}
+		}
+	}
+]/**SCHEMA_DIFF*/
