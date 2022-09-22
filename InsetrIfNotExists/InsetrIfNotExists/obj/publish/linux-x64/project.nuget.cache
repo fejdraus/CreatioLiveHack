@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gUNKwPpB9jl34D8W930TBh/XgfQ5lWKLdDK1mQdb96+aczRCHnV41lP2bWwWZB3wvljSuxlxNy/GZwUhWkB4CQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fejdr\\Desktop\\InsetrIfNotExists\\InsetrIfNotExists\\InsetrIfNotExists.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fejdr\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.9\\microsoft.netcore.app.host.linux-x64.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

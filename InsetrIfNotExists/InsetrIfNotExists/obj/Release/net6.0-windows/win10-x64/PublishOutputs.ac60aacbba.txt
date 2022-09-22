@@ -1,0 +1,7 @@
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\win10-x64\publish\InsetrIfNotExists.pdb
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\win10-x64\publish\D3DCompiler_47_cor3.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\win10-x64\publish\PenImc_cor3.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\win10-x64\publish\PresentationNative_cor3.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\win10-x64\publish\vcruntime140_cor3.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\win10-x64\publish\wpfgfx_cor3.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\win10-x64\publish\InsetrIfNotExists.exe

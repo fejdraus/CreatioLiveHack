@@ -1,0 +1,5 @@
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\publish\InsetrIfNotExists.exe
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\publish\InsetrIfNotExists.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\publish\InsetrIfNotExists.deps.json
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\publish\InsetrIfNotExists.runtimeconfig.json
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\publish\InsetrIfNotExists.pdb

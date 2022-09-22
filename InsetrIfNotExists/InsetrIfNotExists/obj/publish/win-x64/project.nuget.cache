@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "QIW5w/tNrZZZhUu0qGe7pvSqu4F7WBTwWPYoEq9p9B4bo63tfIPrrY2uuadBjl2yuAXSAEqVb2IiVs20bPxRYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fejdr\\Desktop\\InsetrIfNotExists\\InsetrIfNotExists\\InsetrIfNotExists.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fejdr\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.9\\microsoft.netcore.app.runtime.win-x64.6.0.9.nupkg.sha512",
+    "C:\\Users\\fejdr\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.9.nupkg.sha512",
+    "C:\\Users\\fejdr\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.9\\microsoft.aspnetcore.app.runtime.win-x64.6.0.9.nupkg.sha512",
+    "C:\\Users\\fejdr\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.9\\microsoft.netcore.app.crossgen2.win-x64.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

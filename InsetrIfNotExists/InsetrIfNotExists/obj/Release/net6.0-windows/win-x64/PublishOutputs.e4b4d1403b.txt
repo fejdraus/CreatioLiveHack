@@ -1,0 +1,2 @@
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\publish\win-x64\InsetrIfNotExists.pdb
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\publish\win-x64\InsetrIfNotExists.exe

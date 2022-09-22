@@ -1,0 +1,17 @@
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Debug\net6.0-windows\InsetrIfNotExists.exe
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Debug\net6.0-windows\InsetrIfNotExists.deps.json
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Debug\net6.0-windows\InsetrIfNotExists.runtimeconfig.json
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Debug\net6.0-windows\InsetrIfNotExists.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Debug\net6.0-windows\InsetrIfNotExists.pdb
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.csproj.AssemblyReference.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.Form1.resources
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.csproj.GenerateResource.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.AssemblyInfoInputs.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.AssemblyInfo.cs
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.csproj.CoreCompileInputs.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\refint\InsetrIfNotExists.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.pdb
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\InsetrIfNotExists.genruntimeconfig.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Debug\net6.0-windows\ref\InsetrIfNotExists.dll

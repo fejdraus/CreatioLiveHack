@@ -1,0 +1,17 @@
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\linux-x64\InsetrIfNotExists
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\linux-x64\InsetrIfNotExists.deps.json
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\linux-x64\InsetrIfNotExists.runtimeconfig.json
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\linux-x64\InsetrIfNotExists.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\bin\Release\net6.0-windows\linux-x64\InsetrIfNotExists.pdb
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.csproj.AssemblyReference.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.Form1.resources
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.csproj.GenerateResource.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.AssemblyInfoInputs.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.AssemblyInfo.cs
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.csproj.CoreCompileInputs.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\refint\InsetrIfNotExists.dll
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.pdb
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\InsetrIfNotExists.genruntimeconfig.cache
+C:\Users\fejdr\Desktop\InsetrIfNotExists\InsetrIfNotExists\obj\Release\net6.0-windows\linux-x64\ref\InsetrIfNotExists.dll
