@@ -908,7 +908,9 @@ var reloadCardFromPage = function (fields, callback, scope) {
 			scope.set("ShowSaveButton", showSaveButton);
 			scope.set("ShowDiscardButton", showDiscardButton);
 			scope.set("ShowCloseButton", showCloseButton);
-			callback.call(scope);
+			if (callback) {
+				callback.call(scope);
+			}
 		}
 	}, scope );
 };
@@ -1244,6 +1246,13 @@ VwSysAdminUnit
 -----------------------------------------------------------------------------------------
 Проверка на пустой ответ поля в JS, возвращет bool значение:
 this.Ext.isEmpty(account)
+this.Ext.isFunction(item.method)
+this.Ext.isObject(item)
+this.Ext.isArray(scale.sectorsBounds)
+this.Ext.isNumber(completeness)
+this.Ext.String.format("{0} {1}", caption, mode)
+this.Ext.isDate(startDate)
+var processExecData = this.Ext.decode(this.Ext.decode(response.responseText));
 --------------------------------------------------------------------------------------
 Для определения изменеия значения (старое и новое значение) в серверном коде, нужно запустить в процессе объекта событие "Перед сохранинем записи" и считать:
 
@@ -1877,3 +1886,231 @@ diff: /**SCHEMA_DIFF*/[
 		}
 	}
 ]/**SCHEMA_DIFF*/
+--------------------------------------------------------------------------------------
+Отправка значений на Section с Page без sandBox:
+
+setActionItemStatus: function(cancelStatus, reopenStatus) {
+	this.set("EnableCancelAction", cancelStatus); // Присваивает значение "EnableCancelAction" на Page
+	this.publishPropertyValueToSection("EnableCancelAction", cancelStatus); // Присваивает значение "EnableCancelAction" на Section
+}
+----------------------------------------------------------------------------------------
+Узнать версию установленного продукта в MSSQL:
+
+DECLARE @ConfigurationVersion nvarchar(250)
+DECLARE @PrimaryCulture nvarchar(250)
+DECLARE @Product nvarchar(250)
+
+DECLARE @SysAdminUnit_AllUsers uniqueidentifier = 'A29A3BA5-4B0D-DE11-9A51-005056C00008'
+
+BEGIN
+SELECT  @ConfigurationVersion = TextValue
+FROM SysSettingsValue ssv
+INNER JOIN SysSettings ss on ss.Id = ssv.SysSettingsId
+WHERE ss.Code = 'ConfigurationVersion' 
+    AND SysAdminUnitId = @SysAdminUnit_AllUsers
+
+SELECT @PrimaryCulture = c.Name
+FROM SysSettingsValue ssv
+INNER JOIN SysSettings ss on ss.Id = ssv.SysSettingsId
+INNER JOIN SysCulture c on c.Id = ssv.GuidValue
+WHERE ss.Code = 'PrimaryCulture'
+    AND SysAdminUnitId = @SysAdminUnit_AllUsers
+
+SELECT @Product =
+CASE
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'MarketingSoftkey%')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'BankOnboardingSoftkey%')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'BankSalesSoftkey%')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'Lending%')
+     THEN 'bpmonline bank sales & bank customer journey & lending & marketing' 
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'BankOnboardingSoftkey%')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'BankSalesSoftkey%')
+     THEN 'bpmonline bank sales & bank customer journey' 
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'MarketingSoftkey%')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name = 'SalesEnterprise')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name = 'ServiceEnterpriseSoftkey')
+     THEN 'bpmonline sales enterprise & marketing & service enterprise' 
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'MarketingSoftkey%')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name = 'SalesEnterprise')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name = 'CustomerCenterSoftkey')
+     THEN 'bpmonline sales enterprise & marketing & customer center' 
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'MarketingSoftkey%')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name = 'SalesCommerce')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name = 'CustomerCenterSoftkey')
+     THEN 'bpmonline sales commerce & marketing & customer center' 
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'MarketingSoftkey%')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name = 'SalesTeam')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name = 'CustomerCenterSoftkey')
+     THEN 'bpmonline sales team & marketing & customer center' 
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'MarketingSoftkey%')
+        AND EXISTS(SELECT Id FROM SysPackage WHERE Name = 'SalesTeam')
+     THEN 'bpmonline sales team & marketing'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name = 'SalesTeam')
+     THEN 'bpmonline sales team'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name = 'SalesCommerce')
+     THEN 'bpmonline sales commerce'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name = 'SalesEnterprise')
+     THEN 'bpmonline sales enterprise'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name Like 'MarketingSoftkey%')
+     THEN 'bpmonline marketing'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name = 'CustomerCenterSoftkey')
+     THEN 'bpmonline customer center'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name = 'ServiceEnterpriseSoftkey')
+     THEN 'bpmonline service enterprise'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'Studio%')
+     THEN 'bpmonline studio'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'Lending%')
+     THEN 'bpmonline lending'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'BankSalesSoftkey%')
+     THEN 'bpmonline bank sales'
+     WHEN 
+        EXISTS(SELECT Id FROM SysPackage WHERE Name LIKE 'BankOnboardingSoftkey%')
+     THEN 'bpmonline bank customer journey'
+     ELSE  '?' END
+
+SELECT @Product, @ConfigurationVersion, @PrimaryCulture
+END
+---------------------------------------------------------------------------------
+Получение сообщение на фронтэнд из бэкэнда:
+
+init: function(callback, scope) {
+	this.callParent(arguments);
+	this.subscribeServerChannelEvents();
+},
+
+destroy: function() {
+	this.unsubscribeServerChannelEvents();
+	this.callParent(arguments);
+},
+
+unsubscribeServerChannelEvents: function() {
+	this.Terrasoft.ServerChannel.un(this.Terrasoft.EventName.ON_MESSAGE,
+		this.onServerChannelMessage, this);
+},
+
+subscribeServerChannelEvents: function() {
+	this.Terrasoft.ServerChannel.on(this.Terrasoft.EventName.ON_MESSAGE,
+		this.onServerChannelMessage, this);
+},
+
+onServerChannelMessage: function(scope, message) {
+	if (this.isEmpty(message) || (!this.isEmpty(message) && !this.isEmpty(message.Header) &&
+		message.Header.Sender !== "RecordOperationsNotificator")) {
+		return;
+	}
+	const body = this.Ext.decode(message.Body);
+	const activityRecordChangeMessage = Ext.String.format("{0}RecordChange", this.$DetailColumnName);
+	switch (message.Header.BodyTypeName) {
+		case activityRecordChangeMessage:
+			if (body.RecordId === this.get("MasterRecordId")) {
+				this.reloadGridData();
+			}
+			break;
+		default:
+			break;
+	}
+},
+----------------------------------------------------------------------
+Удалить в разделе лишнюю страницу добавления из списка в кнопке "Добавить", при этом оставить в мультистраничности присвоенный тип что бы страницы открывались с ним уже созданных записей:
+
+define("TsiInvoiceForPayment1Section", [], function() {
+	return {
+		entitySchemaName: "TsiInvoiceForPayment",
+		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+		diff: /**SCHEMA_DIFF*/[
+			{
+				"operation": "merge",
+				"name": "SeparateModeAddRecordButton",
+				"parentName": "SeparateModeActionButtonsLeftContainer",
+				"propertyName": "items",
+				"values": {
+					"controlConfig": {
+						"menu": {
+							"items": {
+								"bindTo": "EnabledEditPages",
+								"bindConfig": {
+									"converter": function(editPages) {
+										if (editPages.getCount() > 1) {
+											return editPages;
+										} else {
+											return null;
+										}
+									}
+								}
+							}
+						}
+					}
+
+				}
+			},
+			{
+				"operation": "merge",
+				"name": "CombinedModeAddRecordButton",
+				"parentName": "CombinedModeActionButtonsSectionContainer",
+				"propertyName": "items",
+				"values": {
+					"controlConfig": {
+						"menu": {
+							"items": {
+								"bindTo": "EnabledEditPages",
+								"bindConfig": {
+									"converter": function(editPages) {
+										if (editPages.getCount() > 1) {
+											return editPages;
+										} else {
+											return null;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		]/**SCHEMA_DIFF*/,
+		methods: {
+			initEditPages: function() {
+				var enabledEditPages = new this.Terrasoft.Collection();
+				this.callParent(arguments);
+				var editPages = this.get("EditPages");
+				this.Terrasoft.each(editPages.getItems(), function(item) {
+					if (item.get("SchemaName") !== "TsiInvoiceForPayment1Page") {
+						enabledEditPages.add(item);
+					}
+				});
+				this.set("EnabledEditPages", enabledEditPages);
+			},
+			checkEditPagesCount: function() {
+				return this.get("EnabledEditPages").getCount() > 1;
+			},
+			initAddRecordButtonParameters: function() {
+				var caption = this.get("Resources.Strings.AddRecordButtonCaption");
+				var tag = this.Terrasoft.GUID_EMPTY;
+				var editPages = this.get("EnabledEditPages");
+				var editPagesCount = editPages.getCount();
+				if (editPagesCount === 1) {
+					var editPage = editPages.getByIndex(0);
+					tag = editPage.get("Tag");
+				}
+				this.set("AddRecordButtonCaption", caption);
+				this.set("AddRecordButtonTag", tag);
+			}
+		}
+	};
+});
