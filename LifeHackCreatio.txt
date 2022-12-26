@@ -1703,7 +1703,7 @@ define("FileDetailV2", [],
 
 define("SysModuleVisaPage", [], function() {
 	return {
-		entitySchemaName: "SysModuleVisa",
+		entitySchemaName: "",
 		attributes: {},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
@@ -2114,3 +2114,73 @@ define("TsiInvoiceForPayment1Section", [], function() {
 		}
 	};
 });
+---------------------------------------------------------------------------------
+asyncValidate: function(callback, scope) {
+	this.callParent([function(response) {
+		var chainCheckResponse = function(next) {
+			if (!this.response.success) {
+				this.callback.call(this.scope, this.response);
+			} else {
+				next();
+			}
+		};
+		var chainValidateAccountOrContact = function(next) {
+			var self = this;
+			this.scope.validateAccountOrContactFilling(function(response) {
+				self.response = response;
+				next();
+			}, this.scope);
+		};
+		var chainInvokeCallback = function() {
+			this.callback.call(this.scope, this.response);
+		};
+		var chainScope = {
+			scope: scope || this,
+			response: response,
+			callback: callback
+		};
+		this.Terrasoft.chain(chainCheckResponse, chainValidateAccountOrContact, chainInvokeCallback, chainScope);
+	}, this]);
+},
+-----------------------------------------------------------------------------------------
+Интертировать булевое значение в привязке (bindTo):
+
+"visible": {
+	"bindTo": "TsiRentedCar",
+	"bindConfig": {
+		"converter": "invertBooleanValue"
+	}
+}
+---------------------------------------------------------------------------------------------------
+Использование аиаса колонки при разных операциях на странице:
+
+{
+	"operation": "insert",
+	"parentName": "ProfileContainer",
+	"propertyName": "items",
+	"name": "AccountName",
+	"values": {
+		"bindTo": "Name",
+		"layout": {
+			"column": 0,
+			"row": 1,
+			"colSpan": 24
+		}
+	},
+	"alias": { // использование алиаса
+		"name": "Name", // имя алиаса колонки
+		"excludeProperties": ["layout"], // использовать в layout (визуальных страницах)
+		"excludeOperations": ["remove", "move"] // допускается использование в операциях "remove" и "move"
+	}
+}
+----------------------------------------------------------------------------------------------
+Добавить фильтр для списка (для раздела подходит точно, думаю для всех списков работает):
+
+getFilters: function() {
+	var filters = this.callParent(arguments);
+	filters.add("BnzPaymentAccountTypeFilter", this.Terrasoft.createColumnFilterWithParameter(
+		this.Terrasoft.ComparisonType.NOT_EQUAL, "BnzPaymentAccountType", "1B21F083-BE03-4167-ADC9-1293486B523B"));
+	return filters;
+}
+-------------------------------------------------------------------------------------------
+Для того что бы обновились данные при установке пакета (если не хотят устанавливаться из-за того что думают что они новее) нажно изменить ModifiedOn в SysPackageSchemaData
